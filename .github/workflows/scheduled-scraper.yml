@@ -1,0 +1,256 @@
+name: AMTCE Scheduled Scraper
+
+on:
+  # Run every 6 hours (UTC)
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      target_accounts:
+        description: 'Target Instagram handles (comma-separated, max 2)'
+        required: false
+        default: ''
+      platform:
+        description: 'Platform to scrape (instagram, youtube, tiktok)'
+        required: false
+        default: 'instagram'
+        type: choice
+        options:
+          - instagram
+          - youtube
+          - tiktok
+      force_run:
+        description: 'Force run even if another instance is running'
+        required: false
+        default: false
+        type: boolean
+
+# Prevent concurrent runs - cancel in-progress if new one starts
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_run == 'true' }}
+
+jobs:
+  check-concurrency:
+    name: Check for Running Workflows
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: Check for active workflow runs
+        id: check
+        run: |
+          # Use GitHub CLI to check if this workflow is already running
+          # This prevents scheduled runs from starting if a manual run is in progress
+          echo "Checking for concurrent runs..."
+          
+          # Get current workflow runs
+          RUNS=$(gh run list --workflow="${{ github.workflow }}" --json databaseId,status,conclusion,createdAt --limit 5)
+          
+          # Check if any run is in progress
+          IN_PROGRESS=$(echo "$RUNS" | jq -r '[.[] | select(.status == "in_progress" or .status == "queued")] | length')
+          
+          echo "Currently running/queued workflows: $IN_PROGRESS"
+          
+          if [ "$IN_PROGRESS" -gt 0 ]; then
+            echo "A workflow is already running. Skipping this scheduled run."
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          else
+            echo "No concurrent runs found. Proceeding with scheduled run."
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  setup:
+    name: Setup Environment
+    runs-on: ubuntu-latest
+    needs: [check-concurrency]
+    if: |
+      (github.event_name == 'workflow_dispatch') ||
+      (needs.check-concurrency.outputs.should_run == 'true')
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Configure Environment
+        run: |
+          # Create .env file from secrets
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env
+          echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
+          echo "TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}" >> .env
+          echo "TELEGRAM_STORAGE_GROUP_ID=${{ secrets.TELEGRAM_STORAGE_GROUP_ID }}" >> .env
+          
+          # Add optional secrets if provided
+          if [ -n "${{ secrets.IG_BUSINESS_TOKEN }}" ]; then
+            echo "IG_BUSINESS_TOKEN=${{ secrets.IG_BUSINESS_TOKEN }}" >> .env
+            echo "IG_BUSINESS_ACCOUNT_ID=${{ secrets.IG_BUSINESS_ACCOUNT_ID }}" >> .env
+          fi
+          
+          if [ -n "${{ secrets.YOUTUBE_CLIENT_SECRET }}" ]; then
+            echo "CLIENT_SECRET_FILE=Credentials/youtube/client_secret.json" >> .env
+            echo "YOUTUBE_TOKEN_FILE=Credentials/youtube/token.json" >> .env
+          fi
+
+      - name: Create Credentials Directory
+        run: |
+          mkdir -p Credentials/youtube
+          mkdir -p Credentials/social_media
+          mkdir -p cache/face_cache
+          mkdir -p downloads
+
+      - name: Setup YouTube Credentials (if provided)
+        if: secrets.YOUTUBE_CLIENT_SECRET != ''
+        run: |
+          echo '${{ secrets.YOUTUBE_CLIENT_SECRET }}' > Credentials/youtube/client_secret.json
+          echo '${{ secrets.YOUTUBE_TOKEN }}' > Credentials/youtube/token.json
+
+      - name: Setup Meta Credentials (if provided)
+        if: secrets.META_CONFIG_JSON != ''
+        run: |
+          echo '${{ secrets.META_CONFIG_JSON }}' > Credentials/social_media/General_Fallback/meta_config.json
+
+  run-scraper:
+    name: Run Scraper Pipeline
+    runs-on: ubuntu-latest
+    needs: [setup]
+    timeout-minutes: 120
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Configure Environment
+        run: |
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env
+          echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
+          echo "TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}" >> .env
+          echo "TELEGRAM_STORAGE_GROUP_ID=${{ secrets.TELEGRAM_STORAGE_GROUP_ID }}" >> .env
+          
+          if [ -n "${{ secrets.IG_BUSINESS_TOKEN }}" ]; then
+            echo "IG_BUSINESS_TOKEN=${{ secrets.IG_BUSINESS_TOKEN }}" >> .env
+            echo "IG_BUSINESS_ACCOUNT_ID=${{ secrets.IG_BUSINESS_ACCOUNT_ID }}" >> .env
+          fi
+
+      - name: Create Credentials Directory
+        run: |
+          mkdir -p Credentials/youtube
+          mkdir -p Credentials/social_media
+          mkdir -p cache/face_cache
+          mkdir -p downloads
+
+      - name: Setup YouTube Credentials (if provided)
+        if: secrets.YOUTUBE_CLIENT_SECRET != ''
+        run: |
+          echo '${{ secrets.YOUTUBE_CLIENT_SECRET }}' > Credentials/youtube/client_secret.json
+          echo '${{ secrets.YOUTUBE_TOKEN }}' > Credentials/youtube/token.json
+
+      - name: Setup Meta Credentials (if provided)
+        if: secrets.META_CONFIG_JSON != ''
+        run: |
+          echo '${{ secrets.META_CONFIG_JSON }}' > Credentials/social_media/General_Fallback/meta_config.json
+
+      - name: Determine Run Parameters
+        id: params
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "mode=manual" >> $GITHUB_OUTPUT
+            echo "platform=${{ github.event.inputs.platform }}" >> $GITHUB_OUTPUT
+            
+            if [ -n "${{ github.event.inputs.target_accounts }}" ]; then
+              echo "target_accounts=${{ github.event.inputs.target_accounts }}" >> $GITHUB_OUTPUT
+            else
+              echo "target_accounts=" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "mode=auto" >> $GITHUB_OUTPUT
+            echo "platform=instagram" >> $GITHUB_OUTPUT
+            echo "target_accounts=" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run Scraper (Manual with Target Accounts)
+        if: steps.params.outputs.mode == 'manual' && steps.params.outputs.target_accounts != ''
+        run: |
+          python main.py \
+            --mode auto \
+            --target-accounts "${{ steps.params.outputs.target_accounts }}" \
+            --platform "${{ steps.params.outputs.platform }}"
+
+      - name: Run Scraper (Manual - Platform Selection Only)
+        if: steps.params.outputs.mode == 'manual' && steps.params.outputs.target_accounts == ''
+        run: |
+          echo "Manual trigger without target accounts - launching in bot mode"
+          python main.py --bot
+
+      - name: Run Scraper (Scheduled - Auto Mode)
+        if: steps.params.outputs.mode == 'auto'
+        run: |
+          echo "Scheduled run - launching in bot mode with auto scraper"
+          python main.py --bot
+
+      - name: Upload Artifacts (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-output-${{ github.run_number }}
+          path: |
+            downloads/
+            cache/
+          retention-days: 7
+          if-no-files-found: ignore
+
+  notify:
+    name: Send Notification
+    runs-on: ubuntu-latest
+    needs: [run-scraper]
+    if: always()
+    steps:
+      - name: Send Telegram Notification
+        if: secrets.TELEGRAM_BOT_TOKEN != ''
+        run: |
+          STATUS="${{ needs.run-scraper.result }}"
+          RUN_ID="${{ github.run_id }}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          
+          if [ "$STATUS" == "success" ]; then
+            MESSAGE="✅ AMTCE Scraper completed successfully"
+          elif [ "$STATUS" == "failure" ]; then
+            MESSAGE="❌ AMTCE Scraper failed"
+          else
+            MESSAGE="⚠️ AMTCE Scraper cancelled"
+          fi
+          
+          MESSAGE="$MESSAGE
+
+Run: #$RUN_ID
+Trigger: ${{ github.event_name }}
+View: $RUN_URL"
+          
+          curl -X POST \
+            "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d "text=$MESSAGE"

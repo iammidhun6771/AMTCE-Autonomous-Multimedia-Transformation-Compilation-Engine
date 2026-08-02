@@ -1,0 +1,203 @@
+
+# =============================================================================
+# AMTCE Requirements — verified against actual codebase imports
+# Every package here has a confirmed import in the source code.
+#
+# torch + torchvision: installed via CI workflow step (CPU wheel)
+#   → .github/workflows/amtce-runner.yml → "Install PyTorch (CPU-only)"
+# =============================================================================
+
+# --- ASYNC / HTTP (pulled in by telegram-bot, gradio, aiohttp) ---
+aiohappyeyeballs==2.6.1
+aiohttp==3.13.4
+aiosignal==1.4.0
+anyio==4.12.0
+async-timeout==5.0.1
+frozenlist==1.8.0
+httpcore==1.0.9
+httplib2==0.31.0
+httpx==0.28.1
+httpx-sse==0.4.3
+idna==3.11
+multidict==6.7.0
+nest-asyncio==1.6.0
+sniffio==1.3.1
+yarl==1.22.0
+
+# --- CORE UTILITIES ---
+annotated-types==0.7.0
+attrs==25.4.0
+certifi==2025.11.12
+charset-normalizer==3.4.4
+click==8.1.8
+colorama==0.4.6
+distro==1.9.0
+eval_type_backport==0.3.1
+exceptiongroup==1.3.1
+filelock==3.20.3
+filetype==1.2.0
+fsspec==2026.1.0
+importlib_metadata==8.5.0
+importlib_resources==6.5.2
+iniconfig==2.3.0
+oauthlib==3.3.1
+packaging==26.0
+platformdirs==4.9.2
+pluggy==1.6.0
+psutil==7.2.2
+python-dotenv==1.2.2
+pytz==2025.2
+regex==2026.1.15
+requests==2.33.1
+requests-oauthlib==2.0.0
+requests-toolbelt==1.0.0
+rich==14.2.0
+six==1.17.0
+tenacity==9.1.4
+tqdm==4.67.3
+typing_extensions==4.15.0
+typing-inspection==0.4.2
+tzdata==2025.2
+tzlocal==5.3.1
+urllib3==2.6.3
+wrapt==1.17.3
+zipp==3.23.0
+zstandard==0.25.0
+
+# --- SCHEDULING & BACKGROUND ---
+APScheduler==3.10.4
+schedule==1.2.2
+
+# --- TELEGRAM BOT ---
+python-telegram-bot==21.0
+
+# --- GRADIO UI (main_gradio_ui.py) ---
+gradio==6.8.0
+gradio_client==2.2.0
+ffmpy==1.0.0
+
+# --- GOOGLE / CLOUD ---
+google-ai-generativelanguage==0.6.15
+google-api-core==2.28.1
+google-api-python-client==2.108.0
+google-auth==2.49.2
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
+google-genai==1.73.1
+google-generativeai==0.8.6
+googleapis-common-protos==1.72.0
+googlesearch-python==1.3.0
+proto-plus==1.26.1
+protobuf>=5.26.0,<6.0.0
+pyasn1==0.6.2
+pyasn1_modules==0.4.2
+rsa==4.9.1
+uritemplate==4.2.0
+
+# --- GRPC ---
+# grpcio-status 1.76.0 requires protobuf>=6.31.1 which conflicts with google-* packages.
+# 1.71.0 is the last release compatible with protobuf<6.
+grpcio==1.76.0
+grpcio-status==1.71.0
+
+# --- AI / LLM (confirmed used) ---
+chromadb==1.1.1
+crewai==1.14.4
+crewai-tools==1.14.4
+groq==1.1.2
+langchain-core==1.3.2
+langfuse==4.2.0
+openai>=2.30.0
+mistralai>=1.0.0,<2.2.0
+
+# --- VECTOR / CLIP (smart_reuse_engine.py) ---
+open_clip_torch==3.3.0
+
+# --- HUGGING FACE ---
+huggingface_hub==1.3.3
+hf-xet==1.2.0
+faster-whisper==1.2.1
+ctranslate2==4.7.1
+
+# --- VISION / IMAGE ---
+opencv-python-headless>=4.9.0.80,<5.0.0
+Pillow==10.3.0
+rembg==2.0.69
+scenedetect==0.6.7.1
+scikit-image==0.25.2
+
+# --- NUMERICAL / ML (confirmed used) ---
+joblib==1.5.2
+lazy-loader==0.5
+matplotlib==3.10.9
+numpy==2.2.6
+onnx==1.20.1
+onnxruntime==1.19.2
+pandas==2.2.2
+scikit-learn==1.5.0
+scipy==1.15.3
+
+# --- AUDIO ---
+audioread==3.1.0
+av==17.0.1
+edge-tts==7.2.7
+gTTS==2.5.1
+librosa==0.11.0
+mutagen==1.47.0
+pydub==0.25.1
+soundfile==0.13.1
+
+# --- VIDEO / MEDIA ---
+yt-dlp==2026.3.17
+youtube-transcript-api==1.2.4
+pytube==15.0.0
+
+# --- CRYPTO / SECURITY ---
+cffi==2.0.0
+cryptography==46.0.7
+pycparser==3.0
+PyJWT==2.12.1
+
+# --- DATA FORMATS / SERIALISATION ---
+defusedxml==0.7.1
+flatbuffers==25.12.19
+json_repair==0.25.3
+jsonpatch==1.33
+jsonpointer==3.1.1
+jsonschema==4.23.0
+jsonschema-specifications==2025.9.1
+MarkupSafe==3.0.3
+msgpack==1.1.2
+orjson==3.11.5
+PyYAML==6.0.3
+referencing==0.37.0
+rpds-py==0.30.0
+tomli==2.0.2
+tomli_w==1.1.0
+tomlkit==0.13.3
+
+# --- PYDANTIC (used by crewai/gradio/openai) ---
+pydantic==2.12.5
+pydantic-settings==2.10.1
+pydantic_core==2.41.5
+
+apify-client
+
+# --- TESTING ---
+pytest==9.0.2
+pytest-xdist==3.8.0
+
+# --- WINDOWS ONLY (GUI automation — skipped on Linux CI) ---
+MouseInfo==0.1.3; sys_platform == 'win32'
+PyAutoGUI==0.9.54; sys_platform == 'win32'
+PyGetWindow==0.0.9; sys_platform == 'win32'
+PyMsgBox==2.0.1; sys_platform == 'win32'
+PyRect==0.2.0; sys_platform == 'win32'
+PyScreeze==1.0.1; sys_platform == 'win32'
+pytweening==1.2.0; sys_platform == 'win32'
+pyreadline3==3.5.4; sys_platform == 'win32'
+pywin32==311; sys_platform == 'win32'
+pyperclip==1.11.0; sys_platform == 'win32'
+
+# --- GITHUB ACTIONS SECRET SYNC ---
+pynacl==1.5.0

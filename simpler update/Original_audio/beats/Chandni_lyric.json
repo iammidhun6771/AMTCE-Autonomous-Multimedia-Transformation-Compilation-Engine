@@ -1,0 +1,149 @@
+{
+  "has_vocals": false,
+  "language": "Instrumental",
+  "tempo_bpm": 120.0,
+  "bar_duration_sec": 2.0,
+  "dominant_emotion": "joy",
+  "energy_profile": "medium",
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "type": "verse",
+      "energy": 0.85,
+      "mood": "energetic",
+      "recommended_cut_pace": "fast"
+    }
+  ],
+  "tension_arc": [
+    {
+      "time": {
+        "time": 0.5,
+        "energy": 0.705
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 0.9500000000000001,
+        "energy": 1.0
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 1.85,
+        "energy": 0.737
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 2.3000000000000003,
+        "energy": 0.802
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 3.1500000000000004,
+        "energy": 0.742
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 3.7,
+        "energy": 0.72
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 4.2,
+        "energy": 0.789
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 4.9,
+        "energy": 0.78
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 6.65,
+        "energy": 0.461
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 7.800000000000001,
+        "energy": 0.773
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 9.5,
+        "energy": 0.732
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 9.950000000000001,
+        "energy": 0.78
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 11.100000000000001,
+        "energy": 0.682
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 11.55,
+        "energy": 0.909
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 13.15,
+        "energy": 0.77
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 14.05,
+        "energy": 0.776
+      },
+      "tension": 0.5
+    },
+    {
+      "time": {
+        "time": 14.55,
+        "energy": 0.794
+      },
+      "tension": 0.5
+    }
+  ],
+  "lyrics": [],
+  "emotional_peak_moments": [],
+  "shot_directives": [],
+  "vibe_tags": [
+    "cinematic"
+  ],
+  "instrumental_sections": [],
+  "is_unusable": false,
+  "unusable_reason": "",
+  "_source": "beat_engine_fastpath"
+}

@@ -1,0 +1,5462 @@
+{
+  "version": 2,
+  "files": {
+    "Adam_john.mp3": {
+      "usage_count": 2,
+      "last_used": 1785657248.9256797,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.941843,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "401382_1775368833",
+      "version": 2
+    },
+    "Aditi_bhatia.mp3": {
+      "usage_count": 4,
+      "last_used": 1785659619.0584788,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9428434,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "441507_1777590547",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Aisha.mp3": {
+      "usage_count": 3,
+      "last_used": 1785443022.28895,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9428434,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "328031_1775200963",
+      "version": 2
+    },
+    "Aishwarya_Laxmi.mp3": {
+      "usage_count": 4,
+      "last_used": 1785660281.5892956,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9428434,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "665324_1777754245",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "ambient"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Ankita_singh.mp3": {
+      "usage_count": 4,
+      "last_used": 1785657957.508122,
+      "bpm": 63.0,
+      "energy": 0.8484117647058823,
+      "created_at": 1780391156.9438772,
+      "beat_data_path": "beats/Ankita_singh.npz",
+      "drop_times": [
+        0.15
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "378191_1780497123",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "cinematic"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Anshivi.mp3": {
+      "usage_count": 3,
+      "last_used": 1785514806.763695,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9438772,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "302953_1777484763",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "dance",
+        "celebration",
+        "high_energy",
+        "party",
+        "club"
+      ],
+      "has_vocals": true,
+      "language": "English",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 3.0,
+          "end": 6.0,
+          "type": "verse",
+          "energy": 0.6
+        },
+        {
+          "start": 6.0,
+          "end": 12.0,
+          "type": "chorus",
+          "energy": 0.9
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Dhansree_verma.mp3": {
+      "usage_count": 3,
+      "last_used": 1785654998.2284682,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9444246,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "1154963_1777406681",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Disha_patani_2.mp3": {
+      "usage_count": 4,
+      "last_used": 1785663275.098961,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9444246,
+      "beat_data_path": "beats/Disha_patani_2.npz",
+      "drop_times": [
+        3.25,
+        9.4
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "410161_1782003230",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Fathima_sana.mp3": {
+      "usage_count": 3,
+      "last_used": 1785642435.6793299,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9449425,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "807012_1777465064",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Fit_girl_2.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451947.468956,
+      "bpm": 133.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9449425,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "252798_1777743637",
+      "version": 2,
+      "tempo_bpm": 133.0,
+      "dominant_emotion": "nostalgia",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "bollywood",
+        "emotional",
+        "reflective",
+        "gentle_groove",
+        "nostalgic"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 4.45,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 4.45,
+          "end": 10.0,
+          "type": "verse",
+          "energy": 0.6
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Giorgia_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785448855.5342135,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.945487,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "316746_1777663123",
+      "version": 2
+    },
+    "Giorgia_2.mp3": {
+      "usage_count": 3,
+      "last_used": 1785439976.207548,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.945487,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "374424_1777673574",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "celebration",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "upbeat",
+        "bollywood",
+        "dance",
+        "festive",
+        "playful",
+        "high_energy"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 1.3,
+          "type": "intro",
+          "energy": 0.3
+        },
+        {
+          "start": 1.3,
+          "end": 5.7,
+          "type": "verse",
+          "energy": 0.5
+        },
+        {
+          "start": 5.7,
+          "end": 10.5,
+          "type": "verse",
+          "energy": 0.6
+        },
+        {
+          "start": 10.5,
+          "end": 15.54,
+          "type": "chorus",
+          "energy": 0.9
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Gizele_thakral.mp3": {
+      "usage_count": 2,
+      "last_used": 1784433579.472708,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.945487,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "394486_1778861113",
+      "version": 2
+    },
+    "Jennie.mp3": {
+      "usage_count": 3,
+      "last_used": 1785656398.595408,
+      "bpm": 125.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9460042,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "161892_1778277118",
+      "version": 2,
+      "tempo_bpm": 125.0,
+      "dominant_emotion": "euphoria",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "sweet",
+        "playful",
+        "pop",
+        "seductive",
+        "upbeat"
+      ],
+      "has_vocals": true,
+      "language": "English",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 6.516,
+          "type": "verse",
+          "energy": 0.75
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Kashmira.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451658.0415156,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9460042,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "291041_1777681408",
+      "version": 2
+    },
+    "Kate_Sharma_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785449097.892163,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9460042,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "501693_1777494096",
+      "version": 2
+    },
+    "Malavika_10.mp3": {
+      "usage_count": 3,
+      "last_used": 1785450235.2563365,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.946521,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "618930_1777853187",
+      "version": 2
+    },
+    "Malavika_2.mp3": {
+      "usage_count": 3,
+      "last_used": 1785450171.451534,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9470403,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "332419_1777459789",
+      "version": 2
+    },
+    "Malavika_3.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451215.049738,
+      "bpm": 100.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9470403,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "550594_1777503005",
+      "version": 2,
+      "tempo_bpm": 100.0,
+      "dominant_emotion": "love",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "romantic",
+        "bollywood",
+        "love_song",
+        "energetic",
+        "dance"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 6.0,
+          "type": "intro",
+          "energy": 0.3
+        },
+        {
+          "start": 6.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.5
+        },
+        {
+          "start": 15.0,
+          "end": 18.0,
+          "type": "pre_chorus",
+          "energy": 0.7
+        },
+        {
+          "start": 18.0,
+          "end": 22.0,
+          "type": "chorus",
+          "energy": 0.9
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Manushi_chillar.mp3": {
+      "usage_count": 3,
+      "last_used": 1785553384.4876046,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9470403,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "565013_1778450067",
+      "version": 2
+    },
+    "Monika_chaudhary.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451351.8335772,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9475565,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "177565_1777687880",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "love",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "romantic",
+        "bollywood",
+        "intimate",
+        "yearning"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 1.0,
+          "type": "intro",
+          "energy": 0.2
+        },
+        {
+          "start": 1.0,
+          "end": 7.0,
+          "type": "verse",
+          "energy": 0.4
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Nora_fatehi.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451857.6783662,
+      "bpm": 96.5,
+      "energy": 0.8543684210526322,
+      "created_at": 1780391156.9475565,
+      "beat_data_path": "beats/Nora_fatehi.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "1153714_1780495529",
+      "version": 2,
+      "tempo_bpm": 100.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "dance",
+        "hype",
+        "energetic",
+        "celebration",
+        "bollywood_pop",
+        "party"
+      ],
+      "has_vocals": true,
+      "language": "English",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 3.4,
+          "type": "intro",
+          "energy": 0.7
+        },
+        {
+          "start": 3.4,
+          "end": 7.0,
+          "type": "chorus",
+          "energy": 0.9
+        },
+        {
+          "start": 7.0,
+          "end": 10.8,
+          "type": "chorus",
+          "energy": 0.9
+        },
+        {
+          "start": 10.8,
+          "end": 12.3,
+          "type": "pre_chorus",
+          "energy": 0.8
+        },
+        {
+          "start": 12.3,
+          "end": 14.8,
+          "type": "chorus",
+          "energy": 0.95
+        },
+        {
+          "start": 14.8,
+          "end": 16.9,
+          "type": "pre_chorus",
+          "energy": 0.8
+        },
+        {
+          "start": 16.9,
+          "end": 19.1,
+          "type": "chorus",
+          "energy": 0.95
+        },
+        {
+          "start": 19.1,
+          "end": 20.0,
+          "type": "outro",
+          "energy": 1.0
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Palak_agrawal.mp3": {
+      "usage_count": 3,
+      "last_used": 1785655513.5574098,
+      "bpm": 109.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9475565,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "250917_1777556559",
+      "version": 2,
+      "tempo_bpm": 109.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "electronic",
+        "pop",
+        "upbeat",
+        "energetic",
+        "dance",
+        "playful"
+      ],
+      "has_vocals": true,
+      "language": "English",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 1.8,
+          "type": "intro",
+          "energy": 0.3
+        },
+        {
+          "start": 1.8,
+          "end": 5.75,
+          "type": "pre_chorus",
+          "energy": 0.6
+        },
+        {
+          "start": 5.75,
+          "end": 10.7,
+          "type": "chorus",
+          "energy": 0.9
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Pooja_hedge.mp3": {
+      "usage_count": 3,
+      "last_used": 1785643428.9948564,
+      "bpm": 113.6,
+      "energy": 0.8952619047619047,
+      "created_at": 1780391156.9480724,
+      "beat_data_path": "beats/Pooja_hedge.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "543699_1781756233",
+      "version": 2,
+      "tempo_bpm": 85.0,
+      "dominant_emotion": "celebration",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "celebration",
+        "dance",
+        "festive",
+        "bollywood",
+        "romance"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 2.82,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 2.82,
+          "end": 11.29,
+          "type": "verse",
+          "energy": 0.7
+        },
+        {
+          "start": 11.29,
+          "end": 17.01,
+          "type": "chorus",
+          "energy": 0.9
+        },
+        {
+          "start": 17.01,
+          "end": 22.73,
+          "type": "verse",
+          "energy": 0.75
+        },
+        {
+          "start": 22.73,
+          "end": 28.45,
+          "type": "chorus",
+          "energy": 1.0
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Rakul_preet_singh_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451778.79717,
+      "bpm": 150.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9480724,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "362512_1776760922",
+      "version": 2,
+      "tempo_bpm": 150.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "bollywood",
+        "dance",
+        "high_energy",
+        "hype",
+        "celebration",
+        "playful"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 0.7,
+          "type": "intro",
+          "energy": 0.2
+        },
+        {
+          "start": 0.7,
+          "end": 5.5,
+          "type": "verse",
+          "energy": 0.7
+        },
+        {
+          "start": 5.5,
+          "end": 11.9,
+          "type": "pre_chorus",
+          "energy": 0.9
+        },
+        {
+          "start": 11.9,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 1.0
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Rasha_Thadani.mp3": {
+      "is_speech_only": true,
+      "usage_count": 0,
+      "last_used": 0,
+      "bpm": 0.0,
+      "energy": 0.619,
+      "created_at": 1782161489.5842893,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "",
+      "version": 2
+    },
+    "Reem.mp3": {
+      "usage_count": 4,
+      "last_used": 1785644467.041916,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9485884,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "408279_1777514522",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "cinematic"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Ritika.mp3": {
+      "usage_count": 3,
+      "last_used": 1785552189.8624227,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.949104,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "268471_1776690403",
+      "version": 2
+    },
+    "Roshniwalia_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785449180.6327257,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.949104,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "428341_1778368388",
+      "version": 2
+    },
+    "Sakshi_malik_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785642596.341755,
+      "bpm": 100.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9496174,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "422698_1779024216",
+      "version": 2,
+      "tempo_bpm": 100.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "dance",
+        "party",
+        "bollywood",
+        "high_energy",
+        "flirty"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 4.8,
+          "type": "intro",
+          "energy": 0.5
+        },
+        {
+          "start": 4.8,
+          "end": 9.6,
+          "type": "verse",
+          "energy": 0.7
+        },
+        {
+          "start": 9.6,
+          "end": 16.8,
+          "type": "chorus",
+          "energy": 1.0
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Sakshi_malik_3.mp3": {
+      "usage_count": 4,
+      "last_used": 1785657248.957162,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9501328,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "768142_1776645829",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Shalini.mp3": {
+      "usage_count": 3,
+      "last_used": 1785449027.5685117,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9501328,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "451538_1778983333",
+      "version": 2
+    },
+    "Shefali.mp3": {
+      "usage_count": 3,
+      "last_used": 1785171890.0675285,
+      "bpm": 78.3,
+      "energy": 0.5946,
+      "created_at": 1780391156.9506483,
+      "beat_data_path": "beats/Shefali.npz",
+      "drop_times": [
+        0.65
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "189482_1783067215",
+      "version": 2
+    },
+    "Tammanah_bhatia.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451604.7116275,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9506483,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "270979_1777689411",
+      "version": 2
+    },
+    "Tammanah_bhatia_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785657537.59201,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9506483,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "334300_1777852225",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Urvashi_rautela.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451410.1801176,
+      "bpm": 110.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9511678,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "438372_1778984542",
+      "version": 2,
+      "tempo_bpm": 110.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "bollywood",
+        "dance",
+        "party",
+        "upbeat",
+        "flirty"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 4.36,
+          "type": "intro",
+          "energy": 0.6
+        },
+        {
+          "start": 4.36,
+          "end": 14.54,
+          "type": "chorus",
+          "energy": 1.0
+        },
+        {
+          "start": 14.54,
+          "end": 18.9,
+          "type": "outro",
+          "energy": 0.7
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Urvashi_rautela_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785441421.2882369,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9511678,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "381320_1778012048",
+      "version": 2
+    },
+    "Vrinda.mp3": {
+      "usage_count": 3,
+      "last_used": 1785453249.0665212,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9516847,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "182581_1776513901",
+      "version": 2
+    },
+    "Wamiqa_gabbi_1.mp3": {
+      "usage_count": 3,
+      "last_used": 1785644098.1546192,
+      "bpm": 80.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9516847,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "428341_1776950324",
+      "version": 2,
+      "tempo_bpm": 80.0,
+      "dominant_emotion": "love",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "romantic",
+        "bollywood",
+        "dance",
+        "flirty",
+        "high_energy"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 5.6,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 5.6,
+          "end": 17.6,
+          "type": "verse",
+          "energy": 0.6
+        },
+        {
+          "start": 17.6,
+          "end": 26.6,
+          "type": "chorus",
+          "energy": 0.8
+        },
+        {
+          "start": 26.6,
+          "end": 35.6,
+          "type": "verse",
+          "energy": 0.5
+        },
+        {
+          "start": 35.6,
+          "end": 44.6,
+          "type": "chorus",
+          "energy": 0.9
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Warina_hussain.mp3": {
+      "usage_count": 3,
+      "last_used": 1785614739.5132253,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1780391156.9522057,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "222082_1778607462",
+      "version": 2
+    },
+    "Shruthi_hassan.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451301.6028519,
+      "bpm": 100.3,
+      "energy": 0.8626727272727271,
+      "created_at": 1780402172.5887027,
+      "beat_data_path": "beats/Shruthi_hassan.npz",
+      "drop_times": [
+        30.25
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "810152_1780402172",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "euphoria",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "uplifting",
+        "celebration",
+        "energetic",
+        "instrumental"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 4.0,
+          "type": "intro",
+          "energy": 0.3
+        },
+        {
+          "start": 4.0,
+          "end": 12.0,
+          "type": "verse",
+          "energy": 0.6
+        },
+        {
+          "start": 12.0,
+          "end": 20.0,
+          "type": "chorus",
+          "energy": 0.9
+        },
+        {
+          "start": 20.0,
+          "end": 28.0,
+          "type": "verse",
+          "energy": 0.6
+        },
+        {
+          "start": 28.0,
+          "end": 33.0,
+          "type": "outro",
+          "energy": 0.4
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Zareena_khan.mp3": {
+      "usage_count": 3,
+      "last_used": 1785643187.155824,
+      "bpm": 37.9,
+      "energy": 0.7444,
+      "created_at": 1780483720.8511014,
+      "beat_data_path": "beats/Zareena_khan.npz",
+      "drop_times": [
+        0.8
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "351232_1780483720",
+      "version": 2,
+      "gemini_genre": "unknown",
+      "gemini_mood_tags": [
+        "calm",
+        "mellow"
+      ],
+      "gemini_energy_level": "low",
+      "gemini_has_vocals": true,
+      "gemini_content_match": [
+        "aesthetic",
+        "travel"
+      ],
+      "gemini_avoid_match": [
+        "fitness",
+        "gaming"
+      ],
+      "gemini_analyzed": true,
+      "tempo_bpm": 75.0,
+      "dominant_emotion": "love",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "romantic",
+        "bollywood",
+        "emotional",
+        "intimate"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 10.0,
+          "type": "intro",
+          "energy": 0.2
+        },
+        {
+          "start": 10.0,
+          "end": 22.0,
+          "type": "verse",
+          "energy": 0.4
+        },
+        {
+          "start": 22.0,
+          "end": 33.0,
+          "type": "chorus",
+          "energy": 0.7
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "11.mp3": {
+      "usage_count": 2,
+      "last_used": 1784432497.1021695,
+      "bpm": 92.9,
+      "energy": 0.6614285714285714,
+      "created_at": 1780495938.6317856,
+      "beat_data_path": "beats/11.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "222083_1780495938",
+      "version": 2
+    },
+    "Disha_patani.mp3": {
+      "usage_count": 3,
+      "last_used": 1785644481.878911,
+      "bpm": 84.1,
+      "energy": 0.7787999999999999,
+      "created_at": 1780496185.4853427,
+      "beat_data_path": "beats/Disha_patani.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "344336_1782777740",
+      "version": 2,
+      "gemini_genre": "pop",
+      "gemini_mood_tags": [
+        "upbeat",
+        "energetic",
+        "playful"
+      ],
+      "gemini_energy_level": "high",
+      "gemini_has_vocals": true,
+      "gemini_content_match": [
+        "dance",
+        "fashion",
+        "aesthetic"
+      ],
+      "gemini_avoid_match": [
+        "motivational",
+        "gaming"
+      ],
+      "gemini_analyzed": true
+    },
+    "Jacqueline_Fernandez.mp3": {
+      "usage_count": 3,
+      "last_used": 1785657537.5605218,
+      "bpm": 86.7,
+      "energy": 0.6984736842105262,
+      "created_at": 1780497404.403071,
+      "beat_data_path": "beats/Jacqueline_Fernandez.npz",
+      "drop_times": [
+        0.1
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "312985_1782018404",
+      "version": 2
+    },
+    "Sakshi_malik.mp3": {
+      "usage_count": 3,
+      "last_used": 1785550683.7131708,
+      "bpm": 95.7,
+      "energy": 0.7485652173913044,
+      "created_at": 1780497636.594601,
+      "beat_data_path": "beats/Sakshi_malik.npz",
+      "drop_times": [
+        4.15,
+        7.85
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "364398_1782735588",
+      "version": 2
+    },
+    "Sunny_Leone.mp3": {
+      "usage_count": 4,
+      "last_used": 1785661136.2365348,
+      "bpm": 72.0,
+      "energy": 0.8143,
+      "created_at": 1780498806.4871612,
+      "beat_data_path": "beats/Sunny_Leone.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "191990_1780498806",
+      "version": 2
+    },
+    "Janhvi_kapoor.mp3": {
+      "usage_count": 3,
+      "last_used": 1785657957.4780116,
+      "bpm": 88.6,
+      "energy": 0.6223333333333334,
+      "created_at": 1781541066.5967813,
+      "beat_data_path": "beats/Janhvi_kapoor.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "366902_1781541066",
+      "version": 2,
+      "gemini_genre": "edm",
+      "gemini_mood_tags": [
+        "energetic",
+        "party",
+        "upbeat"
+      ],
+      "gemini_energy_level": "high",
+      "gemini_has_vocals": true,
+      "gemini_content_match": [
+        "dance",
+        "travel",
+        "fitness"
+      ],
+      "gemini_avoid_match": [
+        "meditation",
+        "study"
+      ],
+      "gemini_analyzed": true
+    },
+    "Arya_menon.mp3": {
+      "usage_count": 2,
+      "last_used": 1785172214.55413,
+      "bpm": 94.4,
+      "energy": 0.7684800000000003,
+      "created_at": 1781701738.4973671,
+      "beat_data_path": "beats/Arya_menon.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "375679_1781701738",
+      "version": 2
+    },
+    "Chandni.mp3": {
+      "usage_count": 4,
+      "last_used": 1785658732.7654755,
+      "bpm": 68.3,
+      "energy": 0.7618823529411765,
+      "created_at": 1781796601.4633734,
+      "beat_data_path": "beats/Chandni.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "360005_1781796601",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "cinematic"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Ayesha_Khan.mp3": {
+      "usage_count": 3,
+      "last_used": 1785550644.1147726,
+      "bpm": 124.1,
+      "energy": 0.8000625,
+      "created_at": 1782366668.114046,
+      "beat_data_path": "beats/Ayesha_Khan.npz",
+      "drop_times": [
+        0.7
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "197632_1783882839",
+      "version": 2
+    },
+    "Disha_patani_4.mp3": {
+      "usage_count": 3,
+      "last_used": 1785552029.5426652,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1782638838.8912814,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "349978_1782375730",
+      "version": 2
+    },
+    "Edin_rose.mp3": {
+      "usage_count": 3,
+      "last_used": 1785451483.9236119,
+      "bpm": 125.0,
+      "energy": 0.5,
+      "created_at": 1782638838.8912814,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "689148_1782375730",
+      "version": 2,
+      "tempo_bpm": 125.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "hindi",
+        "hip_hop",
+        "upbeat",
+        "energetic",
+        "celebration",
+        "playful"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 0.9,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 0.9,
+          "end": 5.64,
+          "type": "verse",
+          "energy": 0.7
+        },
+        {
+          "start": 5.64,
+          "end": 10.44,
+          "type": "pre_chorus",
+          "energy": 0.8
+        },
+        {
+          "start": 10.44,
+          "end": 19.92,
+          "type": "chorus",
+          "energy": 0.95
+        },
+        {
+          "start": 19.92,
+          "end": 27.96,
+          "type": "verse",
+          "energy": 0.75
+        },
+        {
+          "start": 27.96,
+          "end": 28.48,
+          "type": "outro",
+          "energy": 0.8
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Guess_who.mp3": {
+      "usage_count": 3,
+      "last_used": 1785551617.2197433,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1782638838.8922815,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "368783_1782375730",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Kriti_Sanon.mp3": {
+      "usage_count": 4,
+      "last_used": 1785644482.026958,
+      "bpm": 90.0,
+      "energy": 0.5,
+      "created_at": 1782638838.8922815,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "606392_1782375730",
+      "version": 2,
+      "tempo_bpm": 90.0,
+      "dominant_emotion": "love",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "romantic",
+        "bollywood",
+        "love",
+        "expressive",
+        "emotional"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 6.5,
+          "type": "intro",
+          "energy": 0.3
+        },
+        {
+          "start": 6.5,
+          "end": 14.5,
+          "type": "verse",
+          "energy": 0.5
+        },
+        {
+          "start": 14.5,
+          "end": 25.5,
+          "type": "chorus",
+          "energy": 0.8
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Megha.mp3": {
+      "usage_count": 2,
+      "last_used": 1785171442.0980928,
+      "bpm": 93.3,
+      "energy": 0.8707500000000001,
+      "created_at": 1782981426.0390403,
+      "beat_data_path": "beats/Megha.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "237756_1782981425",
+      "version": 2
+    },
+    "Avneet_kaur.mp3": {
+      "usage_count": 4,
+      "last_used": 1785643820.6822674,
+      "bpm": 136.0,
+      "energy": 0.8942777777777778,
+      "created_at": 1783327516.5992231,
+      "beat_data_path": "beats/Avneet_kaur.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "195125_1783327516",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "explosive"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Akanksha_puri.mp3": {
+      "usage_count": 3,
+      "last_used": 1785643288.1033726,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1783801704.7845728,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "202021_1783801524",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "cinematic"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Anjali.mp3": {
+      "usage_count": 3,
+      "last_used": 1785661136.2689388,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1783801704.7846613,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "274119_1783801524",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "high",
+      "vibe_tags": [
+        "groove"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "chorus",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Saiee.mp3": {
+      "usage_count": 3,
+      "last_used": 1785441758.4321404,
+      "bpm": 138.0,
+      "energy": 0.5,
+      "created_at": 1783801704.784736,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "380072_1783801524",
+      "version": 2,
+      "tempo_bpm": 138.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "marathi",
+        "folk",
+        "dance",
+        "energetic",
+        "celebration",
+        "hype"
+      ],
+      "has_vocals": true,
+      "language": "Marathi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 2.0,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 2.0,
+          "end": 7.2,
+          "type": "verse",
+          "energy": 0.8
+        },
+        {
+          "start": 7.2,
+          "end": 15.7,
+          "type": "drop",
+          "energy": 1.0
+        },
+        {
+          "start": 15.7,
+          "end": 16.0,
+          "type": "outro",
+          "energy": 0.2
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Diya.mp3": {
+      "usage_count": 3,
+      "last_used": 1785551822.104175,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1783801704.7847824,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "348725_1783801524",
+      "version": 2
+    },
+    "Wr.mp3": {
+      "usage_count": 2,
+      "last_used": 1785642435.4191272,
+      "bpm": 52.9,
+      "energy": 0.6961538461538462,
+      "created_at": 1783918534.436223,
+      "beat_data_path": "beats/Wr.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "356875_1783918534",
+      "version": 2
+    },
+    "Wamiqa_gabbi.mp3": {
+      "usage_count": 4,
+      "last_used": 1785656830.1097713,
+      "bpm": 49.6,
+      "energy": 0.644,
+      "created_at": 1783925688.8148344,
+      "beat_data_path": "beats/Wamiqa_gabbi.npz",
+      "drop_times": [
+        1.95
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "364398_1783925688",
+      "version": 2,
+      "gemini_genre": "unknown",
+      "gemini_mood_tags": [
+        "calm",
+        "peaceful"
+      ],
+      "gemini_energy_level": "low",
+      "gemini_has_vocals": false,
+      "gemini_content_match": [
+        "travel",
+        "nature"
+      ],
+      "gemini_avoid_match": [
+        "dance",
+        "fitness"
+      ],
+      "gemini_analyzed": true,
+      "tempo_bpm": 95.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "playful",
+        "family",
+        "happy",
+        "energetic",
+        "bollywood"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 4.11,
+          "type": "intro",
+          "energy": 0.3
+        },
+        {
+          "start": 4.11,
+          "end": 11.41,
+          "type": "verse",
+          "energy": 0.5
+        },
+        {
+          "start": 11.41,
+          "end": 14.77,
+          "type": "pre_chorus",
+          "energy": 0.7
+        },
+        {
+          "start": 14.77,
+          "end": 19.1,
+          "type": "chorus",
+          "energy": 0.9
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "Stay_clam.mp3": {
+      "usage_count": 2,
+      "last_used": 1785656830.0791385,
+      "bpm": 94.1,
+      "energy": 0.49302068965517193,
+      "created_at": 1784432244.2909236,
+      "beat_data_path": "beats\\Stay_clam.npz",
+      "drop_times": [
+        0.2,
+        2.35,
+        13.5,
+        16.4,
+        23.15,
+        24.35,
+        28.0,
+        33.55,
+        34.8,
+        38.2,
+        40.3,
+        45.35,
+        50.4,
+        54.85,
+        56.45,
+        58.05,
+        59.1,
+        60.8,
+        68.65,
+        71.1,
+        73.05,
+        74.75,
+        76.9,
+        77.3,
+        78.2,
+        81.5,
+        82.55,
+        86.35,
+        92.0,
+        95.0,
+        97.05,
+        106.9,
+        109.55,
+        111.3,
+        113.2,
+        114.4,
+        115.7,
+        117.25,
+        123.0,
+        125.45,
+        126.45,
+        129.2,
+        133.9,
+        135.45,
+        138.75,
+        143.0,
+        146.45,
+        148.95,
+        160.05,
+        164.25,
+        169.25,
+        171.75,
+        174.25,
+        176.05,
+        176.65,
+        178.7,
+        179.75,
+        187.2,
+        188.85,
+        191.85,
+        193.65,
+        196.9,
+        198.15,
+        199.5,
+        201.05,
+        206.25,
+        207.5,
+        208.45,
+        216.2,
+        218.65,
+        222.6,
+        223.7,
+        225.1,
+        227.75,
+        228.7,
+        229.35,
+        233.35,
+        235.25,
+        236.85,
+        240.15,
+        241.85,
+        243.5,
+        245.8,
+        246.55,
+        247.6,
+        249.65,
+        252.25,
+        255.55,
+        258.45,
+        261.55,
+        263.5,
+        265.45,
+        269.6,
+        272.8,
+        273.85,
+        276.85,
+        278.25,
+        278.65,
+        282.0,
+        286.8,
+        287.65,
+        292.05,
+        292.55,
+        294.2,
+        296.4,
+        297.35,
+        298.05,
+        298.5,
+        301.15,
+        303.65,
+        307.95,
+        315.0,
+        321.7,
+        324.55,
+        325.0,
+        325.75,
+        330.6,
+        337.2,
+        339.35,
+        339.85,
+        344.85,
+        346.65,
+        349.2,
+        350.8,
+        353.5,
+        355.8,
+        360.25,
+        362.2,
+        363.4,
+        366.75,
+        371.25,
+        373.0,
+        377.2,
+        382.2,
+        385.2,
+        389.0,
+        391.55,
+        392.4,
+        394.85,
+        397.25,
+        399.4,
+        400.6,
+        403.6,
+        406.6,
+        408.25,
+        413.15,
+        417.35,
+        424.0,
+        425.25,
+        427.0,
+        427.95,
+        430.05,
+        430.45,
+        432.1,
+        434.65,
+        438.3,
+        439.15,
+        441.4,
+        443.35,
+        443.95,
+        449.4,
+        451.75,
+        453.6,
+        454.65,
+        456.7,
+        459.0,
+        459.65,
+        470.05,
+        471.55,
+        476.55,
+        480.35,
+        482.5,
+        485.3,
+        487.2,
+        496.95,
+        498.15,
+        504.45,
+        510.9,
+        513.9,
+        515.7,
+        516.4,
+        521.75,
+        523.45,
+        525.6,
+        527.95,
+        533.45,
+        541.85,
+        545.3,
+        548.0,
+        549.9,
+        552.1,
+        553.85,
+        556.65,
+        562.3,
+        563.45,
+        566.45,
+        567.75,
+        571.45,
+        573.6,
+        577.55,
+        580.8,
+        585.6,
+        587.8,
+        590.5,
+        590.95,
+        594.6,
+        597.2,
+        599.2,
+        602.15,
+        604.0,
+        604.95,
+        606.4,
+        607.65,
+        613.05,
+        613.95,
+        615.8,
+        617.6,
+        621.7,
+        623.4,
+        628.1,
+        635.55,
+        641.6,
+        643.1,
+        645.5,
+        648.65,
+        649.1,
+        650.05,
+        654.65,
+        657.95,
+        659.75,
+        662.4,
+        664.1,
+        667.6,
+        671.6,
+        678.8,
+        681.7,
+        682.15,
+        685.4,
+        687.55,
+        689.9,
+        691.55,
+        692.55,
+        693.8,
+        696.7,
+        700.45,
+        702.2,
+        704.25,
+        708.4,
+        710.6,
+        712.85,
+        715.9,
+        717.0,
+        720.3,
+        724.1,
+        727.6,
+        729.35,
+        733.7
+      ],
+      "sample_rate": 44100,
+      "audio_hash": "17772606_1784432238",
+      "version": 2
+    },
+    "Video_by_ruhisingh12.mp3": {
+      "usage_count": 3,
+      "last_used": 1785552005.5236268,
+      "bpm": 0.0,
+      "energy": 0.5,
+      "created_at": 1785064732.0800686,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "324269_1785064732",
+      "version": 2
+    },
+    "tmpe0y_fc6c.wav": {
+      "usage_count": 2,
+      "last_used": 1785655513.4417772,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785170843.3743203,
+      "beat_data_path": "beats\\tmpe0y_fc6c.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785170825",
+      "version": 2
+    },
+    "tmpj673nm4s.wav": {
+      "usage_count": 2,
+      "last_used": 1785656398.5064232,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785171023.3618033,
+      "beat_data_path": "beats\\tmpj673nm4s.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785171020",
+      "version": 2
+    },
+    "tmpdr_w_ijp.wav": {
+      "usage_count": 1,
+      "last_used": 1785642316.4865575,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785171134.1311486,
+      "beat_data_path": "beats\\tmpdr_w_ijp.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785171131",
+      "version": 2
+    },
+    "tmp_7jlhpsk.wav": {
+      "usage_count": 1,
+      "last_used": 1785642596.3107626,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785171387.0646684,
+      "beat_data_path": "beats\\tmp_7jlhpsk.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785171368",
+      "version": 2
+    },
+    "tmpysdp_hfn.wav": {
+      "usage_count": 1,
+      "last_used": 1785643050.954971,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785171442.0950933,
+      "beat_data_path": "beats\\tmpysdp_hfn.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785171405",
+      "version": 2
+    },
+    "tmpl5n_57y8.wav": {
+      "usage_count": 1,
+      "last_used": 1785643288.069746,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785171890.0314527,
+      "beat_data_path": "beats\\tmpl5n_57y8.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785171875",
+      "version": 2
+    },
+    "tmphjm0gnp_.wav": {
+      "usage_count": 1,
+      "last_used": 1785643428.9645128,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785171998.0788581,
+      "beat_data_path": "beats\\tmphjm0gnp_.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785171960",
+      "version": 2
+    },
+    "tmplyx14a4c.wav": {
+      "usage_count": 1,
+      "last_used": 1785643820.628301,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785172214.528953,
+      "beat_data_path": "beats\\tmplyx14a4c.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785172180",
+      "version": 2
+    },
+    "tmpu2o03wdc.wav": {
+      "usage_count": 1,
+      "last_used": 1785644097.8864508,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785172503.6028478,
+      "beat_data_path": "beats\\tmpu2o03wdc.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785172469",
+      "version": 2
+    },
+    "tmpa8lsj1wf.wav": {
+      "usage_count": 1,
+      "last_used": 1785644466.7710989,
+      "bpm": 81.0,
+      "energy": 0.879,
+      "created_at": 1785172892.8148682,
+      "beat_data_path": "beats\\tmpa8lsj1wf.npz",
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "430342_1785172859",
+      "version": 2
+    },
+    "video.wav": {
+      "usage_count": 6,
+      "last_used": 1785530240.7945135,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1785442820.8788385,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "411024_1785442791",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "building",
+      "vibe_tags": [
+        "bollywood",
+        "dance",
+        "upbeat",
+        "romantic",
+        "celebration",
+        "joyful"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 1.5,
+          "type": "intro",
+          "energy": 0.5
+        },
+        {
+          "start": 1.5,
+          "end": 9.5,
+          "type": "verse",
+          "energy": 0.7
+        },
+        {
+          "start": 9.5,
+          "end": 17.5,
+          "type": "verse",
+          "energy": 0.8
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "tmp3g5abmz0.mp3": {
+      "usage_count": 1,
+      "last_used": 1785654998.1974928,
+      "bpm": 130.5,
+      "energy": 0.5,
+      "created_at": 1785641001.9748626,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "unknown",
+      "version": 2,
+      "tempo_bpm": 130.5,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "bollywood",
+        "romantic",
+        "dance",
+        "celebration",
+        "upbeat"
+      ],
+      "has_vocals": true,
+      "language": "Hindi",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 1.84,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 1.84,
+          "end": 7.35,
+          "type": "verse",
+          "energy": 0.6
+        },
+        {
+          "start": 7.35,
+          "end": 10.97,
+          "type": "pre_chorus",
+          "energy": 0.7
+        },
+        {
+          "start": 10.97,
+          "end": 16.49,
+          "type": "chorus",
+          "energy": 0.9
+        },
+        {
+          "start": 16.49,
+          "end": 21.99,
+          "type": "verse",
+          "energy": 0.6
+        },
+        {
+          "start": 21.99,
+          "end": 25.59,
+          "type": "pre_chorus",
+          "energy": 0.7
+        },
+        {
+          "start": 25.59,
+          "end": 31.12,
+          "type": "chorus",
+          "energy": 0.95
+        },
+        {
+          "start": 31.12,
+          "end": 34.72,
+          "type": "outro",
+          "energy": 0.5
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "tmpfagjp93w.mp3": {
+      "usage_count": 1,
+      "last_used": 1785643187.1255617,
+      "bpm": 120.0,
+      "energy": 0.5,
+      "created_at": 1785641001.981861,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "unknown",
+      "version": 2,
+      "tempo_bpm": 120.0,
+      "dominant_emotion": "joy",
+      "energy_profile": "medium",
+      "vibe_tags": [
+        "ambient"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 15.0,
+          "type": "verse",
+          "energy": 0.85
+        }
+      ],
+      "lyric_intel_merged": true
+    },
+    "tmppyz1kpw7.mp3": {
+      "usage_count": 1,
+      "last_used": 1785643346.7496583,
+      "bpm": 128.0,
+      "energy": 0.5,
+      "created_at": 1785641001.989892,
+      "beat_data_path": null,
+      "drop_times": [],
+      "sample_rate": 44100,
+      "audio_hash": "unknown",
+      "version": 2,
+      "tempo_bpm": 128.0,
+      "dominant_emotion": "hype",
+      "energy_profile": "explosive",
+      "vibe_tags": [
+        "energetic",
+        "dance",
+        "electronic",
+        "hype",
+        "festival"
+      ],
+      "has_vocals": false,
+      "language": "Instrumental",
+      "sections_summary": [
+        {
+          "start": 0.0,
+          "end": 4.0,
+          "type": "intro",
+          "energy": 0.4
+        },
+        {
+          "start": 4.0,
+          "end": 10.0,
+          "type": "instrumental",
+          "energy": 0.7
+        },
+        {
+          "start": 10.0,
+          "end": 16.0,
+          "type": "drop",
+          "energy": 1.0
+        },
+        {
+          "start": 16.0,
+          "end": 20.0,
+          "type": "instrumental",
+          "energy": 0.8
+        }
+      ],
+      "lyric_intel_merged": true
+    }
+  },
+  "clips": {
+    "manual_DZ9WYU1stv3": {
+      "clip_id": "manual_DZ9WYU1stv3",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_DZ9WYU1stv3",
+      "schema_version": 3,
+      "created_at": 1785635253.2611988,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785635253.286795,
+        "intent": "fashion_lifestyle",
+        "tone": "playful",
+        "editing_style": "cinematic",
+        "engagement_hook": "Dynamic top-down selfie view walking on a sunny sidewalk.",
+        "detected_entities": [
+          "person:female",
+          "environment:outdoor",
+          "clothing:activewear",
+          "accessory:headphones"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "commentary_talk"
+        ],
+        "recommended_narrative": "fashion_moment",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": true
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": []
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.0,
+              "energy": 0.541
+            },
+            {
+              "time": 0.6000000000000001,
+              "energy": 0.418
+            },
+            {
+              "time": 2.0,
+              "energy": 0.826
+            },
+            {
+              "time": 2.4000000000000004,
+              "energy": 0.831
+            },
+            {
+              "time": 2.9000000000000004,
+              "energy": 0.863
+            },
+            {
+              "time": 3.5500000000000003,
+              "energy": 0.963
+            },
+            {
+              "time": 4.8500000000000005,
+              "energy": 0.941
+            },
+            {
+              "time": 5.75,
+              "energy": 0.959
+            },
+            {
+              "time": 6.2,
+              "energy": 0.899
+            },
+            {
+              "time": 6.8500000000000005,
+              "energy": 0.832
+            },
+            {
+              "time": 8.4,
+              "energy": 0.939
+            },
+            {
+              "time": 9.25,
+              "energy": 0.902
+            },
+            {
+              "time": 9.75,
+              "energy": 0.845
+            },
+            {
+              "time": 10.4,
+              "energy": 0.857
+            },
+            {
+              "time": 11.9,
+              "energy": 0.92
+            },
+            {
+              "time": 12.8,
+              "energy": 1.0
+            }
+          ],
+          "drop_timestamps": [
+            2.0,
+            4.8500000000000005,
+            8.4,
+            11.9
+          ],
+          "avg_energy": 0.846,
+          "vibe": "cinematic",
+          "beat_count": 16,
+          "drop_count": 4,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_DZ9WYU1stv3\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785635253.286795,
+          "has_vocals": true,
+          "dominant_emotion": "playful",
+          "vibe": "cinematic"
+        },
+        "selected_bgm_track": "Aditi_bhatia.mp3",
+        "bgm_selection_reasoning": "Fallback candidate selection.",
+        "bgm_alignment_score": 0.7,
+        "_bgm_selected_at": 1785635258.4155793
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785635253.286795,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785635282.730864,
+        "editing_intent": "Convert fashion/lifestyle clip to 9:16 vertical short reel with cinematic framing, aligned to the 15.0s target duration and beat grid.",
+        "creative_rationale": "Applied 9:16 vertical scaling with blurred padding to maintain cinematic look without cropping out the subject's face. Trimmed precisely to 15.0 seconds, aligning with the upbeat rhythmic context.",
+        "strategy_name": "Convert fashion/lifestyle clip to 9:16 vertical short reel with cinematic framing, aligned to the 15.0s target duration and beat grid.",
+        "total_steps": 8,
+        "operations": [
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 15.0
+          },
+          {
+            "operation_type": "bgm_mix",
+            "music_volume": 0.5
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785635282.730864,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_DZ9WYU1stv3_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 8.0,
+          "audio_duration_before": 7.99,
+          "source_duration": 13.21
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DZ9Z-uSJZ2f": {
+      "clip_id": "manual_DZ9Z-uSJZ2f",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_DZ9Z-uSJZ2f",
+      "schema_version": 3,
+      "created_at": 1785628156.8816237,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785632385.3260443,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "fashion_showcase",
+        "engagement_hook": "Witness the dazzling entrance of a glamorous figure in a sparkling blue gown amidst a shower of gold.",
+        "detected_entities": [
+          "person:female",
+          "environment:indoor",
+          "clothing:dress",
+          "object:gold_bars",
+          "object:confetti"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight",
+          "music_showcase"
+        ],
+        "recommended_narrative": "fashion_moment",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": true,
+          "enable_fast_pacing": true,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": []
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.55,
+              "energy": 0.563
+            },
+            {
+              "time": 2.5,
+              "energy": 0.967
+            },
+            {
+              "time": 3.0500000000000003,
+              "energy": 0.971
+            },
+            {
+              "time": 3.6,
+              "energy": 0.948
+            },
+            {
+              "time": 4.15,
+              "energy": 0.957
+            },
+            {
+              "time": 4.7,
+              "energy": 0.94
+            },
+            {
+              "time": 5.1000000000000005,
+              "energy": 0.97
+            },
+            {
+              "time": 5.550000000000001,
+              "energy": 0.946
+            },
+            {
+              "time": 6.95,
+              "energy": 0.961
+            },
+            {
+              "time": 7.5,
+              "energy": 0.945
+            },
+            {
+              "time": 12.5,
+              "energy": 0.977
+            },
+            {
+              "time": 15.25,
+              "energy": 0.925
+            },
+            {
+              "time": 15.850000000000001,
+              "energy": 0.922
+            },
+            {
+              "time": 16.400000000000002,
+              "energy": 0.935
+            }
+          ],
+          "drop_timestamps": [],
+          "avg_energy": 0.923,
+          "vibe": "ambient",
+          "beat_count": 14,
+          "drop_count": 0,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_DZ9Z-uSJZ2f\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785632385.3260443,
+          "has_vocals": true,
+          "dominant_emotion": "aspirational",
+          "vibe": "fashion_showcase"
+        },
+        "selected_bgm_track": "Disha_patani_2.mp3",
+        "bgm_selection_reasoning": "The historical pooled data shows a direct and strong match for clips with 'fashion_lifestyle' intent, 'aspirational' tone, 0.0 BPM, and 'ambient' vibe, consistently selecting 'Disha_patani_2.mp3'. This track is available and perfectly aligns with the current clip's semantic context.",
+        "bgm_alignment_score": 0.98,
+        "_bgm_selected_at": 1785632393.8558564
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785632385.3260443,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785632411.864789,
+        "editing_intent": "Convert to 9:16 vertical short reel with aspirational fashion lifestyle tone, aligned to audio beats, targeting 14.15s duration.",
+        "creative_rationale": "Adapted RAG pattern to match aspirational fashion showcase. Used 9:16 crop to center the subject and trimmed precisely to beat timestamp 14.15s for rhythm alignment. Placed all timeline-altering operations (scale, trim) before audio mixing per duration-lock rules.",
+        "strategy_name": "Convert to 9:16 vertical short reel with aspirational fashion lifestyle tone, aligned to audio beats, targeting 14.15s duration.",
+        "total_steps": 8,
+        "operations": [
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "crop"
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 14.15
+          },
+          {
+            "operation_type": "bgm_mix",
+            "music_volume": 0.5
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785632411.864789,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_DZ9Z-uSJZ2f_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 8.73,
+          "audio_duration_before": 8.73,
+          "source_duration": 20.74
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DZq0rTeSlpj": {
+      "clip_id": "manual_DZq0rTeSlpj",
+      "clip_folder": "D:\\AMTCE\\simpler update\\downloads\\manual_DZq0rTeSlpj",
+      "schema_version": 3,
+      "created_at": 1785658725.8140666,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785661125.0628536,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "fashion_showcase",
+        "engagement_hook": "Witness the stunning red carpet look of a celebrity in a dazzling, embellished gown.",
+        "detected_entities": [
+          "person:female",
+          "environment:indoor",
+          "clothing:dress",
+          "jewelry:earrings",
+          "jewelry:bracelet",
+          "event:awards_show_or_red_carpet"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight"
+        ],
+        "recommended_narrative": "fashion_moment",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.15000000000000002,
+              "energy": 0.976
+            },
+            {
+              "time": 0.7000000000000001,
+              "energy": 0.864
+            },
+            {
+              "time": 1.1,
+              "energy": 0.96
+            },
+            {
+              "time": 1.6,
+              "energy": 0.867
+            },
+            {
+              "time": 2.0500000000000003,
+              "energy": 0.907
+            },
+            {
+              "time": 3.0500000000000003,
+              "energy": 0.887
+            },
+            {
+              "time": 3.5,
+              "energy": 0.939
+            },
+            {
+              "time": 3.95,
+              "energy": 0.886
+            },
+            {
+              "time": 4.95,
+              "energy": 0.98
+            },
+            {
+              "time": 5.4,
+              "energy": 0.902
+            },
+            {
+              "time": 5.800000000000001,
+              "energy": 0.879
+            },
+            {
+              "time": 6.75,
+              "energy": 0.87
+            },
+            {
+              "time": 7.300000000000001,
+              "energy": 1.0
+            },
+            {
+              "time": 7.75,
+              "energy": 0.919
+            },
+            {
+              "time": 8.25,
+              "energy": 0.88
+            },
+            {
+              "time": 11.55,
+              "energy": 0.879
+            },
+            {
+              "time": 12.5,
+              "energy": 0.898
+            },
+            {
+              "time": 14.4,
+              "energy": 0.971
+            },
+            {
+              "time": 14.850000000000001,
+              "energy": 0.921
+            },
+            {
+              "time": 16.2,
+              "energy": 0.897
+            },
+            {
+              "time": 17.150000000000002,
+              "energy": 0.9
+            },
+            {
+              "time": 21.0,
+              "energy": 0.935
+            },
+            {
+              "time": 22.400000000000002,
+              "energy": 0.908
+            },
+            {
+              "time": 24.75,
+              "energy": 0.918
+            },
+            {
+              "time": 25.75,
+              "energy": 0.972
+            },
+            {
+              "time": 26.200000000000003,
+              "energy": 0.929
+            },
+            {
+              "time": 27.1,
+              "energy": 0.832
+            }
+          ],
+          "drop_timestamps": [],
+          "avg_energy": 0.914,
+          "vibe": "ambient",
+          "beat_count": 27,
+          "drop_count": 0,
+          "wav_path": "D:\\AMTCE\\simpler update\\downloads\\manual_DZq0rTeSlpj\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785661125.0628536,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "aspirational",
+          "vibe": "fashion_showcase"
+        },
+        "selected_bgm_track": "Sunny_Leone.mp3",
+        "bgm_selection_reasoning": "Sunny_Leone.mp3 provides an instrumental, medium-energy track that fits the aspirational aesthetic and rhythmic pace required for a fashion lifestyle b-roll clip.",
+        "bgm_alignment_score": 0.95,
+        "_bgm_selected_at": 1785661136.2092571
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785661125.0628536,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785661172.8512855,
+        "editing_intent": "Create a high-energy 9:16 fashion showcase reel aligned with the 120 BPM beat grid of Anjali.mp3 using multi-trim rhythm editing.",
+        "creative_rationale": "Adapted RAG patterns for a high-impact fashion showcase. Executed the authoritative RTB beat-snapped shot plan using 8 distinct trim operations followed by a single concat operation to build a dynamic jump-cut rhythm. Applied 9:16 vertical crop scaling and mixed the selected hype BGM track at the end to satisfy duration lock rules.",
+        "strategy_name": "Create a high-energy 9:16 fashion showcase reel aligned with the 120 BPM beat grid of Anjali.mp3 using multi-trim rhythm editing.",
+        "total_steps": 13,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 18.0,
+            "end_time": 20.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 20.0,
+            "end_time": 22.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 16.0,
+            "end_time": 18.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 22.0,
+            "end_time": 24.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 14.0,
+            "end_time": 16.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 8.0,
+            "end_time": 10.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 6.0,
+            "end_time": 8.0
+          },
+          {
+            "operation_type": "concat"
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "crop"
+          },
+          {
+            "operation_type": "bgm_mix",
+            "bgm_path": "D:\\AMTCE\\simpler update\\Original_audio\\active\\Anjali.mp3",
+            "volume": 0.85
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785661172.8512855,
+        "master_reel_path": "D:\\AMTCE\\simpler update\\Processed Shorts\\manual_DZq0rTeSlpj_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 11.38,
+          "audio_duration_before": 11.38,
+          "source_duration": 27.61
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DaK-KJ1kV83": {
+      "clip_id": "manual_DaK-KJ1kV83",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_DaK-KJ1kV83",
+      "schema_version": 3,
+      "created_at": 1785638319.9877381,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785643340.2882516,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "fashion_showcase",
+        "engagement_hook": "Witness the intricate details of this stunning sheer brown gown as the camera slowly reveals the full look.",
+        "detected_entities": [
+          "person:female",
+          "environment:indoor",
+          "clothing:dress",
+          "jewelry:ring",
+          "jewelry:earrings",
+          "clothing:undergarment"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight"
+        ],
+        "recommended_narrative": "fashion_moment",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "risky",
+          "monetization_safe": false
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.35000000000000003,
+              "energy": 0.824
+            },
+            {
+              "time": 0.8,
+              "energy": 0.868
+            },
+            {
+              "time": 1.55,
+              "energy": 0.941
+            },
+            {
+              "time": 2.0500000000000003,
+              "energy": 0.757
+            },
+            {
+              "time": 2.8000000000000003,
+              "energy": 0.873
+            },
+            {
+              "time": 3.25,
+              "energy": 0.897
+            },
+            {
+              "time": 4.0,
+              "energy": 1.0
+            },
+            {
+              "time": 4.5,
+              "energy": 0.726
+            },
+            {
+              "time": 5.25,
+              "energy": 0.814
+            },
+            {
+              "time": 5.7,
+              "energy": 0.892
+            },
+            {
+              "time": 6.45,
+              "energy": 0.969
+            },
+            {
+              "time": 6.95,
+              "energy": 0.75
+            },
+            {
+              "time": 7.65,
+              "energy": 0.898
+            },
+            {
+              "time": 8.15,
+              "energy": 0.826
+            },
+            {
+              "time": 8.9,
+              "energy": 0.971
+            },
+            {
+              "time": 9.4,
+              "energy": 0.74
+            },
+            {
+              "time": 9.850000000000001,
+              "energy": 0.63
+            },
+            {
+              "time": 10.600000000000001,
+              "energy": 0.866
+            },
+            {
+              "time": 11.350000000000001,
+              "energy": 0.967
+            },
+            {
+              "time": 11.850000000000001,
+              "energy": 0.711
+            },
+            {
+              "time": 12.600000000000001,
+              "energy": 0.877
+            },
+            {
+              "time": 13.05,
+              "energy": 0.864
+            },
+            {
+              "time": 13.8,
+              "energy": 0.9
+            },
+            {
+              "time": 14.3,
+              "energy": 0.769
+            },
+            {
+              "time": 15.05,
+              "energy": 0.888
+            },
+            {
+              "time": 15.5,
+              "energy": 0.898
+            },
+            {
+              "time": 16.25,
+              "energy": 0.963
+            },
+            {
+              "time": 16.75,
+              "energy": 0.785
+            },
+            {
+              "time": 17.5,
+              "energy": 0.87
+            },
+            {
+              "time": 17.95,
+              "energy": 0.73
+            }
+          ],
+          "drop_timestamps": [],
+          "avg_energy": 0.849,
+          "vibe": "groove",
+          "beat_count": 30,
+          "drop_count": 0,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_DaK-KJ1kV83\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785643340.2882516,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "aspirational",
+          "vibe": "fashion_showcase"
+        },
+        "selected_bgm_track": "tmppyz1kpw7.mp3",
+        "bgm_selection_reasoning": "This instrumental track with an 'explosive' energy and 'hype' emotion best complements the aspirational fashion moment without overpowering it.",
+        "bgm_alignment_score": 0.92,
+        "_bgm_selected_at": 1785643346.7200801
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785643340.2882516,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785643377.0261643,
+        "editing_intent": "Convert fashion lifestyle video to 9:16 vertical short, aligning visual framing to an aspirational mood and setting the final duration to 15.05s on the audio beat grid.",
+        "creative_rationale": "Adapted the RAG fashion showcase pattern to emphasize the detailed draped dress and jewelry. Applied a 9:16 vertical aspect ratio with a blur pad background for professional framing. Set the single trim operation to 15.05s, matching the audio beat timestamp precisely to ensure optimal rhythmic pacing. Placed all visual modification and duration-changing operations (scale_aspect, trim) before the audio mixing operation (audio_ducking_mix) to strictly adhere to the duration lock rule.",
+        "strategy_name": "Convert fashion lifestyle video to 9:16 vertical short, aligning visual framing to an aspirational mood and setting the final duration to 15.05s on the audio beat grid.",
+        "total_steps": 8,
+        "operations": [
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 15.05
+          },
+          {
+            "operation_type": "audio_ducking_mix",
+            "bgm_volume": 0.8,
+            "original_volume": 0.2
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785643377.0261643,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_DaK-KJ1kV83_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 8.27,
+          "audio_duration_before": 8.27,
+          "source_duration": 18.28
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DbSl8f6Dvvc": {
+      "clip_id": "manual_DbSl8f6Dvvc",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbSl8f6Dvvc",
+      "schema_version": 3,
+      "created_at": 1785635716.8671842,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785644091.939309,
+        "intent": "talking_head",
+        "tone": "calm_ambient",
+        "editing_style": "vlog",
+        "engagement_hook": "Woman describes her search for top wellness retreats at a scenic location.",
+        "detected_entities": [
+          "person:female",
+          "environment:indoor",
+          "environment:outdoor",
+          "nature:resort"
+        ],
+        "possible_narratives": [
+          "commentary_talk",
+          "scenic_journey"
+        ],
+        "recommended_narrative": "commentary_talk",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": true
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "on_camera_dialogue",
+          "is_talking_visually": true,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": true,
+          "recommended_audio_action": "preserve_voice_duck_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 1.0,
+              "energy": 0.355
+            },
+            {
+              "time": 1.6,
+              "energy": 0.434
+            },
+            {
+              "time": 2.0500000000000003,
+              "energy": 0.512
+            },
+            {
+              "time": 2.85,
+              "energy": 0.485
+            },
+            {
+              "time": 3.35,
+              "energy": 0.571
+            },
+            {
+              "time": 3.95,
+              "energy": 0.804
+            },
+            {
+              "time": 4.3500000000000005,
+              "energy": 0.956
+            },
+            {
+              "time": 5.050000000000001,
+              "energy": 0.744
+            },
+            {
+              "time": 5.65,
+              "energy": 0.736
+            },
+            {
+              "time": 6.050000000000001,
+              "energy": 0.635
+            },
+            {
+              "time": 6.8500000000000005,
+              "energy": 0.387
+            },
+            {
+              "time": 7.300000000000001,
+              "energy": 0.464
+            },
+            {
+              "time": 8.05,
+              "energy": 0.929
+            },
+            {
+              "time": 8.55,
+              "energy": 0.697
+            },
+            {
+              "time": 9.05,
+              "energy": 0.669
+            },
+            {
+              "time": 9.700000000000001,
+              "energy": 0.796
+            },
+            {
+              "time": 10.100000000000001,
+              "energy": 0.832
+            },
+            {
+              "time": 11.05,
+              "energy": 0.557
+            },
+            {
+              "time": 11.450000000000001,
+              "energy": 0.718
+            },
+            {
+              "time": 12.0,
+              "energy": 0.559
+            },
+            {
+              "time": 12.55,
+              "energy": 0.545
+            },
+            {
+              "time": 12.950000000000001,
+              "energy": 0.686
+            },
+            {
+              "time": 13.350000000000001,
+              "energy": 0.362
+            },
+            {
+              "time": 14.05,
+              "energy": 0.337
+            },
+            {
+              "time": 14.450000000000001,
+              "energy": 0.614
+            },
+            {
+              "time": 14.850000000000001,
+              "energy": 0.571
+            },
+            {
+              "time": 15.3,
+              "energy": 0.498
+            },
+            {
+              "time": 15.9,
+              "energy": 0.793
+            },
+            {
+              "time": 17.0,
+              "energy": 0.642
+            },
+            {
+              "time": 17.400000000000002,
+              "energy": 0.749
+            },
+            {
+              "time": 18.25,
+              "energy": 0.794
+            },
+            {
+              "time": 19.05,
+              "energy": 0.57
+            },
+            {
+              "time": 19.55,
+              "energy": 0.453
+            },
+            {
+              "time": 19.950000000000003,
+              "energy": 0.562
+            },
+            {
+              "time": 20.650000000000002,
+              "energy": 0.446
+            },
+            {
+              "time": 21.3,
+              "energy": 0.578
+            },
+            {
+              "time": 22.150000000000002,
+              "energy": 0.642
+            },
+            {
+              "time": 22.650000000000002,
+              "energy": 0.786
+            },
+            {
+              "time": 23.400000000000002,
+              "energy": 0.778
+            },
+            {
+              "time": 23.85,
+              "energy": 0.64
+            },
+            {
+              "time": 24.650000000000002,
+              "energy": 0.763
+            },
+            {
+              "time": 25.1,
+              "energy": 0.494
+            },
+            {
+              "time": 25.75,
+              "energy": 0.583
+            },
+            {
+              "time": 26.200000000000003,
+              "energy": 0.481
+            },
+            {
+              "time": 26.900000000000002,
+              "energy": 0.582
+            },
+            {
+              "time": 27.8,
+              "energy": 0.898
+            },
+            {
+              "time": 28.35,
+              "energy": 0.517
+            },
+            {
+              "time": 29.400000000000002,
+              "energy": 0.6
+            },
+            {
+              "time": 29.85,
+              "energy": 0.65
+            },
+            {
+              "time": 30.700000000000003,
+              "energy": 0.642
+            },
+            {
+              "time": 31.35,
+              "energy": 0.777
+            },
+            {
+              "time": 31.8,
+              "energy": 0.67
+            },
+            {
+              "time": 32.25,
+              "energy": 0.708
+            },
+            {
+              "time": 33.300000000000004,
+              "energy": 0.797
+            },
+            {
+              "time": 33.75,
+              "energy": 0.614
+            },
+            {
+              "time": 34.2,
+              "energy": 0.843
+            },
+            {
+              "time": 35.1,
+              "energy": 0.783
+            },
+            {
+              "time": 35.550000000000004,
+              "energy": 0.805
+            },
+            {
+              "time": 36.300000000000004,
+              "energy": 0.809
+            },
+            {
+              "time": 36.75,
+              "energy": 0.746
+            },
+            {
+              "time": 37.550000000000004,
+              "energy": 0.635
+            },
+            {
+              "time": 38.2,
+              "energy": 0.702
+            },
+            {
+              "time": 39.550000000000004,
+              "energy": 0.506
+            },
+            {
+              "time": 40.0,
+              "energy": 0.811
+            },
+            {
+              "time": 40.6,
+              "energy": 0.755
+            },
+            {
+              "time": 41.2,
+              "energy": 0.473
+            },
+            {
+              "time": 41.800000000000004,
+              "energy": 0.688
+            },
+            {
+              "time": 42.900000000000006,
+              "energy": 0.704
+            },
+            {
+              "time": 43.95,
+              "energy": 0.722
+            },
+            {
+              "time": 44.5,
+              "energy": 0.765
+            },
+            {
+              "time": 44.900000000000006,
+              "energy": 0.724
+            },
+            {
+              "time": 45.85,
+              "energy": 0.611
+            },
+            {
+              "time": 46.300000000000004,
+              "energy": 0.536
+            },
+            {
+              "time": 46.75,
+              "energy": 0.421
+            },
+            {
+              "time": 47.150000000000006,
+              "energy": 0.459
+            },
+            {
+              "time": 47.6,
+              "energy": 0.542
+            },
+            {
+              "time": 48.050000000000004,
+              "energy": 0.633
+            },
+            {
+              "time": 48.95,
+              "energy": 0.857
+            },
+            {
+              "time": 49.6,
+              "energy": 0.535
+            },
+            {
+              "time": 50.050000000000004,
+              "energy": 0.776
+            },
+            {
+              "time": 50.5,
+              "energy": 0.831
+            },
+            {
+              "time": 50.95,
+              "energy": 0.934
+            },
+            {
+              "time": 51.95,
+              "energy": 0.788
+            },
+            {
+              "time": 52.75,
+              "energy": 0.819
+            },
+            {
+              "time": 53.35,
+              "energy": 0.7
+            },
+            {
+              "time": 54.050000000000004,
+              "energy": 0.796
+            },
+            {
+              "time": 54.6,
+              "energy": 0.842
+            },
+            {
+              "time": 55.550000000000004,
+              "energy": 0.839
+            },
+            {
+              "time": 56.150000000000006,
+              "energy": 0.632
+            },
+            {
+              "time": 56.7,
+              "energy": 0.493
+            },
+            {
+              "time": 57.2,
+              "energy": 0.65
+            },
+            {
+              "time": 58.400000000000006,
+              "energy": 0.787
+            },
+            {
+              "time": 58.85,
+              "energy": 0.936
+            },
+            {
+              "time": 59.300000000000004,
+              "energy": 0.988
+            },
+            {
+              "time": 59.85,
+              "energy": 0.795
+            },
+            {
+              "time": 60.95,
+              "energy": 0.777
+            },
+            {
+              "time": 61.550000000000004,
+              "energy": 0.769
+            },
+            {
+              "time": 62.0,
+              "energy": 0.763
+            },
+            {
+              "time": 62.85,
+              "energy": 0.801
+            },
+            {
+              "time": 63.300000000000004,
+              "energy": 0.572
+            },
+            {
+              "time": 64.45,
+              "energy": 0.466
+            },
+            {
+              "time": 64.85000000000001,
+              "energy": 0.701
+            },
+            {
+              "time": 65.8,
+              "energy": 0.568
+            },
+            {
+              "time": 66.2,
+              "energy": 0.512
+            },
+            {
+              "time": 66.65,
+              "energy": 0.795
+            },
+            {
+              "time": 67.10000000000001,
+              "energy": 0.666
+            },
+            {
+              "time": 68.2,
+              "energy": 0.647
+            },
+            {
+              "time": 68.60000000000001,
+              "energy": 0.87
+            },
+            {
+              "time": 70.05,
+              "energy": 0.512
+            },
+            {
+              "time": 70.45,
+              "energy": 0.473
+            },
+            {
+              "time": 71.15,
+              "energy": 0.524
+            },
+            {
+              "time": 71.65,
+              "energy": 0.72
+            },
+            {
+              "time": 72.3,
+              "energy": 0.69
+            },
+            {
+              "time": 73.3,
+              "energy": 0.426
+            },
+            {
+              "time": 73.75,
+              "energy": 0.575
+            },
+            {
+              "time": 74.95,
+              "energy": 0.692
+            },
+            {
+              "time": 75.45,
+              "energy": 0.736
+            },
+            {
+              "time": 76.4,
+              "energy": 0.478
+            },
+            {
+              "time": 77.2,
+              "energy": 0.823
+            },
+            {
+              "time": 78.55000000000001,
+              "energy": 0.747
+            },
+            {
+              "time": 79.10000000000001,
+              "energy": 0.944
+            }
+          ],
+          "drop_timestamps": [
+            5.050000000000001,
+            8.05,
+            15.9,
+            20.650000000000002,
+            24.650000000000002,
+            25.75,
+            31.35,
+            33.300000000000004,
+            34.2,
+            35.1,
+            42.900000000000006,
+            43.95,
+            48.95,
+            50.95,
+            51.95,
+            58.400000000000006,
+            60.95,
+            62.85,
+            64.85000000000001,
+            65.8,
+            73.3,
+            74.95,
+            77.2,
+            78.55000000000001
+          ],
+          "avg_energy": 0.666,
+          "vibe": "groove",
+          "beat_count": 121,
+          "drop_count": 24,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbSl8f6Dvvc\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785644091.939309,
+          "has_vocals": true,
+          "speech_mode": "on_camera_dialogue",
+          "recommended_audio_action": "preserve_voice_duck_bgm",
+          "dominant_emotion": "calm_ambient",
+          "vibe": "vlog"
+        },
+        "selected_bgm_track": "tmpu2o03wdc.wav",
+        "bgm_selection_reasoning": "Confirmed the top math pick 'tmpu2o03wdc.wav' as its medium energy and instrumental nature provide an unobtrusive background fit for a calm talking-head commentary.",
+        "bgm_alignment_score": 0.85,
+        "_bgm_selected_at": 1785644097.8608444
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785644091.939309,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785644165.1619682,
+        "editing_intent": "Convert talking head to 9:16 vertical aspirational reel with beat-synced multi-trim rhythm editing and professional audio ducking.",
+        "creative_rationale": "Adapted RAG patterns to align trim points directly with the authoritative RTB beat-snapped shot plan. Applied sequential trims followed by concatenation, a 9:16 blur-pad framing to center the subject, and audio ducking to preserve speech clarity over the BGM.",
+        "strategy_name": "Convert talking head to 9:16 vertical aspirational reel with beat-synced multi-trim rhythm editing and professional audio ducking.",
+        "total_steps": 11,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 3.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 17.54,
+            "end_time": 20.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 44.54,
+            "end_time": 48.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 57.0,
+            "end_time": 60.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 37.0,
+            "end_time": 39.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 41.0,
+            "end_time": 43.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 78.0,
+            "end_time": 81.0
+          },
+          {
+            "operation_type": "concat"
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "audio_ducking_mix",
+            "duck_level": 0.2,
+            "fade_duration": 0.5
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785644165.1619682,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_DbSl8f6Dvvc_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 19.04,
+          "audio_duration_before": 19.03,
+          "source_duration": 81.48
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DbYHboLgkYL": {
+      "clip_id": "manual_DbYHboLgkYL",
+      "clip_folder": "D:\\AMTCE\\simpler update\\downloads\\manual_DbYHboLgkYL",
+      "schema_version": 3,
+      "created_at": 1785663258.613152,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785663258.7489703,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "fashion_showcase",
+        "engagement_hook": "Showcase the striking bright yellow dress and sparkling clutch as the woman turns to face the camera, highlighting the outfit's details.",
+        "detected_entities": [
+          "person:female",
+          "environment:indoor",
+          "apparel:dress",
+          "accessory:clutch"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight"
+        ],
+        "recommended_narrative": "fashion_moment",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.0,
+              "energy": 0.173
+            },
+            {
+              "time": 0.75,
+              "energy": 0.215
+            },
+            {
+              "time": 1.8,
+              "energy": 0.418
+            },
+            {
+              "time": 2.25,
+              "energy": 0.591
+            },
+            {
+              "time": 3.1,
+              "energy": 0.532
+            },
+            {
+              "time": 3.85,
+              "energy": 0.912
+            },
+            {
+              "time": 4.5,
+              "energy": 0.505
+            },
+            {
+              "time": 5.65,
+              "energy": 0.79
+            },
+            {
+              "time": 7.300000000000001,
+              "energy": 0.415
+            },
+            {
+              "time": 7.75,
+              "energy": 0.406
+            },
+            {
+              "time": 8.35,
+              "energy": 0.495
+            },
+            {
+              "time": 8.75,
+              "energy": 0.754
+            },
+            {
+              "time": 9.8,
+              "energy": 0.166
+            },
+            {
+              "time": 11.100000000000001,
+              "energy": 0.439
+            },
+            {
+              "time": 12.05,
+              "energy": 0.734
+            },
+            {
+              "time": 13.200000000000001,
+              "energy": 0.722
+            },
+            {
+              "time": 13.65,
+              "energy": 0.433
+            },
+            {
+              "time": 14.200000000000001,
+              "energy": 0.852
+            },
+            {
+              "time": 14.75,
+              "energy": 0.954
+            }
+          ],
+          "drop_timestamps": [
+            5.65,
+            7.300000000000001,
+            11.100000000000001,
+            12.05,
+            13.200000000000001,
+            14.200000000000001
+          ],
+          "avg_energy": 0.553,
+          "vibe": "cinematic",
+          "beat_count": 19,
+          "drop_count": 6,
+          "wav_path": "D:\\AMTCE\\simpler update\\downloads\\manual_DbYHboLgkYL\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785663258.7499795,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "aspirational",
+          "vibe": "fashion_showcase"
+        },
+        "selected_bgm_track": "Disha_patani_2.mp3",
+        "bgm_selection_reasoning": "The 'joy' emotion of this instrumental track perfectly complements the 'aspirational' tone and positive 'fashion_moment' intent, providing an uplifting and desirable feel.",
+        "bgm_alignment_score": 0.95,
+        "_bgm_selected_at": 1785663275.0633245
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785663258.7499795,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785663352.371546,
+        "editing_intent": "Create a high-energy 9:16 fashion showcase short using multi-trim beat-snapped shot windows synchronized with Disha_patani_2.mp3.",
+        "creative_rationale": "Adapted the fashion_showcase editing style by implementing the provided RTB beat-snapped shot plan to execute dynamic jump-cuts. Trimmed individual segments in sequence, concatenated them, scaled to 9:16 vertical format with blur padding, applied a cinematic zoom, added a stylish fashion caption, and mixed in the energetic background track with audio ducking.",
+        "strategy_name": "Create a high-energy 9:16 fashion showcase short using multi-trim beat-snapped shot windows synchronized with Disha_patani_2.mp3.",
+        "total_steps": 11,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 12.14,
+            "end_time": 14.14
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 9.69,
+            "end_time": 12.14
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 2.0,
+            "end_time": 4.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 7.74,
+            "end_time": 9.74
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 3.79,
+            "end_time": 5.79
+          },
+          {
+            "operation_type": "concat",
+            "input_count": 6
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "bgm_mix",
+            "audio_path": "D:\\AMTCE\\simpler update\\Original_audio\\active\\Disha_patani_2.mp3",
+            "volume": 0.85
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785663352.371546,
+        "master_reel_path": "D:\\AMTCE\\simpler update\\Processed Shorts\\manual_DbYHboLgkYL_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 12.38,
+          "audio_duration_before": 12.38,
+          "source_duration": 15.03
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DbfkWc9pRgu": {
+      "clip_id": "manual_DbfkWc9pRgu",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbfkWc9pRgu",
+      "schema_version": 3,
+      "created_at": 1785643414.2247627,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785644464.4186113,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "fashion_showcase",
+        "engagement_hook": "Catch a glimpse of a Bollywood actress's stylish outfit and confident presence as she moves around a film set.",
+        "detected_entities": [
+          "person:female",
+          "person:male",
+          "vehicle:bus",
+          "environment:outdoor",
+          "environment:indoor"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight"
+        ],
+        "recommended_narrative": "celebrity_highlight",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.8500000000000001,
+              "energy": 0.925
+            },
+            {
+              "time": 1.55,
+              "energy": 0.951
+            },
+            {
+              "time": 3.7,
+              "energy": 1.0
+            },
+            {
+              "time": 4.6000000000000005,
+              "energy": 0.465
+            },
+            {
+              "time": 5.7,
+              "energy": 0.948
+            },
+            {
+              "time": 6.2,
+              "energy": 0.949
+            },
+            {
+              "time": 6.6000000000000005,
+              "energy": 0.943
+            },
+            {
+              "time": 7.300000000000001,
+              "energy": 0.962
+            },
+            {
+              "time": 8.9,
+              "energy": 0.458
+            },
+            {
+              "time": 9.450000000000001,
+              "energy": 0.944
+            },
+            {
+              "time": 11.4,
+              "energy": 0.907
+            },
+            {
+              "time": 11.950000000000001,
+              "energy": 0.929
+            },
+            {
+              "time": 12.350000000000001,
+              "energy": 0.914
+            },
+            {
+              "time": 13.0,
+              "energy": 0.885
+            },
+            {
+              "time": 15.15,
+              "energy": 0.881
+            }
+          ],
+          "drop_timestamps": [
+            9.450000000000001,
+            15.15
+          ],
+          "avg_energy": 0.871,
+          "vibe": "ambient",
+          "beat_count": 15,
+          "drop_count": 2,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbfkWc9pRgu\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785644464.4186113,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "aspirational",
+          "vibe": "fashion_showcase"
+        },
+        "selected_bgm_track": "Disha_patani.mp3",
+        "bgm_selection_reasoning": "The track's filename directly references a celebrity, providing a strong semantic match for a 'celebrity_highlight' narrative, while its 'hype' emotion, 'medium' energy, and instrumental nature perfectly suit an 'aspirational fashion_lifestyle' clip with 'music_broll'.",
+        "bgm_alignment_score": 0.98,
+        "_bgm_selected_at": 1785644481.8065333
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785644464.4186113,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785644517.3498588,
+        "editing_intent": "Master rhythm edit for fashion showcase aligning multi-trim sequence to beat grid timestamps with romantic BGM.",
+        "creative_rationale": "Adapted reference pattern to create a dynamic 9:16 vertical fashion reel. Applied 4 precise beat-snapped trim windows from the RTB shot plan, concatenated them, scaled to vertical with blur-pad framing, and mixed with the 'Kriti_Sanon.mp3' love-themed audio track while ensuring all trim/concat operations precede audio mixing to prevent duration freeze bugs.",
+        "strategy_name": "Master rhythm edit for fashion showcase aligning multi-trim sequence to beat grid timestamps with romantic BGM.",
+        "total_steps": 9,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.667
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 2.667,
+            "end_time": 5.333
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 5.333,
+            "end_time": 8.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 13.333,
+            "end_time": 15.489
+          },
+          {
+            "operation_type": "concat",
+            "input_count": 4
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "bgm_mix",
+            "bgm_path": "D:\\simple_scrapper and _uploader\\Original_audio\\active\\Kriti_Sanon.mp3",
+            "volume": 0.85
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785644517.3498588,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_DbfkWc9pRgu_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 10.1,
+          "audio_duration_before": 10.08,
+          "source_duration": 15.49
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DbfoNeZgbOF": {
+      "clip_id": "manual_DbfoNeZgbOF",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbfoNeZgbOF",
+      "schema_version": 3,
+      "created_at": 1785633143.7986252,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785633330.5334907,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "fashion_showcase",
+        "engagement_hook": "See Mrunal Thakur celebrating her birthday in style with a vibrant beach look.",
+        "detected_entities": [
+          "person:female",
+          "environment:outdoor",
+          "clothing:bikini",
+          "clothing:cover_up",
+          "accessory:sunglasses",
+          "structure:bar"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight",
+          "scenic_journey"
+        ],
+        "recommended_narrative": "celebrity_highlight",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": true,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": []
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.2,
+              "energy": 0.648
+            },
+            {
+              "time": 1.7000000000000002,
+              "energy": 0.676
+            },
+            {
+              "time": 3.6,
+              "energy": 0.919
+            },
+            {
+              "time": 4.25,
+              "energy": 0.859
+            },
+            {
+              "time": 5.15,
+              "energy": 0.92
+            },
+            {
+              "time": 6.3500000000000005,
+              "energy": 0.915
+            }
+          ],
+          "drop_timestamps": [],
+          "avg_energy": 0.823,
+          "vibe": "ambient",
+          "beat_count": 6,
+          "drop_count": 0,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbfoNeZgbOF\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785633330.5334907,
+          "has_vocals": true,
+          "dominant_emotion": "aspirational",
+          "vibe": "fashion_showcase"
+        },
+        "selected_bgm_track": "Disha_patani_2.mp3",
+        "bgm_selection_reasoning": "The current clip's semantic context (intent: 'fashion_lifestyle', tone: 'aspirational', vibe: 'ambient', BPM: 0.0) is an exact match with historical pooled data entries that consistently selected 'Disha_patani_2.mp3'. This strong RAG pattern memory indicates 'Disha_patani_2.mp3' is the optimal choice for this specific context.",
+        "bgm_alignment_score": 0.98,
+        "_bgm_selected_at": 1785633338.3776972
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785633330.5334907,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785633357.33813,
+        "editing_intent": "Convert fashion lifestyle clip into an aspirational 9:16 vertical short, aligning visual framing to Mrunal Thakur's beach resort showcase and matching the 15.0s target duration precisely.",
+        "creative_rationale": "Applied a single-clip edit pipeline by scaling to 9:16 with a blurred background pad for cinematic depth, trimming the duration precisely to 15.0s on a strong beat grid timestamp (15.0s), and adding background music mixing for enhanced engagement.",
+        "strategy_name": "Convert fashion lifestyle clip into an aspirational 9:16 vertical short, aligning visual framing to Mrunal Thakur's beach resort showcase and matching the 15.0s target duration precisely.",
+        "total_steps": 7,
+        "operations": [
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 15.0
+          },
+          {
+            "operation_type": "bgm_mix",
+            "music_volume": 0.5
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785633357.33813,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_DbfoNeZgbOF_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 6.73,
+          "audio_duration_before": 6.71,
+          "source_duration": 6.81
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DbgEz42TFSn": {
+      "clip_id": "manual_DbgEz42TFSn",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbgEz42TFSn",
+      "schema_version": 3,
+      "created_at": 1785632805.7300687,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785632805.7390695,
+        "intent": "meme_viral",
+        "tone": "humorous",
+        "editing_style": "fast_social",
+        "engagement_hook": "The video opens with a male creator's exaggerated, surprised expression, immediately drawing attention to his reaction to the \"IT'S AUGUST 2\" caption on the movie clip below.",
+        "detected_entities": [
+          "person:male",
+          "environment:outdoor",
+          "environment:indoor",
+          "text:caption",
+          "media:movie_clip"
+        ],
+        "possible_narratives": [
+          "humor_reaction",
+          "celebrity_highlight",
+          "commentary_talk"
+        ],
+        "recommended_narrative": "humor_reaction",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": true,
+          "enable_fast_pacing": true,
+          "enable_voiceover": true
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": []
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.1,
+              "energy": 0.541
+            },
+            {
+              "time": 0.5,
+              "energy": 0.584
+            },
+            {
+              "time": 0.9,
+              "energy": 0.492
+            },
+            {
+              "time": 2.5,
+              "energy": 0.707
+            },
+            {
+              "time": 3.0,
+              "energy": 0.552
+            },
+            {
+              "time": 3.85,
+              "energy": 0.454
+            },
+            {
+              "time": 4.3,
+              "energy": 0.461
+            },
+            {
+              "time": 5.050000000000001,
+              "energy": 0.344
+            },
+            {
+              "time": 5.75,
+              "energy": 0.293
+            },
+            {
+              "time": 6.25,
+              "energy": 0.284
+            },
+            {
+              "time": 6.65,
+              "energy": 0.333
+            },
+            {
+              "time": 7.800000000000001,
+              "energy": 0.486
+            },
+            {
+              "time": 8.25,
+              "energy": 0.377
+            },
+            {
+              "time": 9.4,
+              "energy": 0.37
+            },
+            {
+              "time": 9.950000000000001,
+              "energy": 0.397
+            },
+            {
+              "time": 10.600000000000001,
+              "energy": 0.516
+            },
+            {
+              "time": 11.55,
+              "energy": 0.582
+            },
+            {
+              "time": 11.950000000000001,
+              "energy": 0.523
+            },
+            {
+              "time": 12.950000000000001,
+              "energy": 0.514
+            },
+            {
+              "time": 13.450000000000001,
+              "energy": 0.664
+            },
+            {
+              "time": 14.15,
+              "energy": 0.583
+            },
+            {
+              "time": 15.600000000000001,
+              "energy": 0.92
+            },
+            {
+              "time": 16.1,
+              "energy": 0.863
+            },
+            {
+              "time": 17.5,
+              "energy": 0.886
+            },
+            {
+              "time": 18.05,
+              "energy": 0.691
+            },
+            {
+              "time": 19.150000000000002,
+              "energy": 0.728
+            },
+            {
+              "time": 19.700000000000003,
+              "energy": 0.799
+            },
+            {
+              "time": 20.55,
+              "energy": 0.681
+            },
+            {
+              "time": 20.950000000000003,
+              "energy": 0.558
+            },
+            {
+              "time": 21.950000000000003,
+              "energy": 0.492
+            },
+            {
+              "time": 22.55,
+              "energy": 0.619
+            },
+            {
+              "time": 23.05,
+              "energy": 0.354
+            },
+            {
+              "time": 24.35,
+              "energy": 0.707
+            },
+            {
+              "time": 25.0,
+              "energy": 0.642
+            },
+            {
+              "time": 25.400000000000002,
+              "energy": 0.683
+            },
+            {
+              "time": 26.35,
+              "energy": 0.866
+            },
+            {
+              "time": 27.200000000000003,
+              "energy": 0.741
+            },
+            {
+              "time": 28.1,
+              "energy": 0.856
+            },
+            {
+              "time": 28.650000000000002,
+              "energy": 0.698
+            }
+          ],
+          "drop_timestamps": [
+            0.1,
+            2.5,
+            15.600000000000001,
+            24.35,
+            26.35,
+            28.1
+          ],
+          "avg_energy": 0.586,
+          "vibe": "cinematic",
+          "beat_count": 39,
+          "drop_count": 6,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_DbgEz42TFSn\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785632805.7390695,
+          "has_vocals": true,
+          "dominant_emotion": "humorous",
+          "vibe": "fast_social"
+        },
+        "selected_bgm_track": "Guess_who.mp3",
+        "bgm_selection_reasoning": "Selected because the track name 'Guess_who' subtly suggests a playful and intriguing mood, which aligns well with the 'humorous' intent and 'meme_viral' narrative. It is assumed to provide a 'cinematic' backdrop suitable for a 'humor_reaction' without a strong, distracting BPM, given the clip's 0.0 BPM.",
+        "bgm_alignment_score": 0.85,
+        "_bgm_selected_at": 1785632818.0857272
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785632805.7390695,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785632848.158784,
+        "editing_intent": "Convert meme viral video to 9:16 vertical short, matching cinematic mood and aligning cut/trim to beat grid at 15.0s.",
+        "creative_rationale": "Adapted RAG patterns for a fast_social meme reaction video. Scaled aspect ratio to 9:16 with blur_pad to frame the creator and caption properly. Trimmed precisely to 15.0s aligning with the audio beat timestamp, avoiding any multi-trim or unsupported transition operations on a single input file.",
+        "strategy_name": "Convert meme viral video to 9:16 vertical short, matching cinematic mood and aligning cut/trim to beat grid at 15.0s.",
+        "total_steps": 9,
+        "operations": [
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 15.0
+          },
+          {
+            "operation_type": "bgm_mix",
+            "music_volume": 0.5
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785632848.158784,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_DbgEz42TFSn_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 10.0,
+          "audio_duration_before": 9.98,
+          "source_duration": 29.19
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DbhkhDXJN47": {
+      "clip_id": "manual_DbhkhDXJN47",
+      "clip_folder": "D:\\AMTCE\\simpler update\\downloads\\manual_DbhkhDXJN47",
+      "schema_version": 3,
+      "created_at": 1785654983.879473,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785657949.9072006,
+        "intent": "music_performance",
+        "tone": "hype",
+        "editing_style": "fast_social",
+        "engagement_hook": "A dynamic shot of a performer singing with intense energy.",
+        "detected_entities": [
+          "person:female",
+          "environment:stage",
+          "music:microphone"
+        ],
+        "possible_narratives": [
+          "music_showcase"
+        ],
+        "recommended_narrative": "music_showcase",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": false,
+          "enable_speed_ramps": true,
+          "enable_fast_pacing": true,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 1.85,
+              "energy": 0.606
+            },
+            {
+              "time": 3.4000000000000004,
+              "energy": 0.688
+            },
+            {
+              "time": 6.4,
+              "energy": 0.57
+            },
+            {
+              "time": 7.4,
+              "energy": 0.742
+            },
+            {
+              "time": 8.15,
+              "energy": 0.686
+            },
+            {
+              "time": 8.9,
+              "energy": 0.759
+            },
+            {
+              "time": 9.3,
+              "energy": 0.545
+            },
+            {
+              "time": 9.700000000000001,
+              "energy": 0.51
+            },
+            {
+              "time": 10.15,
+              "energy": 0.504
+            },
+            {
+              "time": 10.55,
+              "energy": 0.821
+            },
+            {
+              "time": 11.4,
+              "energy": 0.805
+            },
+            {
+              "time": 11.850000000000001,
+              "energy": 0.661
+            },
+            {
+              "time": 12.55,
+              "energy": 0.901
+            },
+            {
+              "time": 13.05,
+              "energy": 0.661
+            },
+            {
+              "time": 13.700000000000001,
+              "energy": 0.927
+            },
+            {
+              "time": 14.5,
+              "energy": 0.809
+            },
+            {
+              "time": 14.9,
+              "energy": 0.56
+            },
+            {
+              "time": 16.75,
+              "energy": 0.479
+            },
+            {
+              "time": 17.650000000000002,
+              "energy": 0.869
+            },
+            {
+              "time": 18.8,
+              "energy": 0.891
+            },
+            {
+              "time": 19.400000000000002,
+              "energy": 0.591
+            },
+            {
+              "time": 20.0,
+              "energy": 0.74
+            },
+            {
+              "time": 20.8,
+              "energy": 0.842
+            }
+          ],
+          "drop_timestamps": [],
+          "avg_energy": 0.703,
+          "vibe": "cinematic",
+          "beat_count": 23,
+          "drop_count": 0,
+          "wav_path": "D:\\AMTCE\\simpler update\\downloads\\manual_DbhkhDXJN47\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785657949.9072006,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "hype",
+          "vibe": "fast_social"
+        },
+        "selected_bgm_track": "Janhvi_kapoor.mp3",
+        "bgm_selection_reasoning": "This track's 'hype' emotion and medium energy align perfectly with a music performance showcase.",
+        "bgm_alignment_score": 0.95,
+        "_bgm_selected_at": 1785657957.447655
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785657949.9072006,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785658036.8664205,
+        "editing_intent": "Create a high-energy 9:16 music performance vertical reel with beat-snapped jump cuts, adhering strictly to the provided RTB shot plan and audio sync rules.",
+        "creative_rationale": "Following the multi-trim rhythm rule, I created 7 precise trim operations corresponding directly to the RTB beat-snapped shot windows, joined them with a single concat operation, scaled the video to 9:16 vertical format with blur padding, and mixed in the requested hype background track (Ankita_singh.mp3) with proper audio ducking.",
+        "strategy_name": "Create a high-energy 9:16 music performance vertical reel with beat-snapped jump cuts, adhering strictly to the provided RTB shot plan and audio sync rules.",
+        "total_steps": 12,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 12.0,
+            "end_time": 14.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 18.0,
+            "end_time": 20.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 10.0,
+            "end_time": 12.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 2.0,
+            "end_time": 4.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 4.0,
+            "end_time": 6.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 6.0,
+            "end_time": 8.0
+          },
+          {
+            "operation_type": "concat"
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "bgm_mix",
+            "bgm_path": "Ankita_singh.mp3",
+            "volume": 0.85,
+            "ducking_db": -6.0
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785658036.8664205,
+        "master_reel_path": "D:\\AMTCE\\simpler update\\Processed Shorts\\manual_DbhkhDXJN47_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 14.0,
+          "audio_duration_before": 13.98,
+          "source_duration": 21.02
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_manual_1785614074": {
+      "clip_id": "manual_manual_1785614074",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\manual_manual_1785614074",
+      "schema_version": 3,
+      "created_at": 1785624910.0997741,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785628082.733934,
+        "intent": "kids_animation",
+        "tone": "playful",
+        "editing_style": "playful_animation",
+        "engagement_hook": "Watch this fluffy character's whimsical encounter with a giant butterfly!",
+        "detected_entities": [
+          "animation:character",
+          "environment:outdoor",
+          "animal:butterfly"
+        ],
+        "possible_narratives": [
+          "playful_story",
+          "music_showcase"
+        ],
+        "recommended_narrative": "playful_story",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": true,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": []
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 1.1500000000000001,
+              "energy": 0.147
+            },
+            {
+              "time": 5.45,
+              "energy": 0.135
+            },
+            {
+              "time": 7.1000000000000005,
+              "energy": 0.148
+            }
+          ],
+          "drop_timestamps": [],
+          "avg_energy": 0.143,
+          "vibe": "hype",
+          "beat_count": 3,
+          "drop_count": 0,
+          "wav_path": "D:\\simple_scrapper and _uploader\\downloads\\manual_manual_1785614074\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785628082.733934,
+          "has_vocals": true,
+          "dominant_emotion": "playful",
+          "vibe": "playful_animation"
+        },
+        "selected_bgm_track": "Fit_girl_2.mp3",
+        "bgm_selection_reasoning": "Selected 'Fit_girl_2.mp3' due to a strong match with historical data (Clip 'manual_manual_1785614074') which had identical 'intent' ('unknown'), 'Clip Audio Math BPM' (0.0), and 'Clip Audio Vibe' ('hype'). The track's implied theme also aligns well with an 'aspirational' tone.",
+        "bgm_alignment_score": 0.98,
+        "_bgm_selected_at": 1785625047.037119
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785628082.733934,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785625061.0639184,
+        "editing_intent": "Convert to 9:16 vertical reel, aligning cuts to audio beats and visual energy for an aspirational and cinematic tone. Target duration 15.0s.",
+        "creative_rationale": "The RAG examples provided a general mood board for aspirational and cinematic content. However, this specific video's context, with its 'aspirational' visual tone, 'cinematic' editing style, and 'rhythm_driven' route, requires a more nuanced approach. The audio beat grid (0.55, 1.2, 1.9, 2.3, 2.75, 3.9, 5.0, 5.4, 5.85, 6.55, 7.25, 7.7, 8.4, 8.8, 9.55, 9.95) offers precise points for cuts. The 'visual_vectors' suggest a hook zone ending at 5.0s and a climax zone starting at 5.0s. The 'audio_data' indicates a 'hype' vibe and a 'cinematic' mood. I've prioritized aligning cuts to the beats that fall within the hook and climax zones, and also to the 'emotional_peak_moments' from the lyric context (4.55s, 8.0s). The 'shot_directives' for 'face_closeup' at 4.45s and 8.0s are also considered. Given the single input clip and the instruction to avoid 'transition' or 'xfade' operations, I will use 'trim' and 'speed_ramp' to create dynamic pacing. The target duration is 15.0s, so the trim will encompass the most impactful segment of the source clip. The 'delogo_blur' is included as a standard safety measure if a logo is present, though not explicitly mentioned in the input.",
+        "strategy_name": "Convert to 9:16 vertical reel, aligning cuts to audio beats and visual energy for an aspirational and cinematic tone. Target duration 15.0s.",
+        "total_steps": 8,
+        "operations": [
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "crop"
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 15.0
+          },
+          {
+            "operation_type": "speed_ramp",
+            "points": [
+              {
+                "time": 0.0,
+                "speed": 1.0
+              },
+              {
+                "time": 4.55,
+                "speed": 1.2
+              },
+              {
+                "time": 8.0,
+                "speed": 0.8
+              },
+              {
+                "time": 15.0,
+                "speed": 1.0
+              }
+            ]
+          },
+          {
+            "operation_type": "bgm_mix",
+            "music_volume": 0.5
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785625061.0639184,
+        "master_reel_path": "D:\\simple_scrapper and _uploader\\Processed Shorts\\manual_manual_1785614074_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 5.0,
+          "audio_duration_before": 4.99,
+          "source_duration": 10.03
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "reedit_test_clip": {
+      "clip_id": "reedit_test_clip",
+      "clip_folder": "",
+      "schema_version": 3,
+      "created_at": 1785637015.2607143,
+      "phase1": {},
+      "visual_context": {
+        "_source": "pending",
+        "_description": "Gemini Call 1 visual semantic context"
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": null
+        },
+        "context": {
+          "_source": "pending_gemini_call_1",
+          "_filled_at": null
+        },
+        "selected_bgm_track": "Aisha.mp3",
+        "bgm_selection_reasoning": "Smart Mathematical & Semantic Audio Match (score=0.70).",
+        "bgm_alignment_score": 0.7,
+        "_bgm_selected_at": 1785637023.493863
+      },
+      "visual_vectors": {
+        "_source": "pending_gemini_call_1",
+        "targeted_timestamps_sec": []
+      },
+      "editing_plan": {
+        "_source": "pending_gemini_call_3"
+      },
+      "output": {
+        "render_success": false
+      }
+    },
+    "test_audit_clip": {
+      "clip_id": "test_audit_clip",
+      "clip_folder": "",
+      "schema_version": 3,
+      "created_at": 1785637684.6608245,
+      "phase1": {},
+      "visual_context": {
+        "_source": "pending",
+        "_description": "Gemini Call 1 visual semantic context"
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": null
+        },
+        "context": {
+          "_source": "pending_gemini_call_1",
+          "_filled_at": null
+        },
+        "selected_bgm_track": "Akanksha_puri.mp3",
+        "bgm_selection_reasoning": "Smart Mathematical & Semantic Audio Match (score=0.70).",
+        "bgm_alignment_score": 0.7,
+        "_bgm_selected_at": 1785637692.6617014
+      },
+      "visual_vectors": {
+        "_source": "pending_gemini_call_1",
+        "targeted_timestamps_sec": []
+      },
+      "editing_plan": {
+        "_source": "pending_gemini_call_3"
+      },
+      "output": {
+        "render_success": false
+      }
+    },
+    "test_clip_001": {
+      "clip_id": "test_clip_001",
+      "clip_folder": "D:\\simple_scrapper and _uploader\\downloads\\test_clip_001",
+      "schema_version": 3,
+      "created_at": 1785622335.8051732,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785622335.8051732,
+        "intent": "viral_dance",
+        "tone": "hype"
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 120.0,
+          "beats": [
+            0.5,
+            1.0
+          ],
+          "drops": [
+            5.0
+          ]
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785622335.8051732,
+          "dominant_emotion": "hype",
+          "has_vocals": true
+        },
+        "selected_bgm_track": "Ankita_singh.mp3",
+        "bgm_selection_reasoning": "Great hype match",
+        "bgm_alignment_score": 0.95,
+        "_bgm_selected_at": 1785622335.8051732
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785622335.8051732,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.5,
+          5.0
+        ]
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785622335.8051732,
+        "strategy_name": "fast_cuts",
+        "total_steps": 2
+      },
+      "output": {
+        "render_success": false
+      }
+    },
+    "test_clip_bgm": {
+      "clip_id": "test_clip_bgm",
+      "clip_folder": "",
+      "schema_version": 3,
+      "created_at": 1785636318.3384724,
+      "phase1": {},
+      "visual_context": {
+        "_source": "pending",
+        "_description": "Gemini Call 1 visual semantic context"
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": null
+        },
+        "context": {
+          "_source": "pending_gemini_call_1",
+          "_filled_at": null
+        },
+        "selected_bgm_track": "Aishwarya_Laxmi.mp3",
+        "bgm_selection_reasoning": "Smart Mathematical & Semantic Audio Match (score=0.70).",
+        "bgm_alignment_score": 0.7,
+        "_bgm_selected_at": 1785636357.744571
+      },
+      "visual_vectors": {
+        "_source": "pending_gemini_call_1",
+        "targeted_timestamps_sec": []
+      },
+      "editing_plan": {
+        "_source": "pending_gemini_call_3"
+      },
+      "output": {
+        "render_success": false
+      }
+    }
+  }
+}

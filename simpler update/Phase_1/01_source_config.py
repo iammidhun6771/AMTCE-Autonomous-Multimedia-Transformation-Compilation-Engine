@@ -1,0 +1,68 @@
+"""
+01_source_config.py — Phase 1 Step 1: Target Source Account & Channel Resolver
+================================================================================
+Resolves target celebrity/actress/paparazzi account handles from:
+  - Explicit function arguments
+  - Content_Scraper_Modules/source_accounts.json
+  - Fallback default pools
+"""
+
+import os
+import sys
+import json
+import logging
+from typing import List, Dict, Any, Optional, Callable
+
+logger = logging.getLogger("Phase1.Step01")
+
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ACCOUNTS_JSON = os.path.join(_REPO_ROOT, "Content_Scraper_Modules", "source_accounts.json")
+
+
+def resolve_target_accounts(
+    target_accounts: Optional[List[str]] = None,
+    max_limit: int = 2,
+    callback: Optional[Callable[[str, str, Dict[str, Any]], None]] = None
+) -> Dict[str, Any]:
+    """
+    Step 1 Execution: Resolves target accounts to scrape.
+    """
+    if callback:
+        callback("step_01", "running", {"message": "Resolving target account pool..."})
+
+    resolved_sources: List[str] = []
+
+    if target_accounts and isinstance(target_accounts, list):
+        resolved_sources = [a.strip().lstrip("@") for a in target_accounts if a and a.strip()]
+        logger.info(f"📋 [STEP 01] Received explicit target accounts: {resolved_sources}")
+
+    elif os.path.exists(ACCOUNTS_JSON):
+        try:
+            with open(ACCOUNTS_JSON, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                resolved_sources = data.get("_paparazzi", {}).get("source_accounts", [])
+                logger.info(f"📋 [STEP 01] Loaded accounts from source_accounts.json: {resolved_sources}")
+        except Exception as e:
+            logger.warning(f"⚠️ [STEP 01] Failed to read source_accounts.json: {e}")
+
+    if not resolved_sources:
+        resolved_sources = ["indiancelebspot", "b.town.ind"]
+        logger.info(f"📋 [STEP 01] Using fallback default accounts: {resolved_sources}")
+
+    # Enforce max limit for batch run
+    final_targets = resolved_sources[:max_limit]
+
+    res = {
+        "step": "step_01",
+        "status": "success",
+        "accounts": final_targets,
+        "count": len(final_targets)
+    }
+
+    if callback:
+        callback("step_01", "success", {
+            "message": f"Resolved {len(final_targets)} target account(s): {', '.join(final_targets)}",
+            "accounts": final_targets
+        })
+
+    return res
