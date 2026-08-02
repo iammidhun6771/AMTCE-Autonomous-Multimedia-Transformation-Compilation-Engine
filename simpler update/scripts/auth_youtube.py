@@ -6,6 +6,13 @@ import urllib.request
 import urllib.parse
 import argparse
 
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -375,6 +382,8 @@ def authenticate(client_secret_file=None, token_file=None, admin_id=None):
 
 if __name__ == "__main__":
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if os.path.basename(root_dir) == "simpler update":
+        root_dir = os.path.dirname(root_dir)
     os.chdir(root_dir)
 
     parser = argparse.ArgumentParser(description="AMTCE YouTube Authentication")

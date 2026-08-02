@@ -1113,30 +1113,37 @@ def start_telegram_bot_service():
         )
 
         async def _on_startup(application):
-            admin_id = os.getenv("TELEGRAM_CHAT_ID")
-            if admin_id:
-                try:
-                    keyboard = build_platform_selection_keyboard()
-                    await application.bot.send_message(
-                        chat_id=int(admin_id),
-                        text=(
-                            "🚀 **Master AI Video Factory Bot Active!**\n\n"
-                            "🎯 **Select a platform below to begin bulk scraping & editing**, or send a creator handle / video link:\n"
-                            "• 📸 **Instagram**: `@indiancelebspot`\n"
-                            "• 🔴 **YouTube**: `@ChannelName`\n"
-                            "• 🎵 **TikTok**: `@tiktokuser`\n"
-                            "• 🌐 **Direct URL / File**: Paste link or upload video\n\n"
-                            "👇 **Select your target platform below:**"
-                        ),
-                        reply_markup=keyboard
-                    )
-                    logger.info(f"📲 Automatically pushed Platform Selection Menu to Telegram Chat ID: {admin_id}")
-                except Exception as _st_err:
-                    error_str = str(_st_err)
-                    if "Chat not found" in error_str or "chat not found" in error_str.lower():
-                        logger.warning(f"⚠️ Startup welcome push warning: Admin chat ID {admin_id} not found. Bot may not have access to this chat, or the ID is incorrect.")
-                    else:
-                        logger.warning(f"⚠️ Startup welcome push warning: {_st_err}")
+            try:
+                bot_user = await application.bot.get_me()
+                bot_id = str(bot_user.id)
+                admin_id = os.getenv("TELEGRAM_CHAT_ID") or os.getenv("TELEGRAM_ADMIN_ID")
+                if admin_id and str(admin_id).strip() != bot_id:
+                    try:
+                        keyboard = build_platform_selection_keyboard()
+                        await application.bot.send_message(
+                            chat_id=int(admin_id),
+                            text=(
+                                "🚀 **Master AI Video Factory Bot Active!**\n\n"
+                                "🎯 **Select a platform below to begin bulk scraping & editing**, or send a creator handle / video link:\n"
+                                "• 📸 **Instagram**: `@indiancelebspot`\n"
+                                "• 🔴 **YouTube**: `@ChannelName`\n"
+                                "• 🎵 **TikTok**: `@tiktokuser`\n"
+                                "• 🌐 **Direct URL / File**: Paste link or upload video\n\n"
+                                "👇 **Select your target platform below:**"
+                            ),
+                            reply_markup=keyboard
+                        )
+                        logger.info(f"📲 Automatically pushed Platform Selection Menu to Telegram Chat ID: {admin_id}")
+                    except Exception as _st_err:
+                        error_str = str(_st_err)
+                        if "can't send messages to the bot" in error_str.lower() or "bot can't initiate" in error_str.lower():
+                            logger.info("ℹ️ Startup push skipped: TELEGRAM_CHAT_ID is set to bot ID or user has not sent /start yet.")
+                        elif "Chat not found" in error_str or "chat not found" in error_str.lower():
+                            logger.warning(f"⚠️ Startup welcome push warning: Admin chat ID {admin_id} not found. Bot may not have access to this chat, or the ID is incorrect.")
+                        else:
+                            logger.warning(f"⚠️ Startup welcome push warning: {_st_err}")
+            except Exception as _init_err:
+                logger.debug(f"Startup check exception: {_init_err}")
 
         app = ApplicationBuilder().token(token).request(request).post_init(_on_startup).build()
         app.add_handler(CommandHandler("start", handle_telegram_start))
@@ -1145,7 +1152,7 @@ def start_telegram_bot_service():
         app.add_handler(MessageHandler(filters.TEXT | filters.VIDEO | filters.Document.ALL, handle_telegram_incoming_msg))
 
         logger.info("✅ Telegram Bot Active & Listening! Platform Selection Menu dispatched to admin chat.")
-        app.run_polling(poll_interval=2.0, drop_pending_updates=True)
+        app.run_polling(poll_interval=2.0, drop_pending_updates=False)
     except KeyboardInterrupt:
         logger.info("\n🛑 [SHUTDOWN] Ctrl+C / KeyboardInterrupt received. Telegram Bot stopped gracefully.")
         sys.exit(0)
