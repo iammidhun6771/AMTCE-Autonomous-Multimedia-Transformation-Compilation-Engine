@@ -1080,6 +1080,8 @@ class GeminiFFmpegEngine:
                             op["operation_type"] = "scale_aspect"
                         elif op_str in ("cut", "clip"):
                             op["operation_type"] = "trim"
+                        elif op_str in ("fashion_caption", "caption", "text_overlay", "subtitles", "subtitle", "title_caption", "custom_caption", "overlay_text") or op_str.endswith("_caption") or op_str.endswith("_subtitles"):
+                            op["operation_type"] = "subtitle_burnin"
 
                     mode = op.get("mode")
                     if mode:
@@ -1283,8 +1285,12 @@ class GeminiFFmpegEngine:
                     logger.warning("Audio mix requested by Gemini but external BGM track not found. Skipping audio mix step.")
                     continue
             elif op_type == "subtitle_burnin":
+                sub_file = op.get("subtitle_file") or extra_inputs.get("subtitle", "subtitles.ass")
+                if not sub_file or not os.path.exists(sub_file):
+                    logger.warning(f"Subtitle burn-in requested ('{op_type}') but subtitle file '{sub_file}' not found on disk. Skipping step.")
+                    continue
                 res = self.cmd_generator.build_subtitle_burnin_command(current_input,
-                    op.get("subtitle_file") or extra_inputs.get("subtitle", "subtitles.ass"), step_output,
+                    sub_file, step_output,
                     encoding_cfg=encoding_cfg)
                 command_steps.append(res)
             else:

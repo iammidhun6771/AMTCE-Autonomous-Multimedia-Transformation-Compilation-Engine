@@ -890,38 +890,39 @@ def run_master_pipeline(
                             connect_timeout=60.0
                         )
                         bot = Bot(token=bot_token, request=req)
-                        real_cid = os.path.basename(reel_path).replace("_master.mp4", "")
+                        active_reel_path = reel_path
+                        real_cid = os.path.basename(active_reel_path).replace("_master.mp4", "")
                         possible_raw = os.path.join(os.path.dirname(os.path.abspath(__file__)), "downloads", real_cid, "video.mp4")
 
                         # ── PHASE 2.1 WATERMARK GATE (interrupt before Telegram delivery) ──
-                        watermark_output = os.path.splitext(reel_path)[0] + "_wm_cleaned.mp4"
+                        watermark_output = os.path.splitext(active_reel_path)[0] + "_wm_cleaned.mp4"
                         try:
                             from Watermark_and_Inpainting.watermark_main import run_watermark_removal
-                            logger.info(f"🧼 [PHASE 2.1] Running watermark cleanup on rendered master before Telegram delivery: {os.path.basename(reel_path)}")
+                            logger.info(f"🧼 [PHASE 2.1] Running watermark cleanup on rendered master before Telegram delivery: {os.path.basename(active_reel_path)}")
                             cleaned_video_path, watermark_log = run_watermark_removal(
-                                input_path=reel_path,
+                                input_path=active_reel_path,
                                 output_path=watermark_output,
                                 keywords="",
                                 retry_level=0,
                             )
                             if cleaned_video_path and os.path.exists(cleaned_video_path):
-                                reel_path = cleaned_video_path
-                                logger.info(f"✅ [PHASE 2.1] Watermark gate completed. Telegram payload now uses: {os.path.basename(reel_path)}")
+                                active_reel_path = cleaned_video_path
+                                logger.info(f"✅ [PHASE 2.1] Watermark gate completed. Telegram payload now uses: {os.path.basename(active_reel_path)}")
                         except Exception as _wm_err:
                             logger.warning(f"⚠️ [PHASE 2.1] Watermark gate failed, continuing with original render: {_wm_err}")
 
                         sess_id = session_manager.create_session(
-                            video_path=reel_path,
+                            video_path=active_reel_path,
                             clip_id=real_cid,
                             raw_video_path=possible_raw if os.path.exists(possible_raw) else None,
                             requestor_chat_id=requestor_chat_id
                         )
                         keyboard = build_telegram_session_keyboard(session_id=sess_id)
-                        with open(reel_path, "rb") as vf:
+                        with open(active_reel_path, "rb") as vf:
                             sent_msg = await bot.send_video(
                                 chat_id=int(target_chat),
                                 video=vf,
-                                caption=f"🎉 **AI Master Edit Complete!**\n📁 `{os.path.basename(reel_path)}`\n🆔 `Session: {sess_id}`",
+                                caption=f"🎉 **AI Master Edit Complete!**\n📁 `{os.path.basename(active_reel_path)}`\n🆔 `Session: {sess_id}`",
                                 reply_markup=keyboard
                             )
                             if sent_msg:
@@ -930,11 +931,11 @@ def run_master_pipeline(
                         # Storage Group Backup
                         if storage_group and str(target_chat) != str(storage_group):
                             try:
-                                with open(reel_path, "rb") as svf:
+                                with open(active_reel_path, "rb") as svf:
                                     await bot.send_video(
                                         chat_id=int(storage_group),
                                         video=svf,
-                                        caption=f"📦 **[VAULT BACKUP]** Master Reel Backup\n📁 `{os.path.basename(reel_path)}`\n🆔 `Session: {sess_id}`"
+                                        caption=f"📦 **[VAULT BACKUP]** Master Reel Backup\n📁 `{os.path.basename(active_reel_path)}`\n🆔 `Session: {sess_id}`"
                                     )
                             except Exception as _sg_e:
                                 # More specific error handling for chat not found
