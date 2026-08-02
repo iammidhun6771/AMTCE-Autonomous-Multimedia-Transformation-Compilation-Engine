@@ -13,13 +13,12 @@ on:
   workflow_dispatch:
     inputs:
       target_accounts:
-        description: 'Target Instagram handles (comma-separated, max 2)'
+        description: 'Target account handles (comma-separated, max 2)'
         required: false
         default: ''
       platform:
-        description: 'Platform to scrape (instagram, youtube, tiktok)'
-        required: false
-        default: 'instagram'
+        description: 'Platform to scrape'
+        required: true
         type: choice
         options:
           - instagram
