@@ -80,17 +80,17 @@ def publish_to_youtube(video_path: str, title: str, description: str = "", tags:
         return {"status": "failed", "error": str(e)}
 
 
-async def publish_to_instagram(video_path: str, caption: str, niche: Optional[str] = None) -> Dict[str, Any]:
-    """Uploads video reel to Instagram via Meta Graph API."""
-    logger.info("📸 [PUBLISHER 2/4] Uploading to Instagram Reels...")
+async def publish_to_meta(video_path: str, caption: str, niche: Optional[str] = None) -> Dict[str, Any]:
+    """Uploads video reel to Instagram & Facebook via Meta Graph API."""
+    logger.info("📸 [PUBLISHER 2/4] Uploading to Meta (Instagram & Facebook Reels)...")
     try:
         from Publishing_Modules.meta_uploader import AsyncMetaUploader
         token = os.getenv("IG_BUSINESS_TOKEN") or os.getenv("META_PAGE_TOKEN")
         ig_user_id = os.getenv("IG_BUSINESS_ACCOUNT_ID") or os.getenv("IG_BUSINESS_ID") or os.getenv("META_IG_ACCOUNT_ID") or os.getenv("META_PAGE_ID")
 
         if not token or not ig_user_id:
-            logger.warning("⚠️ Instagram Graph API credentials missing (IG_BUSINESS_TOKEN / IG_BUSINESS_ACCOUNT_ID). Skipping Instagram upload.")
-            return {"status": "skipped", "message": "IG_BUSINESS_TOKEN / Account ID missing in .env"}
+            logger.warning("⚠️ Meta Graph API credentials missing. Skipping Meta upload.")
+            return {"instagram": {"status": "skipped", "message": "Credentials missing"}, "facebook": {"status": "skipped", "message": "Credentials missing"}}
 
         uploader = AsyncMetaUploader()
         res = await uploader.upload_to_meta(
@@ -99,20 +99,24 @@ async def publish_to_instagram(video_path: str, caption: str, niche: Optional[st
             upload_type="Reels",
             niche=niche or "General_Fallback"
         )
-        
-        # upload_to_meta returns {"instagram": {...}, "facebook": {...}}
-        ig_result = res.get("instagram", {})
-        if ig_result.get("status") == "success":
-            media_id = ig_result.get("id")
-            link = ig_result.get("link") or (f"https://www.instagram.com/p/{media_id}/" if media_id else "success")
-            logger.info("✅ [INSTAGRAM SUCCESS] Media ID: %s, Link: %s", media_id, link)
-            return {"status": "success", "media_id": media_id, "link": link, "url": link}
-        else:
-            logger.warning("⚠️ Instagram upload failed: %s", ig_result.get("status"))
-            return {"status": "failed", "response": res}
+        return res
     except Exception as e:
-        logger.error("❌ [INSTAGRAM ERROR] %s", e)
-        return {"status": "failed", "error": str(e)}
+        logger.error("❌ [META ERROR] %s", e)
+        return {"instagram": {"status": "failed", "error": str(e)}, "facebook": {"status": "failed", "error": str(e)}}
+
+
+async def publish_to_instagram(video_path: str, caption: str, niche: Optional[str] = None) -> Dict[str, Any]:
+    """Uploads video reel to Instagram via Meta Graph API."""
+    meta_res = await publish_to_meta(video_path, caption, niche)
+    ig_result = meta_res.get("instagram", {})
+    if ig_result.get("status") == "success":
+        media_id = ig_result.get("id")
+        link = ig_result.get("link") or (f"https://www.instagram.com/p/{media_id}/" if media_id else "Uploaded successfully")
+        logger.info("✅ [INSTAGRAM SUCCESS] Media ID: %s, Link: %s", media_id, link)
+        return {"status": "success", "media_id": media_id, "link": link, "url": link}
+    else:
+        logger.warning("⚠️ Instagram upload failed or skipped: %s", ig_result.get("status"))
+        return ig_result
 
 
 async def publish_to_tiktok(video_path: str, title: str, tags: str = "", niche: Optional[str] = None) -> Dict[str, Any]:
@@ -243,13 +247,29 @@ async def run_phase4_publishing_async(
     yt_res = publish_to_youtube(video_path=video_path, title=title, description=description, tags=tags, niche=niche)
     results["platforms"]["youtube"] = yt_res
 
-    # 2. Instagram Reels
+    # 2. Meta (Instagram Reels & Facebook Reels)
     caption_text = f"{title}\n\n{tags}"
     try:
-        ig_res = await publish_to_instagram(video_path=video_path, caption=caption_text, niche=niche)
-        results["platforms"]["instagram"] = ig_res
+        meta_res = await publish_to_meta(video_path=video_path, caption=caption_text, niche=niche)
+        
+        # Instagram
+        ig_result = meta_res.get("instagram", {})
+        if ig_result.get("status") == "success":
+            media_id = ig_result.get("id")
+            link = ig_result.get("link") or (f"https://www.instagram.com/p/{media_id}/" if media_id else "Uploaded successfully")
+            results["platforms"]["instagram"] = {"status": "success", "media_id": media_id, "link": link, "url": link}
+        elif ig_result.get("status") not in ("skipped", None):
+            results["platforms"]["instagram"] = {"status": "failed", "response": ig_result}
+
+        # Facebook
+        fb_result = meta_res.get("facebook", {})
+        if fb_result.get("status") == "success":
+            fb_link = fb_result.get("link") or fb_result.get("url") or "Uploaded successfully"
+            results["platforms"]["facebook"] = {"status": "success", "link": fb_link, "url": fb_link}
+        elif fb_result.get("status") not in ("skipped", "disabled/skipped", None):
+            results["platforms"]["facebook"] = {"status": "failed", "response": fb_result}
     except Exception as e:
-        logger.error("❌ Instagram publish error: %s", e)
+        logger.error("❌ Meta publish error: %s", e)
         results["platforms"]["instagram"] = {"status": "failed", "error": str(e)}
 
     # 3. TikTok Creator (Modular Feature Flag: ENABLE_TIKTOK=yes)
