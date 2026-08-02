@@ -21,6 +21,7 @@ on:
         required: true
         type: choice
         options:
+          - all_available
           - instagram
           - youtube
           - tiktok
@@ -94,8 +95,12 @@ jobs:
 
       - name: Run Scraper Pipeline
         run: |
+          PLATFORM="${{ github.event.inputs.platform }}"
+          if [ "$PLATFORM" == "all_available" ] || [ -z "$PLATFORM" ]; then
+            PLATFORM="instagram"
+          fi
           if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ -n "${{ github.event.inputs.target_accounts }}" ]; then
-            python main.py --mode auto --target-accounts "${{ github.event.inputs.target_accounts }}" --platform "${{ github.event.inputs.platform }}"
+            python main.py --mode auto --target-accounts "${{ github.event.inputs.target_accounts }}" --platform "$PLATFORM"
           else
             python main.py --mode auto
           fi
