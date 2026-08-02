@@ -1238,7 +1238,18 @@ class GeminiFFmpegEngine:
                     encoding_cfg=encoding_cfg)
                 command_steps.append(res)
             elif op_type == "concat":
-                input_clips = op.get("inputs") or extra_inputs.get("shots") or [current_input]
+                raw_inputs = op.get("inputs")
+                if isinstance(raw_inputs, str):
+                    input_clips = [raw_inputs]
+                elif isinstance(raw_inputs, (list, tuple)):
+                    input_clips = raw_inputs
+                else:
+                    shots = extra_inputs.get("shots")
+                    if isinstance(shots, (list, tuple)):
+                        input_clips = shots
+                    else:
+                        input_clips = [current_input]
+
                 valid_clips = [c for c in input_clips if isinstance(c, str) and c]
                 if valid_clips:
                     res = self.cmd_generator.build_concat_command(valid_clips, step_output, encoding_cfg=encoding_cfg)
