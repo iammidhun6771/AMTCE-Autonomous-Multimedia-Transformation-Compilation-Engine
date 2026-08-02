@@ -4,38 +4,33 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Run mode (harvest / publish / both)'
+        description: 'Execution mode (auto = 6h daemon scheduler, manual = targeted run)'
         required: false
-        default: 'both'
+        default: 'auto'
         type: choice
-        options: [harvest, publish, both]
+        options:
+          - auto
+          - manual
+      platform:
+        description: 'Target platform to scrape'
+        required: false
+        default: 'all_available'
+        type: choice
+        options:
+          - all_available
+          - instagram
+          - youtube
+          - tiktok
+      target_accounts:
+        description: 'Target creator handle(s) (comma-separated, e.g. indiancelebspot)'
+        required: false
+        default: ''
+        type: string
       target_url:
         description: 'Source video URL to process (YouTube, TikTok, Instagram, direct link)'
         required: false
         default: ''
         type: string
-      creator_name:
-        description: 'Target creator/channel handle for processing'
-        required: false
-        default: ''
-        type: string
-      niche:
-        description: 'Target niche (Fashion / NSFW / Paparazzi / General)'
-        required: false
-        default: 'General'
-        type: choice
-        options: [General, Fashion, NSFW, Paparazzi]
-      custom_voiceover:
-        description: 'Custom TTS voiceover script (leave blank to use AI-generated)'
-        required: false
-        default: ''
-        type: string
-      review_mode:
-        description: 'Force editorial review gate ON before publishing'
-        required: false
-        default: 'auto'
-        type: choice
-        options: [auto, on, off]
 
   schedule:
     # 4 clean 6-hour windows aligned with Indian peak human attention (UTC crons):
@@ -323,11 +318,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GH_PAT: ${{ secrets.GH_PAT }}
+        DISPATCH_MODE: ${{ github.event.inputs.mode || 'auto' }}
+        DISPATCH_PLATFORM: ${{ github.event.inputs.platform || 'all_available' }}
+        DISPATCH_TARGET_ACCOUNTS: ${{ github.event.inputs.target_accounts || '' }}
         DISPATCH_TARGET_URL: ${{ github.event.inputs.target_url || '' }}
-        DISPATCH_CREATOR_NAME: ${{ github.event.inputs.creator_name || '' }}
-        DISPATCH_NICHE: ${{ github.event.inputs.niche || 'General' }}
-        DISPATCH_VOICEOVER: ${{ github.event.inputs.custom_voiceover || '' }}
-        DISPATCH_REVIEW_MODE: ${{ github.event.inputs.review_mode || 'auto' }}
       run: |
         # ── Scheduled-run fast-exit guard ────────────────────────────────────
         # If this is a cron/schedule trigger AND a valid bot_lock exists in the
@@ -360,7 +354,26 @@ jobs:
         print('🔐 Bot lock written (expires in ~355 min)')
         "
         # ─────────────────────────────────────────────────────────────────────
-        python main.py
+        PLATFORM_TO_USE="$DISPATCH_PLATFORM"
+        if [ "$PLATFORM_TO_USE" = "all_available" ] || [ -z "$PLATFORM_TO_USE" ]; then
+          PLATFORM_TO_USE="instagram"
+        fi
+
+        if [ "$DISPATCH_MODE" = "manual" ] || [ -n "$DISPATCH_TARGET_URL" ] || [ -n "$DISPATCH_TARGET_ACCOUNTS" ]; then
+          if [ -n "$DISPATCH_TARGET_URL" ]; then
+            echo "🎯 Executing manual targeted run for URL: $DISPATCH_TARGET_URL"
+            python main.py --mode manual --url "$DISPATCH_TARGET_URL"
+          elif [ -n "$DISPATCH_TARGET_ACCOUNTS" ]; then
+            echo "🎯 Executing manual targeted run for account(s): $DISPATCH_TARGET_ACCOUNTS (platform: $PLATFORM_TO_USE)"
+            python main.py --mode auto --target-accounts "$DISPATCH_TARGET_ACCOUNTS"
+          else
+            echo "🤖 Executing daemon scheduler mode..."
+            python main.py
+          fi
+        else
+          echo "🤖 Executing daemon scheduler mode..."
+          python main.py
+        fi
 
     # ── 7. Commit State Back to Repo ─────────────────────────────────────────
     # Runs even if the engine step times out or crashes.
