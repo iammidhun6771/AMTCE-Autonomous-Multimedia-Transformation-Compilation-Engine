@@ -209,8 +209,8 @@ jobs:
       - name: Run Scraper (Scheduled - Auto Mode)
         if: steps.params.outputs.mode == 'auto'
         run: |
-          echo "Scheduled run - launching in bot mode with auto scraper"
-          python main.py --bot
+          echo "Scheduled run - launching auto scraper pipeline"
+          python main.py --mode auto
 
       - name: Upload Artifacts (if any)
         if: always()
