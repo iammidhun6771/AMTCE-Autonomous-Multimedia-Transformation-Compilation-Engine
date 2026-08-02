@@ -14,8 +14,8 @@ on:
         required: false
         default: ''
         type: string
-      actress_name:
-        description: 'Target actress name for face/voice replacement'
+      creator_name:
+        description: 'Target creator/channel handle for processing'
         required: false
         default: ''
         type: string
@@ -324,7 +324,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GH_PAT: ${{ secrets.GH_PAT }}
         DISPATCH_TARGET_URL: ${{ github.event.inputs.target_url || '' }}
-        DISPATCH_ACTRESS_NAME: ${{ github.event.inputs.actress_name || '' }}
+        DISPATCH_CREATOR_NAME: ${{ github.event.inputs.creator_name || '' }}
         DISPATCH_NICHE: ${{ github.event.inputs.niche || 'General' }}
         DISPATCH_VOICEOVER: ${{ github.event.inputs.custom_voiceover || '' }}
         DISPATCH_REVIEW_MODE: ${{ github.event.inputs.review_mode || 'auto' }}
