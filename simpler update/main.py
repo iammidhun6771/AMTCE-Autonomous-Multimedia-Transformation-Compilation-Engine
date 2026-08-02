@@ -844,9 +844,9 @@ def run_master_pipeline(
     rendered_master_reels = []
 
     target_clip_dirs = None
-    # Phase 1: Ingestion (ONLY when URL or explicit target_accounts provided)
-    if url or target_accounts:
-        logger.info(f"📥 [PHASE 1] Running Content Ingestion for target: {target_accounts or url} (platform='{platform}')...")
+    # Phase 1: Ingestion (when mode == 'auto', or when URL/target_accounts provided)
+    if mode == "auto" or url or target_accounts:
+        logger.info(f"📥 [PHASE 1] Running Content Ingestion for target: {target_accounts or url or 'auto-pool'} (platform='{platform}')...")
         ingest_res = run_phase1_ingestion(mode=mode, url=url, limit_per_account=3, target_accounts=target_accounts, platform=platform)
         if not ingest_res.get("success") and not input_path:
             logger.warning("⚠️ [MASTER PIPELINE] Ingestion completed with no new clips to process.")
