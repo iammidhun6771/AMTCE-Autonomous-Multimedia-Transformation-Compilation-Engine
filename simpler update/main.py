@@ -1172,8 +1172,8 @@ if __name__ == "__main__":
 
         args = parser.parse_args()
 
-        # Default behavior: If no explicit CLI input/URL/target is provided, launch Telegram Bot Listener!
-        if not args.input and not args.url and not args.target_accounts:
+        # Launch bot if --bot is explicitly passed OR if no input/url/target/mode is specified
+        if args.bot or (not args.input and not args.url and not args.target_accounts and not args.mode):
             start_telegram_bot_service()
         else:
             target_input = args.input or args.url
