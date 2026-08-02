@@ -207,7 +207,7 @@ async def publish_to_telegram(video_path: str, title: str, caption: str = "") ->
                     logger.warning("⚠️ Vault storage group backup warning: %s", sg_e)
 
         msg_id = sent_msg.message_id if sent_msg else None
-        tg_detail = f"Message #{msg_id}" if msg_id else "success"
+        tg_detail = "Uploaded successfully"
         logger.info("✅ [TELEGRAM SUCCESS] Message ID: %s", msg_id)
         return {"status": "success", "message_id": msg_id, "url": tg_detail, "link": tg_detail}
     except Exception as e:
