@@ -1,6 +1,10 @@
 name: AMTCE Scheduled Scraper
 
 on:
+  # Trigger on commit push to main branch
+  push:
+    branches: [ main ]
+
   # Run every 6 hours (UTC)
   schedule:
     - cron: '0 */6 * * *'
