@@ -70,7 +70,8 @@ def publish_to_youtube(video_path: str, title: str, description: str = "", tags:
         )
         if video_id:
             logger.info("✅ [YOUTUBE SUCCESS] Video ID: %s", video_id)
-            return {"status": "success", "video_id": video_id, "url": f"https://youtu.be/{video_id}"}
+            clean_url = video_id if str(video_id).startswith("http") else f"https://youtu.be/{video_id}"
+            return {"status": "success", "video_id": video_id, "url": clean_url}
         else:
             logger.warning("⚠️ YouTube upload completed without returning Video ID.")
             return {"status": "failed", "message": "No video ID returned (possible rate limit or lock)"}
@@ -103,9 +104,9 @@ async def publish_to_instagram(video_path: str, caption: str, niche: Optional[st
         ig_result = res.get("instagram", {})
         if ig_result.get("status") == "success":
             media_id = ig_result.get("id")
-            link = ig_result.get("link", "")
+            link = ig_result.get("link") or (f"https://www.instagram.com/p/{media_id}/" if media_id else "success")
             logger.info("✅ [INSTAGRAM SUCCESS] Media ID: %s, Link: %s", media_id, link)
-            return {"status": "success", "media_id": media_id, "link": link}
+            return {"status": "success", "media_id": media_id, "link": link, "url": link}
         else:
             logger.warning("⚠️ Instagram upload failed: %s", ig_result.get("status"))
             return {"status": "failed", "response": res}
@@ -144,7 +145,7 @@ async def publish_to_telegram(video_path: str, title: str, caption: str = "") ->
         from telegram.request import HTTPXRequest
 
         bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
-        chat_id = os.getenv("TELEGRAM_CHAT_ID") or os.getenv("TELEGRAM_STORAGE_GROUP_ID")
+        chat_id = os.getenv("TELEGRAM_CHAT_ID") or os.getenv("TELEGRAM_STORAGE_GROUP_ID") or os.getenv("TELEGRAM_PUBLIC_GROUP_ID")
         storage_group = os.getenv("TELEGRAM_STORAGE_GROUP_ID")
         public_group = os.getenv("TELEGRAM_PUBLIC_GROUP_ID")
 
@@ -152,17 +153,9 @@ async def publish_to_telegram(video_path: str, title: str, caption: str = "") ->
             logger.warning("⚠️ Telegram Bot Token missing. Skipping Telegram broadcast.")
             return {"status": "skipped", "message": "Bot token missing"}
 
-        # If no primary chat_id, try to use public_group or storage_group as fallback
         if not chat_id:
-            if public_group:
-                chat_id = public_group
-                logger.info("📢 Using TELEGRAM_PUBLIC_GROUP_ID as primary chat since TELEGRAM_CHAT_ID not set")
-            elif storage_group:
-                chat_id = storage_group
-                logger.info("📦 Using TELEGRAM_STORAGE_GROUP_ID as primary chat since TELEGRAM_CHAT_ID not set")
-            else:
-                logger.warning("⚠️ No Telegram Chat ID configured (TELEGRAM_CHAT_ID, TELEGRAM_PUBLIC_GROUP_ID, or TELEGRAM_STORAGE_GROUP_ID). Skipping Telegram broadcast.")
-                return {"status": "skipped", "message": "No chat ID configured"}
+            logger.warning("⚠️ No Telegram Chat ID configured. Skipping Telegram broadcast.")
+            return {"status": "skipped", "message": "No chat ID configured"}
 
         req = HTTPXRequest(connection_pool_size=8, read_timeout=300.0, write_timeout=300.0)
         bot = Bot(token=bot_token, request=req)
@@ -213,8 +206,10 @@ async def publish_to_telegram(video_path: str, title: str, caption: str = "") ->
                 else:
                     logger.warning("⚠️ Vault storage group backup warning: %s", sg_e)
 
-        logger.info("✅ [TELEGRAM SUCCESS] Message ID: %s", sent_msg.message_id if sent_msg else "ok")
-        return {"status": "success", "message_id": sent_msg.message_id if sent_msg else None}
+        msg_id = sent_msg.message_id if sent_msg else None
+        tg_detail = f"Message #{msg_id}" if msg_id else "success"
+        logger.info("✅ [TELEGRAM SUCCESS] Message ID: %s", msg_id)
+        return {"status": "success", "message_id": msg_id, "url": tg_detail, "link": tg_detail}
     except Exception as e:
         logger.error("❌ [TELEGRAM ERROR] %s", e)
         return {"status": "failed", "error": str(e)}
@@ -257,14 +252,15 @@ async def run_phase4_publishing_async(
         logger.error("❌ Instagram publish error: %s", e)
         results["platforms"]["instagram"] = {"status": "failed", "error": str(e)}
 
-    # 3. TikTok Creator (DISABLED)
-    # try:
-    #     tt_res = await publish_to_tiktok(video_path=video_path, title=title, tags=tags, niche=niche)
-    #     results["platforms"]["tiktok"] = tt_res
-    # except Exception as e:
-    #     logger.error("❌ TikTok publish error: %s", e)
-    #     results["platforms"]["tiktok"] = {"status": "failed", "error": str(e)}
-    results["platforms"]["tiktok"] = {"status": "skipped", "message": "TikTok publishing disabled"}
+    # 3. TikTok Creator (Modular Feature Flag: ENABLE_TIKTOK=yes)
+    enable_tiktok = os.getenv("ENABLE_TIKTOK", "no").lower() in ("yes", "true", "1")
+    if enable_tiktok:
+        try:
+            tt_res = await publish_to_tiktok(video_path=video_path, title=title, tags=tags, niche=niche)
+            results["platforms"]["tiktok"] = tt_res
+        except Exception as e:
+            logger.error("❌ TikTok publish error: %s", e)
+            results["platforms"]["tiktok"] = {"status": "failed", "error": str(e)}
 
     # 4. Telegram Channel
     try:
@@ -276,13 +272,14 @@ async def run_phase4_publishing_async(
 
     # Determine overall success
     success_count = sum(1 for p in results["platforms"].values() if p.get("status") == "success")
+    total_active_platforms = len(results["platforms"])
     results["success"] = success_count > 0
     results["published_count"] = success_count
 
     logger.info("==================================================================")
-    logger.info("🎉 [PHASE 4 COMPLETE] Published across %d/3 platforms (TikTok disabled)!", success_count)
+    logger.info("🎉 [PHASE 4 COMPLETE] Published across %d/%d platforms!", success_count, total_active_platforms)
     for p_name, p_data in results["platforms"].items():
-        logger.info("   • %s: %s (%s)", p_name.upper(), p_data.get("status"), p_data.get("message") or p_data.get("url") or "ok")
+        logger.info("   • %s: %s (%s)", p_name.upper(), p_data.get("status"), p_data.get("url") or p_data.get("message") or "ok")
     logger.info("==================================================================")
 
     return results

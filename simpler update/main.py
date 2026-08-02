@@ -348,7 +348,7 @@ async def handle_telegram_callback(update, context):
                 for p_name, p_info in pub_res.get("platforms", {}).items():
                     st = p_info.get("status")
                     icon = "✅" if st == "success" else ("⏸️" if st == "skipped" else "❌")
-                    detail = p_info.get("url") or p_info.get("message") or st
+                    detail = p_info.get("url") or p_info.get("link") or p_info.get("message") or st
                     status_lines.append(f"• {icon} **{p_name.upper()}**: `{detail}`")
 
                 await context.bot.send_message(
@@ -686,7 +686,7 @@ async def handle_telegram_incoming_msg(update, context):
                 for p_name, p_info in pub_res.get("platforms", {}).items():
                     st = p_info.get("status")
                     icon = "✅" if st == "success" else ("⏸️" if st == "skipped" else "❌")
-                    detail = p_info.get("url") or p_info.get("message") or st
+                    detail = p_info.get("url") or p_info.get("link") or p_info.get("message") or st
                     status_lines.append(f"• {icon} **{p_name.upper()}**: `{detail}`")
 
                 await msg.reply_text(
