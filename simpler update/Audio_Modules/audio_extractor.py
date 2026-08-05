@@ -275,14 +275,9 @@ def _ingest_clip_audio_to_pool(stem: str, wav_path: str, analysis: dict):
         with open(index_path, "w", encoding="utf-8") as f:
             json.dump(index_data, f, indent=2, ensure_ascii=False)
 
-        # Update local analysis wav_path to pool location & cleanup temp downloads/ wav
-        analysis["wav_path"] = target_wav
-        if os.path.exists(wav_path) and os.path.abspath(wav_path) != os.path.abspath(target_wav):
-            try:
-                os.remove(wav_path)
-                logger.info("🧹 [CLEANUP] Removed temporary extracted WAV from downloads folder: %s", os.path.basename(wav_path))
-            except Exception:
-                pass
+        # Preserve extracted WAV for Telegram Storage Group Vault upload
+        analysis["wav_path"] = wav_path if os.path.exists(wav_path) else target_wav
+        logger.info("💾 [AUDIO PRESERVED] Extracted WAV preserved in clip dir for Telegram Vault upload: %s", os.path.basename(wav_path))
     except Exception as err:
         logger.warning("⚠️ Pool ingestion warning for '%s': %s", stem, err)
 
