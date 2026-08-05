@@ -63,6 +63,10 @@ def extract_audio(video_path: str, output_path: str) -> bool:
       - ffmpeg exits non-zero
     Captures FFmpeg stderr and logs it on failure so we know exactly what went wrong.
     """
+    if os.path.exists(output_path) and os.path.getsize(output_path) > 1024:
+        logger.info("♻️ [AUDIO] Extracted audio WAV already exists: %s (skipping duplicate FFmpeg)", os.path.basename(output_path))
+        return True
+
     if not _has_audio_stream(video_path):
         logger.info("🔇 No audio stream in '%s' — skipping extraction.", os.path.basename(video_path))
         return False

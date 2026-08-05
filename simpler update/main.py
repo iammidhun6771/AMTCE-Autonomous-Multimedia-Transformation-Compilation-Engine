@@ -88,7 +88,10 @@ from Downloader_Modules.scheduled_scraper_manager import run_scheduled_scraper_b
 from master_ai_editor import MasterAIEditor
 from Publishing_Modules.queue_publisher import PublishQueue
 from Publishing_Modules.telegram_session_manager import session_manager
+from Publishing_Modules.telegram_vault_indexer import TelegramVaultIndexer
 from Core_Modules import MAX_RETRIES
+
+vault_indexer = TelegramVaultIndexer()
 
 
 # ── Platform Selection Keyboard & State ───────────────────────────────────────
@@ -928,17 +931,80 @@ def run_master_pipeline(
                             if sent_msg:
                                 session_manager.update_message_id(sess_id, sent_msg.message_id)
 
-                        # Storage Group Backup
-                        if storage_group and str(target_chat) != str(storage_group):
+                        # Storage Group Backup & Master Vault Index Sync
+                        if storage_group:
                             try:
-                                with open(active_reel_path, "rb") as svf:
-                                    await bot.send_video(
-                                        chat_id=int(storage_group),
-                                        video=svf,
-                                        caption=f"📦 **[VAULT BACKUP]** Master Reel Backup\n📁 `{os.path.basename(active_reel_path)}`\n🆔 `Session: {sess_id}`"
-                                    )
+                                master_file_id = sent_msg.video.file_id if sent_msg and sent_msg.video else None
+                                if str(target_chat) != str(storage_group):
+                                    with open(active_reel_path, "rb") as svf:
+                                        sg_msg = await bot.send_video(
+                                            chat_id=int(storage_group),
+                                            video=svf,
+                                            caption=f"📦 **[VAULT BACKUP]** Master Reel Backup\n📁 `{os.path.basename(active_reel_path)}`\n🆔 `Session: {sess_id}`"
+                                        )
+                                        if sg_msg and sg_msg.video:
+                                            master_file_id = sg_msg.video.file_id
+
+                                # Load clip intelligence and lyric intelligence from disk
+                                clip_intel = {}
+                                lyric_intel = {}
+                                beat_math = {}
+                                base_dir = os.path.dirname(os.path.abspath(__file__))
+                                
+                                intel_file = os.path.join(base_dir, "downloads", real_cid, ".clip_intelligence.json")
+                                if os.path.exists(intel_file):
+                                    try:
+                                        with open(intel_file, "r", encoding="utf-8") as f:
+                                            clip_intel = json.load(f)
+                                    except Exception: pass
+
+                                beats_file = os.path.join(base_dir, "Original_audio", "beats", f"{real_cid}_lyric.json")
+                                if os.path.exists(beats_file):
+                                    try:
+                                        with open(beats_file, "r", encoding="utf-8") as f:
+                                            lyric_intel = json.load(f)
+                                    except Exception: pass
+
+                                audio_analysis_file = os.path.join(base_dir, "downloads", real_cid, "audio_analysis.json")
+                                if os.path.exists(audio_analysis_file):
+                                    try:
+                                        with open(audio_analysis_file, "r", encoding="utf-8") as f:
+                                            beat_math = json.load(f)
+                                    except Exception: pass
+
+                                possible_audio = os.path.join(base_dir, "downloads", real_cid, "video_extracted.wav")
+                                if not os.path.exists(possible_audio):
+                                    clip_dir_path = os.path.join(base_dir, "downloads", real_cid)
+                                    if os.path.exists(clip_dir_path):
+                                        for f_item in os.listdir(clip_dir_path):
+                                            if f_item.endswith(".wav") or f_item.endswith(".mp3") or f_item.endswith(".m4a"):
+                                                possible_audio = os.path.join(clip_dir_path, f_item)
+                                                break
+
+                                social_link = url or f"https://instagram.com/reel/{real_cid}"
+
+                                # 1. Record Column 2 Source Download entry & Upload Raw Source + Audio to Vault
+                                await vault_indexer.record_downloaded_source(
+                                    bot=bot,
+                                    social_url=social_link,
+                                    session_id=sess_id,
+                                    raw_video_path=possible_raw if os.path.exists(possible_raw) else None,
+                                    audio_path=possible_audio if os.path.exists(possible_audio) else None,
+                                    beat_math=beat_math
+                                )
+
+                                # 2. Record Column 1 Master Reel entry with full intel and pin index
+                                await vault_indexer.record_processed_reel(
+                                    bot=bot,
+                                    session_id=sess_id,
+                                    social_url=social_link,
+                                    custom_title=None,
+                                    master_video_path=active_reel_path,
+                                    clip_intel=clip_intel,
+                                    lyric_intel=lyric_intel,
+                                    master_file_id=master_file_id,
+                                )
                             except Exception as _sg_e:
-                                # More specific error handling for chat not found
                                 if "Chat not found" in str(_sg_e) or "chat not found" in str(_sg_e).lower():
                                     logger.warning(f"⚠️ Vault storage group backup skipped: Storage group chat not found. Check TELEGRAM_STORAGE_GROUP_ID in .env")
                                 else:
