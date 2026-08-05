@@ -477,7 +477,51 @@ class HybridWatermarkDetector:
         for i, box in enumerate(detected_boxes):
             x, y, w, h = box['x'], box['y'], box['w'], box['h']
 
+            # --- VALIDATION 0: BRAND WATERMARK PROTECTOR ---
+            # If detected text matches user's BRAND_WATERMARK_TEXT or overlaps recorded
+            # single-pass brand overlay box, IGNORE IT (do not erase intentional brand text).
+            brand_text_env = os.getenv("BRAND_WATERMARK_TEXT", "").strip().lower()
+            box_text = str(box.get("text", "")).strip().lower()
+            box_reason = str(box.get("reason", "")).strip().lower()
+
+            is_brand_match = False
+            if brand_text_env:
+                if (brand_text_env in box_text or
+                    (len(box_text) >= 3 and box_text in brand_text_env) or
+                    brand_text_env in box_reason):
+                    is_brand_match = True
+
+            # Also check sidecar overlay box from single-pass render if present
+            if not is_brand_match:
+                try:
+                    video_dir = os.path.dirname(os.path.abspath(video_path))
+                    sidecar_intel = os.path.join(video_dir, ".clip_intelligence.json")
+                    if os.path.exists(sidecar_intel):
+                        with open(sidecar_intel, "r", encoding="utf-8") as _sf:
+                            _data = json.load(_sf)
+                        _b_info = _data.get("output", {}).get("brand_overlay") or _data.get("editing_plan", {}).get("brand_overlay")
+                        if _b_info and isinstance(_b_info, dict):
+                            bx, by, bw, bh = _b_info.get("x", 0), _b_info.get("y", 0), _b_info.get("w", 100), _b_info.get("h", 50)
+                            # Overlap or center-distance check
+                            ov_x = max(0, min(x + w, bx + bw) - max(x, bx))
+                            ov_y = max(0, min(y + h, by + bh) - max(y, by))
+                            if (ov_x * ov_y) > 0 or abs(y - by) < 150:
+                                is_brand_match = True
+                except Exception:
+                    pass
+
+            # Failsafe: If box is located in bottom-center brand overlay zone (y >= 85% of frame height)
+            if not is_brand_match and brand_text_env and y >= (h_img * 0.82):
+                logger.info(f"🛡️ [BRAND PROTECTOR] Candidate box {i} at y={y} (bottom 18% of frame height) matches intentional brand watermark zone → PROTECTED!")
+                is_brand_match = True
+
+            if is_brand_match:
+                logger.info(f"🛡️ [BRAND PROTECTOR] Candidate box {i} ('{box_text or brand_text_env}') matches intentional brand watermark → PROTECTED! (Skipping inpaint).")
+                continue
+
+
             # --- VALIDATION 1: GEOMETRY ---
+
             if h <= 0: continue
             ar = w / float(h)
             if ar < 0.05 or ar > 20.0:

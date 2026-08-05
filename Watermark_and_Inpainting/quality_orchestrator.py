@@ -81,8 +81,6 @@ class HumanPresenceGuard:
                             self.face_net = cv2.dnn.readNetFromCaffe(proto, model)
                             logger.info("✅ HumanGuard: Loaded DNN Identity Detector (legacy method)")
                             return
-                else:
-                    logger.warning(f"HumanGuard: Could not find DNN model files in any candidate directory")
             
             # If Caffe loader not present/fails but Haar Cascade is loaded:
             if self.cascade_detector is not None:

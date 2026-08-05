@@ -1,0 +1,13 @@
+{
+  "version": 1.0,
+  "updated_at": 0.0,
+  "pinned_message_id": null,
+  "column_1_processed_reels": {
+    "by_session_id": {},
+    "by_social_media_id": {}
+  },
+  "column_2_downloaded_sources": {
+    "by_social_media_id": {},
+    "by_session_id": {}
+  }
+}

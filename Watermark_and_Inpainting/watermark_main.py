@@ -84,6 +84,40 @@ def run_watermark_removal(input_path: str, output_path: str = None, keywords: st
         log("✅ PROCESS COMPLETE: Video was already clean.")
         return output_path, "\n".join(log_lines)
 
+    # Enrich watermarks with OpenCV inpaint mathematical vectors (effective padded ROI & inpaint math)
+    enriched_watermarks = []
+    for box in watermarks:
+        b_copy = dict(box)
+        bx = int(b_copy.get("x", 0))
+        by = int(b_copy.get("y", 0))
+        bw = int(b_copy.get("w", 100))
+        bh = int(b_copy.get("h", 50))
+        pad_x = 12
+        pad_y = 8
+        b_copy["opencv_vectors"] = {
+            "inpaint_radius": 13,
+            "mask_padding_x": pad_x,
+            "mask_padding_y": pad_y,
+            "effective_x": max(0, bx - pad_x),
+            "effective_y": max(0, by - pad_y),
+            "effective_w": bw + 2 * pad_x,
+            "effective_h": bh + 2 * pad_y,
+            "inpaint_method": "Navier_Stokes_EdgeIntegrator",
+            "background_texture": str(b_copy.get("semantic_vectors", {}).get("background_texture", "complex")).lower()
+        }
+        enriched_watermarks.append(b_copy)
+
+    # Save detected watermark coordinates & OpenCV vectors to sidecar file beside output_path for FFmpeg brand overlay alignment
+    try:
+        coords_sidecar = output_path + ".coords.json"
+        with open(coords_sidecar, "w", encoding="utf-8") as f:
+            json.dump({"watermark_boxes": enriched_watermarks, "input_video": input_path}, f)
+        log(f"💾 Saved {len(enriched_watermarks)} watermark box(es) with OpenCV math vectors to sidecar: {os.path.basename(coords_sidecar)}")
+    except Exception as _se:
+        logger.warning(f"⚠️ Failed to save coords sidecar: {_se}")
+
+
+
     # Step 2: Adaptive Refinement
     log("🎨 Step 2: Running Adaptive Refinement Orchestration...")
     result = process_video_with_watermark(

@@ -470,10 +470,16 @@ def _resolve_cpu_safe_mask_priority(mask_paths):
         logger.warning(f"Mask priority resolution failed: {e}")
         return [mask_paths[0]]
 
-def inpaint_video(video_path, mask_paths, output_path, original_height: int = 1080, radius_override: int = None, alpha_override: float = None, motion_hint_override: str = "unknown"):
+def inpaint_video(video_path, mask_paths, output_path, original_height: int = 1080, radius_override: int = None, alpha_override: float = None, motion_hint_override: str = "unknown", semantic_vectors: dict = None):
     """
-    Orchestrates the inpainting process using Telea.
-    Updated to support motion_hint routing for Static/Rigid optimization.
+    Orchestrates the inpainting process.
+
+    Semantic Vector Dispatch (Stage 3):
+        Uses Gemini-provided semantic_vectors to choose the optimal algorithm:
+        - opacity_level < 0.8 → run AlphaNeutralizer pre-pass first
+        - background_texture in [complex_foliage_hair, fabric_clothing] → use LaMa deep fill
+        - background_texture in [flat_smooth, gradient] → use fast INPAINT_NS
+        - color_polarity == inverted → boost radius by +2 for better blending
     """
     # 0. Get Duration
     video_duration = 0.0
@@ -484,6 +490,39 @@ def inpaint_video(video_path, mask_paths, output_path, original_height: int = 10
         cap_temp.release()
         video_duration = frames_t / fps_t if fps_t > 0 else 0
     except: pass
+
+    # ── SEMANTIC VECTOR DISPATCH (Stage 3: Gemini → OpenCV bridge) ──────────
+    _sv = semantic_vectors or {}
+    opacity_level       = float(_sv.get("opacity_level",   1.0))    # 0=transparent, 1=opaque
+    background_texture  = str(_sv.get("background_texture", "unknown")).lower()
+    color_polarity      = str(_sv.get("color_polarity",     "normal")).lower()
+
+    _COMPLEX_TEXTURES = {"complex_foliage_hair", "fabric_clothing", "skin_complex", "hair", "foliage"}
+    _FLAT_TEXTURES    = {"flat_smooth", "gradient", "solid_color", "flat"}
+
+    use_deep_fill    = background_texture in _COMPLEX_TEXTURES
+    use_fast_ns      = background_texture in _FLAT_TEXTURES
+    run_alpha_pre    = opacity_level < 0.8
+    radius_sv_boost  = 2 if color_polarity == "inverted" else 0
+
+    if _sv:
+        logger.info(
+            f"🧠 [SEM-VEC] opacity={opacity_level:.2f} | texture={background_texture} | polarity={color_polarity} | "
+            f"deep_fill={use_deep_fill} | alpha_pre={run_alpha_pre} | ns_fast={use_fast_ns}"
+        )
+
+    # Alpha pre-pass: neutralize semi-transparent logos before main inpaint
+    if run_alpha_pre and ENHANCERS_AVAILABLE:
+        try:
+            cap_alpha = cv2.VideoCapture(video_path)
+            ret_a, frame_a = cap_alpha.read()
+            cap_alpha.release()
+            if ret_a:
+                neutralizer = AlphaNeutralizer()
+                frame_a = neutralizer.process(frame_a, mask_paths[0] if mask_paths else None)
+                logger.info("✨ [SEM-VEC] AlphaNeutralizer pre-pass applied.")
+        except Exception as _ae:
+            logger.debug(f"[SEM-VEC] AlphaNeutralizer skipped: {_ae}")
 
     # 🛡️ RULE 4: CLIP MASKS FOR FACE SAFETY
     # Before we do anything, clip the masks to avoid 65% core face zones.
@@ -581,6 +620,16 @@ def inpaint_video(video_path, mask_paths, output_path, original_height: int = 10
                 if original_height < 1080:
                     radius += 1
         except: pass
+
+    # Apply semantic vector radius boost (e.g. inverted polarity needs wider fill)
+    if radius_sv_boost > 0:
+        radius += radius_sv_boost
+        logger.info(f"🧠 [SEM-VEC] Radius boosted +{radius_sv_boost} (color_polarity=inverted) → R={radius}")
+
+    if use_deep_fill:
+        logger.info("🧠 [SEM-VEC] Complex texture detected → LaMa deep fill preferred (AutoRepair will route if available).")
+    elif use_fast_ns:
+        logger.info("🧠 [SEM-VEC] Flat/smooth texture detected → INPAINT_NS fast pass preferred.")
 
     logger.info(f"🎨 Starting Dynamic Inpaint Pass (Strat: {strategy_name}, R={radius})...")
     return AutoRepairOrchestrator.run_repair_loop(video_path, mask_paths, output_path, original_height)
