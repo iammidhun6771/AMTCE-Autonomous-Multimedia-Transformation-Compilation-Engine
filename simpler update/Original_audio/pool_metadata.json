@@ -1423,8 +1423,8 @@
       "version": 2
     },
     "Edin_rose.mp3": {
-      "usage_count": 3,
-      "last_used": 1785451483.9236119,
+      "usage_count": 4,
+      "last_used": 1785697172.6296654,
       "bpm": 125.0,
       "energy": 0.5,
       "created_at": 1782638838.8912814,
@@ -1724,8 +1724,8 @@
       "version": 2
     },
     "Wr.mp3": {
-      "usage_count": 2,
-      "last_used": 1785642435.4191272,
+      "usage_count": 3,
+      "last_used": 1785697172.4802806,
       "bpm": 52.9,
       "energy": 0.6961538461538462,
       "created_at": 1783918534.436223,
@@ -3310,6 +3310,290 @@
           "video_duration": 8.27,
           "audio_duration_before": 8.27,
           "source_duration": 18.28
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DahNN-DEYHM": {
+      "clip_id": "manual_DahNN-DEYHM",
+      "clip_folder": "D:\\AMTCE\\simpler update\\downloads\\manual_DahNN-DEYHM",
+      "schema_version": 3,
+      "created_at": 1785697165.445709,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785697165.4536586,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "fashion_showcase",
+        "engagement_hook": "A stunning woman in a glamorous gown commands attention on the red carpet.",
+        "detected_entities": [
+          "person:female",
+          "environment:red_carpet",
+          "clothing:dress"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight"
+        ],
+        "recommended_narrative": "fashion_moment",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.05,
+              "energy": 0.606
+            },
+            {
+              "time": 0.5,
+              "energy": 0.505
+            },
+            {
+              "time": 1.6,
+              "energy": 0.475
+            },
+            {
+              "time": 2.6500000000000004,
+              "energy": 0.492
+            },
+            {
+              "time": 4.2,
+              "energy": 0.434
+            },
+            {
+              "time": 4.6000000000000005,
+              "energy": 0.45
+            },
+            {
+              "time": 5.5,
+              "energy": 0.505
+            },
+            {
+              "time": 5.9,
+              "energy": 0.469
+            },
+            {
+              "time": 6.95,
+              "energy": 0.434
+            },
+            {
+              "time": 7.3500000000000005,
+              "energy": 0.396
+            },
+            {
+              "time": 8.35,
+              "energy": 0.438
+            },
+            {
+              "time": 8.85,
+              "energy": 0.633
+            },
+            {
+              "time": 9.25,
+              "energy": 0.778
+            },
+            {
+              "time": 13.200000000000001,
+              "energy": 0.711
+            },
+            {
+              "time": 13.8,
+              "energy": 0.752
+            },
+            {
+              "time": 15.4,
+              "energy": 0.781
+            },
+            {
+              "time": 15.9,
+              "energy": 0.801
+            },
+            {
+              "time": 17.2,
+              "energy": 0.935
+            },
+            {
+              "time": 18.25,
+              "energy": 0.957
+            },
+            {
+              "time": 19.3,
+              "energy": 1.0
+            },
+            {
+              "time": 19.8,
+              "energy": 0.904
+            },
+            {
+              "time": 20.35,
+              "energy": 0.874
+            },
+            {
+              "time": 20.85,
+              "energy": 0.882
+            },
+            {
+              "time": 21.400000000000002,
+              "energy": 0.933
+            },
+            {
+              "time": 22.450000000000003,
+              "energy": 0.925
+            },
+            {
+              "time": 23.5,
+              "energy": 0.863
+            },
+            {
+              "time": 25.05,
+              "energy": 0.993
+            },
+            {
+              "time": 25.55,
+              "energy": 0.918
+            },
+            {
+              "time": 26.6,
+              "energy": 0.868
+            },
+            {
+              "time": 27.150000000000002,
+              "energy": 0.877
+            }
+          ],
+          "drop_timestamps": [
+            0.05,
+            4.2
+          ],
+          "avg_energy": 0.72,
+          "vibe": "cinematic",
+          "beat_count": 30,
+          "drop_count": 2,
+          "wav_path": "D:\\AMTCE\\simpler update\\downloads\\manual_DahNN-DEYHM\\video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1785697165.4536586,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "aspirational",
+          "vibe": "fashion_showcase"
+        },
+        "selected_bgm_track": "Wr.mp3",
+        "bgm_selection_reasoning": "The 'hype' emotion and medium energy of Wr.mp3 align well with an aspirational fashion moment, even though the BPM is lower than other candidates.",
+        "bgm_alignment_score": 0.85,
+        "_bgm_selected_at": 1785697172.424578
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1785697165.4536586,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1785697207.2589607,
+        "editing_intent": "Create a high-energy 9:16 fashion showcase edit synced to beat-snapped windows with professional blur padding, cinematic framing, and background music integration.",
+        "creative_rationale": "Adapted the fashion_showcase style by utilizing multi-trim shot windows from the RTB Beat-Snapped Shot Plan, joining them seamlessly via concat to match the 125 BPM hype energy of 'Edin_rose.mp3'. Applied aspect ratio conversion with blur padding to fit vertical platforms, added a fashion caption banner, and completed the edit with audio ducking and mixing.",
+        "strategy_name": "Create a high-energy 9:16 fashion showcase edit synced to beat-snapped windows with professional blur padding, cinematic framing, and background music integration.",
+        "total_steps": 11,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 20.0,
+            "end_time": 22.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 18.0,
+            "end_time": 20.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 14.0,
+            "end_time": 16.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 12.0,
+            "end_time": 14.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 2.0,
+            "end_time": 4.0
+          },
+          {
+            "operation_type": "concat",
+            "input_count": 6
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "audio_ducking_mix",
+            "bgm_path": "D:\\AMTCE\\simpler update\\Original_audio\\active\\Edin_rose.mp3",
+            "music_volume": 0.85,
+            "bgm_ducking_db": -6.0
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1785697207.2589607,
+        "master_reel_path": "D:\\AMTCE\\simpler update\\Processed Shorts\\manual_DahNN-DEYHM_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 12.0,
+          "audio_duration_before": 11.98,
+          "source_duration": 27.52
         },
         "mode": "EXECUTED"
       }

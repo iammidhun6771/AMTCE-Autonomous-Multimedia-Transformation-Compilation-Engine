@@ -4,18 +4,14 @@
     "file_name": "video.wav",
     "file_path": "D:\\AMTCE\\simpler update\\Original_audio\\active\\video.wav",
     "tempo_bpm": 0.0,
-    "avg_energy": 0.553,
+    "avg_energy": 0.72,
     "vibe": "cinematic",
-    "beat_count": 19,
-    "drop_count": 6,
+    "beat_count": 30,
+    "drop_count": 2,
     "drops": [
-      5.65,
-      7.300000000000001,
-      11.100000000000001,
-      12.05,
-      13.200000000000001,
-      14.200000000000001
+      0.05,
+      4.2
     ],
-    "beat_score": 42.53
+    "beat_score": 43.2
   }
 }
