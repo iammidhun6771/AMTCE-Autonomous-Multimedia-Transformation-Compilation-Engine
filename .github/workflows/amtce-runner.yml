@@ -80,7 +80,7 @@ jobs:
     - name: Set up FFmpeg
       uses: FedericoCarboni/setup-ffmpeg@v3
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
 
     # ── 4. Python Dependencies ────────────────────────────────────────────────
     # No separate PyTorch step needed:
