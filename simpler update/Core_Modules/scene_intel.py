@@ -1,6 +1,6 @@
 """
-Gemini_Modules/scene_intel.py — Scene & Face Intelligence Layer
-===============================================================
+Core_Modules/scene_intel.py — Scene & Face Intelligence Layer
+==============================================================
 Universal Pre-Pipeline Scene Intelligence Layer for AMTCE Phase 2.
 
 Features:

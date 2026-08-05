@@ -320,7 +320,10 @@ class ForensicVideoAnalyzer:
             # ── Pre-Pipeline Scene & Face Intelligence ─────────────────────────
             scene_context = {}
             try:
-                from Gemini_Modules.scene_intel import analyze_scene_pre_pipeline
+                try:
+                    from Core_Modules.scene_intel import analyze_scene_pre_pipeline
+                except ImportError:
+                    from Gemini_Modules.scene_intel import analyze_scene_pre_pipeline
                 scene_context = analyze_scene_pre_pipeline(video_path, creator_name=creator_name)
                 logger.info(
                     f"👤 SceneIntel: faces={scene_context.get('num_detected_faces')} | "

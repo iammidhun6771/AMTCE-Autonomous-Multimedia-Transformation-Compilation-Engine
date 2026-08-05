@@ -115,6 +115,16 @@ class AudioPoolManager:
         files = self.metadata.get("files", self.metadata)
         return files.get(filename)
 
+    def get_track_intelligence(self, audio_name: str) -> Optional[Dict[str, Any]]:
+        """
+        Public API: Returns pre-computed intelligence (BPM, beats, drops, lyrics, sections)
+        from pool_metadata.json for audio_name (e.g. 'Aditi_bhatia.mp3').
+        Returns None if track is not indexed.
+        """
+        with self.lock:
+            filename = os.path.basename(audio_name)
+            return self._get_file_metadata(filename)
+
     def _set_file_metadata(self, filename: str, data: Dict):
         """Helper to set file metadata accounting for schema version."""
         if "files" not in self.metadata:
