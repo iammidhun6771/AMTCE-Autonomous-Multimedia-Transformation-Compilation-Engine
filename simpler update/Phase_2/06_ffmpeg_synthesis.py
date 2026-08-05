@@ -138,11 +138,20 @@ def synthesize_editing_plan(
     )
 
     if user_edit_directive:
-        user_req += (
-            f"\n\n⚡ AGGRESSIVE HUMAN RE-EDIT DIRECTIVE (WORLD-CLASS CORRECTION):\n"
-            f"\"{user_edit_directive}\"\n"
-            f"Apply an aggressive, world-class editor mindset — force precision rhythm alignment and dopamine-spike shot transitions matching the user's directive."
-        )
+        req_upper = user_edit_directive.upper()
+        is_surgical = any(kw in req_upper for kw in ["DON'T CHANGE", "DONT CHANGE", "KEEP", "ONLY", "EXCEPT", "NO CHANGE", "PRESERVE", "SAVE", "WATERMARK", "INPAINT", "DELOGO"])
+        if is_surgical:
+            user_req += (
+                f"\n\n🔒 SURGICAL HUMAN RE-EDIT DIRECTIVE (PRESERVE EXISTING EDITS):\n"
+                f"\"{user_edit_directive}\"\n"
+                f"STRICT INSTRUCTION: The user wants to KEEP existing music, cuts, and timing. DO NOT change BGM or re-cut shots. ONLY apply the requested targeted fix (watermark/delogo/inpaint)."
+            )
+        else:
+            user_req += (
+                f"\n\n⚡ HUMAN RE-EDIT DIRECTIVE:\n"
+                f"\"{user_edit_directive}\"\n"
+                f"Apply world-class editor corrections matching the user's directive."
+            )
 
     extra_inputs = {}
     if micro_shots:

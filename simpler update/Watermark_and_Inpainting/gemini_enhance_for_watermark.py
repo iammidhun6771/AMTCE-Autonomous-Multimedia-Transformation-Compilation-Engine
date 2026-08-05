@@ -259,7 +259,11 @@ If source branding IS found:
       "type": "studio_logo" | "social_handle" | "agency_mark" | "news_overlay" | "cam_stamp" | "text" | "logo" | "repost_tag" | "broadcast_bug",
       "anchoring": "top_left" | "top_right" | "bottom_left" | "bottom_right" | "top_center" | "bottom_center" | "mid_left" | "mid_right" | "center_frame" | "floating",
       "motion": "static" | "dynamic",
-      "text_content": "exact text or logo description visible"
+      "text_content": "exact text or logo description visible",
+      "opacity_level": 0.1 to 1.0,
+      "color_polarity": "white_text_dark_glow" | "dark_text_light_glow" | "translucent_white" | "colored_logo",
+      "background_texture": "flat_smooth" | "gradient" | "complex_foliage_hair" | "fabric_clothing",
+      "motion_trajectory": "static" | "bouncing_vertical" | "sliding_horizontal"
     }}
   ],
   "best_frame": {{
@@ -438,17 +442,21 @@ If no human visible in the video, set coverage = 100 and is_nsfw = false.
             # hallucinations but now actively corrupts the accurate detections by
             # jumping to unrelated gradient clusters. Trust Gemini's coordinates directly.
 
+            vectors = {
+                "opacity_level": float(item.get("opacity_level", 0.5)),
+                "color_polarity": str(item.get("color_polarity", "white_text_dark_glow")),
+                "background_texture": str(item.get("background_texture", "flat_smooth")),
+                "motion_trajectory": str(item.get("motion_trajectory", item.get("motion", "static"))),
+            }
+
             results.append({
                 'x': max(0, x_start), 'y': max(0, y_start),
                 'w': min(use_w-x_start, w_pixel), 'h': min(use_h-y_start, h_pixel),
                 'type': 'HYBRID_CLAMPED',
                 'semantic_type': item.get("type", "unknown"),
                 'semantic_anchor': item.get("anchoring", "unknown"),
-                # motion_hint intentionally NOT set — old module never returned it.
-                # is_moving always resolves to False → generate_static_mask always used.
-                # generate_tracked_mask (template matching) causes wrong-location inpainting
-                # on moving clothing/fabric textures.
-                'semantic_hint': item.get("text_content", "")
+                'semantic_hint': item.get("text_content", ""),
+                'semantic_vectors': vectors,
             })
             logger.info(f"💎 Sub-Pixel Sweep: {item.get('type')} -> x={x_start}, y={y_start}, w={w_pixel}, h={h_pixel}")
 

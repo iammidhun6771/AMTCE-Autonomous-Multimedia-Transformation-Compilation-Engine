@@ -1015,14 +1015,25 @@ class GeminiFFmpegEngine:
         prompt_parts = [
             f"### User Editing Request\n{user_request}\n",
         ]
-        if "RE-EDIT DIRECTIVE" in user_request.upper():
-            prompt_parts.append(
-                "⚡ [HIGH-PRIORITY WORLD-CLASS EDITOR MANDATE]\n"
-                "The human reviewer requested an aggressive re-edit. You MUST:\n"
-                "1. Force razor-sharp, rhythm-driven cuts synchronized to audio beat drops.\n"
-                "2. Maximize visual pacing and dopamine engagement.\n"
-                "3. Strictly resolve the human feedback directive above instead of repeating previous cuts.\n\n"
-            )
+        if "RE-EDIT DIRECTIVE" in user_request.upper() or "RE-EDIT" in user_request.upper():
+            req_upper = user_request.upper()
+            is_surgical = any(kw in req_upper for kw in ["DON'T CHANGE", "DONT CHANGE", "KEEP", "ONLY", "EXCEPT", "NO CHANGE", "PRESERVE", "SAVE", "WATERMARK", "INPAINT", "DELOGO"])
+            if is_surgical:
+                prompt_parts.append(
+                    "🔒 [SURGICAL EDIT MANDATE — PRESERVE EXISTING EDITS]\n"
+                    "The user explicitly requested to PRESERVE existing edits/music.\n"
+                    "1. DO NOT change the background music or audio selection.\n"
+                    "2. DO NOT change existing clip cuts, speed ramps, or video timing.\n"
+                    "3. ONLY apply/adjust the specific requested operation (e.g. delogo_blur / watermark inpainting / position fix).\n"
+                    "4. Maintain all other operational parameters exact as they were.\n\n"
+                )
+            else:
+                prompt_parts.append(
+                    "⚡ [HIGH-PRIORITY RE-EDIT DIRECTIVE]\n"
+                    "The human reviewer requested a re-edit. You MUST:\n"
+                    "1. Strictly resolve the human feedback directive above.\n"
+                    "2. Only modify cuts or music if explicitly requested or needed to satisfy the directive.\n\n"
+                )
         prompt_parts.append(f"### Video Semantic & Motion/Beat Context\n{json.dumps(video_context, indent=2, default=str)}\n")
 
         if forensic_context:
