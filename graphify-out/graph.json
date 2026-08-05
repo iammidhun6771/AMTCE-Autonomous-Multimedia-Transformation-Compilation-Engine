@@ -9,7 +9,7 @@
       "source_file": "D:\\AMTCE\\check_yaml.py",
       "source_location": "L1",
       "id": "d_amtce_check_yaml_py",
-      "community": 28,
+      "community": 27,
       "norm_label": "check_yaml.py"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "D:\\AMTCE\\main.py",
       "source_location": "L1",
       "id": "d_amtce_main_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "main.py"
     },
     {
@@ -44,7 +44,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 2,
       "norm_label": "main.py \u2014 master orchestration & telegram bot entrypoint =======================",
       "id": "main_rationale_1"
     },
@@ -72,7 +72,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\master_ai_editor.py",
       "source_location": "L103",
       "id": "master_ai_editor_masteraieditor",
-      "community": 1,
+      "community": 2,
       "norm_label": "masteraieditor"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\master_ai_editor.py",
       "source_location": "L115",
       "id": "master_ai_editor_masteraieditor_process",
-      "community": 2,
+      "community": 1,
       "norm_label": ".process()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "D:\\AMTCE\\phase2_1_main.py",
       "source_location": "L1",
       "id": "d_amtce_phase2_1_main_py",
-      "community": 22,
+      "community": 3,
       "norm_label": "phase2_1_main.py"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "D:\\AMTCE\\phase2_1_main.py",
       "source_location": "L24",
       "id": "phase2_1_main_run_phase2_1_watermark_gate",
-      "community": 22,
+      "community": 3,
       "norm_label": "run_phase2_1_watermark_gate()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "D:\\AMTCE\\phase2_1_main.py",
       "source_location": "L39",
       "id": "phase2_1_main_main",
-      "community": 22,
+      "community": 3,
       "norm_label": "main()"
     },
     {
@@ -170,7 +170,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\phase2_1_main.py",
       "source_location": "L1",
-      "community": 22,
+      "community": 3,
       "norm_label": "phase2_1_main.py \u2014 phase 2.1 watermark cleanup gate ===========================",
       "id": "phase2_1_main_rationale_1"
     },
@@ -179,7 +179,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\phase2_1_main.py",
       "source_location": "L25",
-      "community": 22,
+      "community": 3,
       "norm_label": "run the watermark cleanup stage and return the final cleaned video path.",
       "id": "phase2_1_main_rationale_25"
     },
@@ -342,7 +342,7 @@
       "source_file": "D:\\AMTCE\\run_transcriber.py",
       "source_location": "L1",
       "id": "d_amtce_run_transcriber_py",
-      "community": 24,
+      "community": 23,
       "norm_label": "run_transcriber.py"
     },
     {
@@ -350,7 +350,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\run_transcriber.py",
       "source_location": "L1",
-      "community": 24,
+      "community": 23,
       "norm_label": "run_transcriber.py \u2014 amtce root transcriber entrypoint =========================",
       "id": "run_transcriber_rationale_1"
     },
@@ -747,7 +747,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_main_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "main.py"
     },
     {
@@ -756,7 +756,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L25",
       "id": "main_instant_sigint_handler",
-      "community": 1,
+      "community": 2,
       "norm_label": "_instant_sigint_handler()"
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L68",
       "id": "main_pollingfilter",
-      "community": 1,
+      "community": 2,
       "norm_label": "pollingfilter"
     },
     {
@@ -774,7 +774,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L69",
       "id": "main_pollingfilter_filter",
-      "community": 1,
+      "community": 2,
       "norm_label": ".filter()"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L102",
       "id": "main_build_reedit_options_keyboard",
-      "community": 1,
+      "community": 2,
       "norm_label": "build_reedit_options_keyboard()"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L124",
       "id": "main_build_best_attempt_comparison_keyboard",
-      "community": 1,
+      "community": 2,
       "norm_label": "build_best_attempt_comparison_keyboard()"
     },
     {
@@ -801,7 +801,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L150",
       "id": "main_build_platform_selection_keyboard",
-      "community": 1,
+      "community": 2,
       "norm_label": "build_platform_selection_keyboard()"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L175",
       "id": "main_build_back_button_keyboard",
-      "community": 1,
+      "community": 2,
       "norm_label": "build_back_button_keyboard()"
     },
     {
@@ -819,7 +819,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L186",
       "id": "main_build_telegram_session_keyboard",
-      "community": 1,
+      "community": 2,
       "norm_label": "build_telegram_session_keyboard()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L214",
       "id": "main_handle_telegram_callback",
-      "community": 1,
+      "community": 2,
       "norm_label": "handle_telegram_callback()"
     },
     {
@@ -837,7 +837,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L492",
       "id": "main_execute_reedit_with_directive",
-      "community": 1,
+      "community": 2,
       "norm_label": "execute_reedit_with_directive()"
     },
     {
@@ -846,7 +846,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L543",
       "id": "main_handle_telegram_start",
-      "community": 1,
+      "community": 2,
       "norm_label": "handle_telegram_start()"
     },
     {
@@ -855,7 +855,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L568",
       "id": "main_cmd_ytcode",
-      "community": 1,
+      "community": 2,
       "norm_label": "cmd_ytcode()"
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L606",
       "id": "main_process_yt_auth_code_input",
-      "community": 1,
+      "community": 2,
       "norm_label": "process_yt_auth_code_input()"
     },
     {
@@ -873,7 +873,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L636",
       "id": "main_handle_telegram_incoming_msg",
-      "community": 1,
+      "community": 2,
       "norm_label": "handle_telegram_incoming_msg()"
     },
     {
@@ -882,7 +882,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L830",
       "id": "main_run_master_pipeline",
-      "community": 1,
+      "community": 2,
       "norm_label": "run_master_pipeline()"
     },
     {
@@ -891,7 +891,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1043",
       "id": "main_parse_scraping_auto_input_times",
-      "community": 1,
+      "community": 2,
       "norm_label": "parse_scraping_auto_input_times()"
     },
     {
@@ -900,7 +900,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1053",
       "id": "main_parse_static_publish_times",
-      "community": 1,
+      "community": 2,
       "norm_label": "parse_static_publish_times()"
     },
     {
@@ -909,7 +909,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1063",
       "id": "main_get_seconds_until_next_slot",
-      "community": 1,
+      "community": 2,
       "norm_label": "get_seconds_until_next_slot()"
     },
     {
@@ -918,7 +918,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1091",
       "id": "main_run_scheduled_pipeline_loop",
-      "community": 1,
+      "community": 2,
       "norm_label": "run_scheduled_pipeline_loop()"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1115",
       "id": "main_async_static_scheduler_task",
-      "community": 1,
+      "community": 2,
       "norm_label": "_async_static_scheduler_task()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1159",
       "id": "main_start_telegram_bot_service",
-      "community": 1,
+      "community": 2,
       "norm_label": "start_telegram_bot_service()"
     },
     {
@@ -944,7 +944,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L103",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds 5-button re-edit feedback menu for aggressive gemini prompt polishing:",
       "id": "main_rationale_103"
     },
@@ -953,7 +953,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L125",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds rating keyboard for selecting best attempt 1 to 5 after max_retries limit",
       "id": "main_rationale_125"
     },
@@ -962,7 +962,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L151",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds interactive platform selector keyboard for bulk scraping:       - [ \ud83d\udcf8 ins",
       "id": "main_rationale_151"
     },
@@ -971,7 +971,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L176",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds a single back/cancel button keyboard.",
       "id": "main_rationale_176"
     },
@@ -980,7 +980,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L187",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds 4-button inline keyboard for telegram master reel review:       - [\u2705 appr",
       "id": "main_rationale_187"
     },
@@ -989,7 +989,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L215",
-      "community": 1,
+      "community": 2,
       "norm_label": "routes telegram inline button clicks:       - platform selection: platform_insta",
       "id": "main_rationale_215"
     },
@@ -998,7 +998,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L493",
-      "community": 1,
+      "community": 2,
       "norm_label": "executes aggressive re-edit with human directive injected into gemini call 3.",
       "id": "main_rationale_493"
     },
@@ -1007,7 +1007,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L544",
-      "community": 1,
+      "community": 2,
       "norm_label": "handles /start command: welcomes user & shows platform selection keyboard.",
       "id": "main_rationale_544"
     },
@@ -1016,7 +1016,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L569",
-      "community": 1,
+      "community": 2,
       "norm_label": "/ytcode          -> triggers youtube auth refresh (sends google sign-in link to",
       "id": "main_rationale_569"
     },
@@ -1025,7 +1025,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L607",
-      "community": 1,
+      "community": 2,
       "norm_label": "processes pasted localhost oauth redirect url or raw code.",
       "id": "main_rationale_607"
     },
@@ -1034,7 +1034,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L637",
-      "community": 1,
+      "community": 2,
       "norm_label": "handles user messages sent to telegram bot:       1. active session title captur",
       "id": "main_rationale_637"
     },
@@ -1043,7 +1043,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L839",
-      "community": 1,
+      "community": 2,
       "norm_label": "executes end-to-end master pipeline across all 4 phases.     supports url inputs",
       "id": "main_rationale_839"
     },
@@ -1052,7 +1052,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1044",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses scraping_auto_input_times from .env (e.g., '07:00,12:00,19:00').     defa",
       "id": "main_rationale_1044"
     },
@@ -1061,7 +1061,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1054",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses publish_static_times from .env (e.g., '07:30,12:30,19:30').     defaults",
       "id": "main_rationale_1054"
     },
@@ -1070,7 +1070,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1064",
-      "community": 1,
+      "community": 2,
       "norm_label": "calculates the next target time slot and seconds remaining until it fires.",
       "id": "main_rationale_1064"
     },
@@ -1079,7 +1079,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1092",
-      "community": 1,
+      "community": 2,
       "norm_label": "blocking cli loop for static time scheduler.     rotates max 2 source accounts a",
       "id": "main_rationale_1092"
     },
@@ -1088,7 +1088,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1116",
-      "community": 1,
+      "community": 2,
       "norm_label": "async background task running alongside telegram bot polling.     rotates max 2",
       "id": "main_rationale_1116"
     },
@@ -1097,7 +1097,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1160",
-      "community": 1,
+      "community": 2,
       "norm_label": "launches continuous telegram bot polling listener.     waits for user input on t",
       "id": "main_rationale_1160"
     },
@@ -1350,7 +1350,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_init_py",
-      "community": 29,
+      "community": 28,
       "norm_label": "__init__.py"
     },
     {
@@ -1359,7 +1359,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_audio_extractor_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "audio_extractor.py"
     },
     {
@@ -1368,7 +1368,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L40",
       "id": "audio_extractor_has_audio_stream",
-      "community": 2,
+      "community": 1,
       "norm_label": "_has_audio_stream()"
     },
     {
@@ -1377,7 +1377,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L58",
       "id": "audio_extractor_extract_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": "extract_audio()"
     },
     {
@@ -1386,7 +1386,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L107",
       "id": "audio_extractor_run_phase1_audio_analysis",
-      "community": 2,
+      "community": 1,
       "norm_label": "run_phase1_audio_analysis()"
     },
     {
@@ -1395,16 +1395,16 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L237",
       "id": "audio_extractor_ingest_clip_audio_to_pool",
-      "community": 2,
+      "community": 1,
       "norm_label": "_ingest_clip_audio_to_pool()"
     },
     {
       "label": "load_audio_analysis()",
       "file_type": "code",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
-      "source_location": "L290",
+      "source_location": "L285",
       "id": "audio_extractor_load_audio_analysis",
-      "community": 2,
+      "community": 1,
       "norm_label": "load_audio_analysis()"
     },
     {
@@ -1412,7 +1412,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 1,
       "norm_label": "audio_extractor.py \u2014 phase 1 audio extraction + beat analysis ==================",
       "id": "audio_extractor_rationale_1"
     },
@@ -1421,7 +1421,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L41",
-      "community": 2,
+      "community": 1,
       "norm_label": "returns true if the file has at least one audio stream (fast ffprobe check).",
       "id": "audio_extractor_rationale_41"
     },
@@ -1430,7 +1430,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L59",
-      "community": 2,
+      "community": 1,
       "norm_label": "extracts mono 16 khz pcm wav from video_path \u2192 output_path.     returns true on",
       "id": "audio_extractor_rationale_59"
     },
@@ -1439,7 +1439,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L108",
-      "community": 2,
+      "community": 1,
       "norm_label": "phase 1 post-download hook. called immediately after video.mp4 is saved.      st",
       "id": "audio_extractor_rationale_108"
     },
@@ -1448,7 +1448,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L238",
-      "community": 2,
+      "community": 1,
       "norm_label": "ingests clean musical audio extracted from a phase 1 clip into the central     o",
       "id": "audio_extractor_rationale_238"
     },
@@ -1456,10 +1456,10 @@
       "label": "Phase 2 helper: loads pre-computed audio_analysis.json from clip_dir.     Return",
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
-      "source_location": "L291",
-      "community": 2,
-      "norm_label": "phase 2 helper: loads pre-computed audio_analysis.json from clip_dir.     return",
-      "id": "audio_extractor_rationale_291"
+      "source_location": "L286",
+      "id": "audio_extractor_rationale_286",
+      "community": 1,
+      "norm_label": "phase 2 helper: loads pre-computed audio_analysis.json from clip_dir.     return"
     },
     {
       "label": "audio_family_pipeline.py",
@@ -1467,7 +1467,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_audio_family_pipeline_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "audio_family_pipeline.py"
     },
     {
@@ -1476,7 +1476,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L70",
       "id": "audio_family_pipeline_empty_packet",
-      "community": 2,
+      "community": 1,
       "norm_label": "_empty_packet()"
     },
     {
@@ -1485,7 +1485,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L167",
       "id": "audio_family_pipeline_audiofamilypipeline",
-      "community": 2,
+      "community": 1,
       "norm_label": "audiofamilypipeline"
     },
     {
@@ -1494,7 +1494,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L188",
       "id": "audio_family_pipeline_audiofamilypipeline_init",
-      "community": 2,
+      "community": 1,
       "norm_label": ".__init__()"
     },
     {
@@ -1503,7 +1503,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L216",
       "id": "audio_family_pipeline_register_with_pipeline",
-      "community": 2,
+      "community": 1,
       "norm_label": "register_with_pipeline()"
     },
     {
@@ -1512,7 +1512,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L247",
       "id": "audio_family_pipeline_audiofamilypipeline_run",
-      "community": 2,
+      "community": 1,
       "norm_label": ".run()"
     },
     {
@@ -1521,7 +1521,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L310",
       "id": "audio_family_pipeline_audiofamilypipeline_stage_extract_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": "._stage_extract_audio()"
     },
     {
@@ -1530,7 +1530,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L337",
       "id": "audio_family_pipeline_audiofamilypipeline_stage_analyze_beats",
-      "community": 2,
+      "community": 1,
       "norm_label": "._stage_analyze_beats()"
     },
     {
@@ -1539,7 +1539,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L385",
       "id": "audio_family_pipeline_audiofamilypipeline_stage_lyric_intelligence",
-      "community": 2,
+      "community": 1,
       "norm_label": "._stage_lyric_intelligence()"
     },
     {
@@ -1548,7 +1548,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L426",
       "id": "audio_family_pipeline_audiofamilypipeline_stage_classify_genre",
-      "community": 2,
+      "community": 1,
       "norm_label": "._stage_classify_genre()"
     },
     {
@@ -1557,7 +1557,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L469",
       "id": "audio_family_pipeline_audiofamilypipeline_stage_pool_select_bgm",
-      "community": 2,
+      "community": 1,
       "norm_label": "._stage_pool_select_bgm()"
     },
     {
@@ -1575,7 +1575,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L583",
       "id": "audio_family_pipeline_audiofamilypipeline_resolve_audio_mode",
-      "community": 2,
+      "community": 1,
       "norm_label": "._resolve_audio_mode()"
     },
     {
@@ -1584,7 +1584,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L619",
       "id": "audio_family_pipeline_audiofamilypipeline_stage_mix_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": "._stage_mix_audio()"
     },
     {
@@ -1593,7 +1593,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L677",
       "id": "audio_family_pipeline_audiofamilypipeline_cleanup_temp_wav",
-      "community": 2,
+      "community": 1,
       "norm_label": "._cleanup_temp_wav()"
     },
     {
@@ -1602,7 +1602,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L684",
       "id": "audio_family_pipeline_audiofamilypipeline_log_summary",
-      "community": 2,
+      "community": 1,
       "norm_label": "._log_summary()"
     },
     {
@@ -1610,7 +1610,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 1,
       "norm_label": "audiofamilypipeline v2.0 \u2014 \"saints with ego\" ===================================",
       "id": "audio_family_pipeline_rationale_1"
     },
@@ -1619,7 +1619,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L168",
-      "community": 2,
+      "community": 1,
       "norm_label": "unified audio & beat synchronization pipeline where every module     shares its",
       "id": "audio_family_pipeline_rationale_168"
     },
@@ -1628,7 +1628,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L217",
-      "community": 2,
+      "community": 1,
       "norm_label": "plug this family into the amtce master orchestration registry.          future a",
       "id": "audio_family_pipeline_rationale_217"
     },
@@ -1637,7 +1637,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L255",
-      "community": 2,
+      "community": 1,
       "norm_label": "run the full intelligence-sharing audio family pipeline.          note: music_vo",
       "id": "audio_family_pipeline_rationale_255"
     },
@@ -1646,7 +1646,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L311",
-      "community": 2,
+      "community": 1,
       "norm_label": "extract mono 16khz wav from the source video.",
       "id": "audio_family_pipeline_rationale_311"
     },
@@ -1655,7 +1655,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L338",
-      "community": 2,
+      "community": 1,
       "norm_label": "analyze beats on the bgm (preferred) or extracted wav (fallback).          what",
       "id": "audio_family_pipeline_rationale_338"
     },
@@ -1664,7 +1664,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L386",
-      "community": 2,
+      "community": 1,
       "norm_label": "single gemini call for full music intelligence.          what this feeds downstr",
       "id": "audio_family_pipeline_rationale_386"
     },
@@ -1673,7 +1673,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L427",
-      "community": 2,
+      "community": 1,
       "norm_label": "classify bgm genre and derive the music volume for the final mix.          what",
       "id": "audio_family_pipeline_rationale_427"
     },
@@ -1682,7 +1682,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L470",
-      "community": 2,
+      "community": 1,
       "norm_label": "select the best bgm from the active pool using intelligence from stages 2 & 3.",
       "id": "audio_family_pipeline_rationale_470"
     },
@@ -1700,7 +1700,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L584",
-      "community": 2,
+      "community": 1,
       "norm_label": "context-aware audio routing (collapse prevention).          determines whether t",
       "id": "audio_family_pipeline_rationale_584"
     },
@@ -1709,7 +1709,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L620",
-      "community": 2,
+      "community": 1,
       "norm_label": "final audio mix. every parameter comes from upstream stage outputs \u2014 nothing",
       "id": "audio_family_pipeline_rationale_620"
     },
@@ -1718,7 +1718,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_family_pipeline.py",
       "source_location": "L678",
-      "community": 2,
+      "community": 1,
       "norm_label": "remove temp wav file created by audio_extractor.",
       "id": "audio_family_pipeline_rationale_678"
     },
@@ -1728,7 +1728,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pipeline.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_audio_pipeline_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "audio_pipeline.py"
     },
     {
@@ -1737,7 +1737,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pipeline.py",
       "source_location": "L12",
       "id": "audio_pipeline_mix_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": "mix_audio()"
     },
     {
@@ -1745,7 +1745,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pipeline.py",
       "source_location": "L23",
-      "community": 2,
+      "community": 1,
       "norm_label": "mixes voiceover + background music + original audio using context-aware audio ro",
       "id": "audio_pipeline_rationale_23"
     },
@@ -1755,7 +1755,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_audio_pool_manager_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "audio_pool_manager.py"
     },
     {
@@ -1764,7 +1764,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L20",
       "id": "audio_pool_manager_is_pipeline_artifact",
-      "community": 2,
+      "community": 1,
       "norm_label": "_is_pipeline_artifact()"
     },
     {
@@ -1773,7 +1773,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L26",
       "id": "audio_pool_manager_audiopoolmanager",
-      "community": 2,
+      "community": 1,
       "norm_label": "audiopoolmanager"
     },
     {
@@ -1782,7 +1782,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L34",
       "id": "audio_pool_manager_audiopoolmanager_init",
-      "community": 2,
+      "community": 1,
       "norm_label": ".__init__()"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L62",
       "id": "audio_pool_manager_audiopoolmanager_load_metadata",
-      "community": 2,
+      "community": 1,
       "norm_label": "._load_metadata()"
     },
     {
@@ -1800,7 +1800,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L73",
       "id": "audio_pool_manager_audiopoolmanager_save_metadata",
-      "community": 2,
+      "community": 1,
       "norm_label": "._save_metadata()"
     },
     {
@@ -1809,7 +1809,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L91",
       "id": "audio_pool_manager_audiopoolmanager_calculate_hash",
-      "community": 2,
+      "community": 1,
       "norm_label": "._calculate_hash()"
     },
     {
@@ -1818,7 +1818,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L99",
       "id": "audio_pool_manager_audiopoolmanager_safe_save_npz",
-      "community": 2,
+      "community": 1,
       "norm_label": "._safe_save_npz()"
     },
     {
@@ -1827,7 +1827,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L113",
       "id": "audio_pool_manager_audiopoolmanager_get_file_metadata",
-      "community": 2,
+      "community": 1,
       "norm_label": "._get_file_metadata()"
     },
     {
@@ -1836,7 +1836,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L118",
       "id": "audio_pool_manager_audiopoolmanager_get_track_intelligence",
-      "community": 2,
+      "community": 1,
       "norm_label": ".get_track_intelligence()"
     },
     {
@@ -1845,7 +1845,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L128",
       "id": "audio_pool_manager_audiopoolmanager_set_file_metadata",
-      "community": 2,
+      "community": 1,
       "norm_label": "._set_file_metadata()"
     },
     {
@@ -1854,7 +1854,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L134",
       "id": "audio_pool_manager_audiopoolmanager_sync_root_to_active",
-      "community": 2,
+      "community": 1,
       "norm_label": "._sync_root_to_active()"
     },
     {
@@ -1863,7 +1863,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L215",
       "id": "audio_pool_manager_audiopoolmanager_sync_active_to_metadata",
-      "community": 2,
+      "community": 1,
       "norm_label": "._sync_active_to_metadata()"
     },
     {
@@ -1872,7 +1872,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L254",
       "id": "audio_pool_manager_audiopoolmanager_gemini_enrich_background",
-      "community": 2,
+      "community": 1,
       "norm_label": "._gemini_enrich_background()"
     },
     {
@@ -1881,7 +1881,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L409",
       "id": "audio_pool_manager_audiopoolmanager_get_beat_data",
-      "community": 2,
+      "community": 1,
       "norm_label": ".get_beat_data()"
     },
     {
@@ -1890,7 +1890,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L451",
       "id": "audio_pool_manager_audiopoolmanager_process_new_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": ".process_new_audio()"
     },
     {
@@ -1899,7 +1899,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L538",
       "id": "audio_pool_manager_audiopoolmanager_recycle_cooldown",
-      "community": 2,
+      "community": 1,
       "norm_label": ".recycle_cooldown()"
     },
     {
@@ -1908,7 +1908,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L560",
       "id": "audio_pool_manager_audiopoolmanager_select_best_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": ".select_best_audio()"
     },
     {
@@ -1917,7 +1917,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L704",
       "id": "audio_pool_manager_audiopoolmanager_use_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": ".use_audio()"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L716",
       "id": "audio_pool_manager_audiopoolmanager_maintenance",
-      "community": 2,
+      "community": 1,
       "norm_label": ".maintenance()"
     },
     {
@@ -1935,7 +1935,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L801",
       "id": "audio_pool_manager_audiopoolmanager_get_files_index",
-      "community": 2,
+      "community": 1,
       "norm_label": ".get_files_index()"
     },
     {
@@ -1944,7 +1944,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L809",
       "id": "audio_pool_manager_audiopoolmanager_merge_lyric_into_pool",
-      "community": 2,
+      "community": 1,
       "norm_label": ".merge_lyric_into_pool()"
     },
     {
@@ -1952,7 +1952,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L27",
-      "community": 2,
+      "community": 1,
       "norm_label": "manages the lifecycle of extracted audio clips.     pools:       - active/: el",
       "id": "audio_pool_manager_rationale_27"
     },
@@ -1961,7 +1961,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L63",
-      "community": 2,
+      "community": 1,
       "norm_label": "loads metadata safely.",
       "id": "audio_pool_manager_rationale_63"
     },
@@ -1970,7 +1970,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L74",
-      "community": 2,
+      "community": 1,
       "norm_label": "saves metadata atomically with file locking.",
       "id": "audio_pool_manager_rationale_74"
     },
@@ -1979,7 +1979,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L92",
-      "community": 2,
+      "community": 1,
       "norm_label": "fast size+mtime hash for integrity check.",
       "id": "audio_pool_manager_rationale_92"
     },
@@ -1988,7 +1988,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L100",
-      "community": 2,
+      "community": 1,
       "norm_label": "atomic npz save using tempfile + replace.",
       "id": "audio_pool_manager_rationale_100"
     },
@@ -1997,7 +1997,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L114",
-      "community": 2,
+      "community": 1,
       "norm_label": "helper to get file metadata accounting for schema version.",
       "id": "audio_pool_manager_rationale_114"
     },
@@ -2006,7 +2006,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L119",
-      "community": 2,
+      "community": 1,
       "norm_label": "helper to set file metadata accounting for schema version.",
       "id": "audio_pool_manager_rationale_119"
     },
@@ -2015,7 +2015,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L129",
-      "community": 2,
+      "community": 1,
       "norm_label": "helper to set file metadata accounting for schema version.",
       "id": "audio_pool_manager_rationale_129"
     },
@@ -2024,7 +2024,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L135",
-      "community": 2,
+      "community": 1,
       "norm_label": "[fix] move any loose .mp3/.wav files sitting in original_audio/ root into",
       "id": "audio_pool_manager_rationale_135"
     },
@@ -2033,7 +2033,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L216",
-      "community": 2,
+      "community": 1,
       "norm_label": "scan active/ folder and ensure all files are registered in pool_metadata.json.",
       "id": "audio_pool_manager_rationale_216"
     },
@@ -2042,7 +2042,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L255",
-      "community": 2,
+      "community": 1,
       "norm_label": "daemon thread: analyze one bgm track with gemini and write the result         b",
       "id": "audio_pool_manager_rationale_255"
     },
@@ -2051,7 +2051,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L410",
-      "community": 2,
+      "community": 1,
       "norm_label": "lazy load beat data from cache or disk.",
       "id": "audio_pool_manager_rationale_410"
     },
@@ -2060,7 +2060,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L452",
-      "community": 2,
+      "community": 1,
       "norm_label": "moves newly extracted audio into pool and caches deep beat metadata.",
       "id": "audio_pool_manager_rationale_452"
     },
@@ -2069,7 +2069,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L539",
-      "community": 2,
+      "community": 1,
       "norm_label": "rotate files from cooldown back to active. if force=true, recycle all files imme",
       "id": "audio_pool_manager_rationale_539"
     },
@@ -2078,7 +2078,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L705",
-      "community": 2,
+      "community": 1,
       "norm_label": "mark a bgm track as used without moving to cooldown (rotation disabled per direc",
       "id": "audio_pool_manager_rationale_705"
     },
@@ -2087,7 +2087,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L717",
-      "community": 2,
+      "community": 1,
       "norm_label": "rotates clips from cooldown back to active based on hybrid logic.         clean",
       "id": "audio_pool_manager_rationale_717"
     },
@@ -2096,7 +2096,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L802",
-      "community": 2,
+      "community": 1,
       "norm_label": "return the pool_metadata[\"files\"] dict \u2014 the unified audio track index.",
       "id": "audio_pool_manager_rationale_802"
     },
@@ -2105,7 +2105,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L810",
-      "community": 2,
+      "community": 1,
       "norm_label": "merge rich lyric intelligence fields from a _lyric.json result into         poo",
       "id": "audio_pool_manager_rationale_810"
     },
@@ -2115,7 +2115,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_beat_engine_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "beat_engine.py"
     },
     {
@@ -2205,7 +2205,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L395",
       "id": "beat_engine_get_beats_with_drops",
-      "community": 2,
+      "community": 1,
       "norm_label": "get_beats_with_drops()"
     },
     {
@@ -2214,7 +2214,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L399",
       "id": "beat_engine_get_beats_preferring_original_audio",
-      "community": 2,
+      "community": 1,
       "norm_label": "get_beats_preferring_original_audio()"
     },
     {
@@ -2223,7 +2223,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L418",
       "id": "beat_engine_get_candidate_audio_metadata",
-      "community": 2,
+      "community": 1,
       "norm_label": "get_candidate_audio_metadata()"
     },
     {
@@ -2232,7 +2232,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L519",
       "id": "beat_engine_analyze_beats_with_drops",
-      "community": 2,
+      "community": 1,
       "norm_label": "analyze_beats_with_drops()"
     },
     {
@@ -2240,7 +2240,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 1,
       "norm_label": "beat engine ----------- zero-dependency beat detection for viral edits. uses",
       "id": "beat_engine_rationale_1"
     },
@@ -2294,7 +2294,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L419",
-      "community": 2,
+      "community": 1,
       "norm_label": "scans original_audio/active/ for curated bgm candidates. returns list of dicts f",
       "id": "beat_engine_rationale_419"
     },
@@ -2303,7 +2303,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\beat_engine.py",
       "source_location": "L520",
-      "community": 2,
+      "community": 1,
       "norm_label": "top-level convenience wrapper for beatengine().analyze_beats_with_drops().",
       "id": "beat_engine_rationale_520"
     },
@@ -2313,7 +2313,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_intelligence.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_music_intelligence_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "music_intelligence.py"
     },
     {
@@ -2322,7 +2322,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_intelligence.py",
       "source_location": "L17",
       "id": "music_intelligence_classify_music",
-      "community": 2,
+      "community": 1,
       "norm_label": "classify_music()"
     },
     {
@@ -2331,7 +2331,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_intelligence.py",
       "source_location": "L90",
       "id": "music_intelligence_get_filter_graph",
-      "community": 2,
+      "community": 1,
       "norm_label": "get_filter_graph()"
     },
     {
@@ -2339,7 +2339,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_intelligence.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 1,
       "norm_label": "music intelligence module ------------------------- heuristic-based music clas",
       "id": "music_intelligence_rationale_1"
     },
@@ -2348,7 +2348,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_intelligence.py",
       "source_location": "L18",
-      "community": 2,
+      "community": 1,
       "norm_label": "analyzes audio file and returns (genre, confidence).     matches compiler.py ex",
       "id": "music_intelligence_rationale_18"
     },
@@ -2357,7 +2357,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_intelligence.py",
       "source_location": "L91",
-      "community": 2,
+      "community": 1,
       "norm_label": "returns the ffmpeg audio filter graph for the music stream.     matches compile",
       "id": "music_intelligence_rationale_91"
     },
@@ -2439,7 +2439,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_manager.py",
       "source_location": "L217",
       "id": "music_manager_continuousmusicmanager_get_best_match",
-      "community": 2,
+      "community": 1,
       "norm_label": ".get_best_match()"
     },
     {
@@ -2510,7 +2510,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\music_manager.py",
       "source_location": "L218",
-      "community": 2,
+      "community": 1,
       "norm_label": "intelligent music selector \u2014 mode controlled by music_selection_mode env var:",
       "id": "music_manager_rationale_218"
     },
@@ -2547,7 +2547,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\run_audio_family_standalone.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_run_audio_family_standalone_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "run_audio_family_standalone.py"
     },
     {
@@ -2556,7 +2556,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\run_audio_family_standalone.py",
       "source_location": "L48",
       "id": "run_audio_family_standalone_build_parser",
-      "community": 2,
+      "community": 1,
       "norm_label": "build_parser()"
     },
     {
@@ -2565,7 +2565,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\run_audio_family_standalone.py",
       "source_location": "L123",
       "id": "run_audio_family_standalone_main",
-      "community": 2,
+      "community": 1,
       "norm_label": "main()"
     },
     {
@@ -2610,7 +2610,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_audio_modules_init_py",
-      "community": 30,
+      "community": 29,
       "norm_label": "__init__.py"
     },
     {
@@ -3537,7 +3537,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Content_Scraper_Modules\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_content_scraper_modules_init_py",
-      "community": 31,
+      "community": 30,
       "norm_label": "__init__.py"
     },
     {
@@ -3546,7 +3546,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_core_modules_approval_flow_py",
-      "community": 10,
+      "community": 5,
       "norm_label": "approval_flow.py"
     },
     {
@@ -3555,7 +3555,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L25",
       "id": "approval_flow_get_escalated_retry_mode",
-      "community": 10,
+      "community": 5,
       "norm_label": "get_escalated_retry_mode()"
     },
     {
@@ -3564,7 +3564,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L45",
       "id": "approval_flow_verify_watermark_approval",
-      "community": 10,
+      "community": 5,
       "norm_label": "verify_watermark_approval()"
     },
     {
@@ -3573,7 +3573,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L75",
       "id": "approval_flow_generate_dry_run_preview",
-      "community": 10,
+      "community": 5,
       "norm_label": "generate_dry_run_preview()"
     },
     {
@@ -3581,7 +3581,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L1",
-      "community": 10,
+      "community": 5,
       "norm_label": "core_modules / approval_flow.py ================================ escalating retr",
       "id": "approval_flow_rationale_1"
     },
@@ -3590,7 +3590,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L26",
-      "community": 10,
+      "community": 5,
       "norm_label": "determine if a retry is allowed and return the escalated retry mode.      args:",
       "id": "approval_flow_rationale_26"
     },
@@ -3599,7 +3599,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L46",
-      "community": 10,
+      "community": 5,
       "norm_label": "isolate pre-publish watermark check to let human catch uncleaned overlays.",
       "id": "approval_flow_rationale_46"
     },
@@ -3608,7 +3608,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\approval_flow.py",
       "source_location": "L76",
-      "community": 10,
+      "community": 5,
       "norm_label": "generate a dry_run publishing preview card without modifying live social apis.",
       "id": "approval_flow_rationale_76"
     },
@@ -3627,7 +3627,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\purger.py",
       "source_location": "L24",
       "id": "purger_purge_full_clip_and_assets",
-      "community": 1,
+      "community": 2,
       "norm_label": "purge_full_clip_and_assets()"
     },
     {
@@ -3644,7 +3644,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Core_Modules\\purger.py",
       "source_location": "L29",
-      "community": 1,
+      "community": 2,
       "norm_label": "completely purges a clip and all related assets:       - master rendered video (",
       "id": "purger_rationale_29"
     },
@@ -4743,7 +4743,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Downloader_Modules\\scheduled_scraper_manager.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_downloader_modules_scheduled_scraper_manager_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "scheduled_scraper_manager.py"
     },
     {
@@ -4752,7 +4752,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Downloader_Modules\\scheduled_scraper_manager.py",
       "source_location": "L23",
       "id": "scheduled_scraper_manager_get_rotated_max_two_accounts",
-      "community": 1,
+      "community": 2,
       "norm_label": "get_rotated_max_two_accounts()"
     },
     {
@@ -4761,7 +4761,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Downloader_Modules\\scheduled_scraper_manager.py",
       "source_location": "L70",
       "id": "scheduled_scraper_manager_run_scheduled_scraper_batch",
-      "community": 1,
+      "community": 2,
       "norm_label": "run_scheduled_scraper_batch()"
     },
     {
@@ -4769,7 +4769,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Downloader_Modules\\scheduled_scraper_manager.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 2,
       "norm_label": "scheduled_scraper_manager.py \u2014 max 2-account rotating scheduled scraper manager",
       "id": "scheduled_scraper_manager_rationale_1"
     },
@@ -4778,7 +4778,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Downloader_Modules\\scheduled_scraper_manager.py",
       "source_location": "L24",
-      "community": 1,
+      "community": 2,
       "norm_label": "reads source_accounts.json, selects max_accounts (2) using round-robin index,",
       "id": "scheduled_scraper_manager_rationale_24"
     },
@@ -4787,7 +4787,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Downloader_Modules\\scheduled_scraper_manager.py",
       "source_location": "L71",
-      "community": 1,
+      "community": 2,
       "norm_label": "runs a scheduled batch with max 2 target accounts:     1. selects 2 target accou",
       "id": "scheduled_scraper_manager_rationale_71"
     },
@@ -4797,7 +4797,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Downloader_Modules\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_downloader_modules_init_py",
-      "community": 32,
+      "community": 31,
       "norm_label": "__init__.py"
     },
     {
@@ -4824,7 +4824,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\clip_intelligence_store.py",
       "source_location": "L71",
       "id": "clip_intelligence_store_clipintelligencestore_load",
-      "community": 3,
+      "community": 4,
       "norm_label": ".load()"
     },
     {
@@ -4905,7 +4905,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\clip_intelligence_store.py",
       "source_location": "L171",
       "id": "clip_intelligence_store_clipintelligencestore_patch_editing_plan",
-      "community": 3,
+      "community": 4,
       "norm_label": ".patch_editing_plan()"
     },
     {
@@ -4914,7 +4914,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\clip_intelligence_store.py",
       "source_location": "L176",
       "id": "clip_intelligence_store_clipintelligencestore_patch_output",
-      "community": 3,
+      "community": 4,
       "norm_label": ".patch_output()"
     },
     {
@@ -4994,7 +4994,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\clip_intelligence_store.py",
       "source_location": "L72",
-      "community": 3,
+      "community": 4,
       "norm_label": "load clip intelligence json from disk. returns none if not found.",
       "id": "clip_intelligence_store_rationale_72"
     },
@@ -5048,7 +5048,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\clip_intelligence_store.py",
       "source_location": "L172",
-      "community": 3,
+      "community": 4,
       "norm_label": "fill editing_plan from gemini call 3 (gemini_ffmpeg_synthesis).",
       "id": "clip_intelligence_store_rationale_172"
     },
@@ -5057,7 +5057,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\clip_intelligence_store.py",
       "source_location": "L177",
-      "community": 3,
+      "community": 4,
       "norm_label": "fill output block after ffmpeg render completes.",
       "id": "clip_intelligence_store_rationale_177"
     },
@@ -5292,7 +5292,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_gemini_modules_gemini_ffmpeg_synthesis_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "gemini_ffmpeg_synthesis.py"
     },
     {
@@ -5301,7 +5301,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L159",
       "id": "gemini_ffmpeg_synthesis_videocontextextractor",
-      "community": 3,
+      "community": 4,
       "norm_label": "videocontextextractor"
     },
     {
@@ -5310,7 +5310,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L165",
       "id": "gemini_ffmpeg_synthesis_videocontextextractor_init",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__init__()"
     },
     {
@@ -5319,7 +5319,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L171",
       "id": "gemini_ffmpeg_synthesis_videocontextextractor_sample_frames",
-      "community": 3,
+      "community": 4,
       "norm_label": "._sample_frames()"
     },
     {
@@ -5328,7 +5328,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L210",
       "id": "gemini_ffmpeg_synthesis_videocontextextractor_clean_json",
-      "community": 3,
+      "community": 4,
       "norm_label": "._clean_json()"
     },
     {
@@ -5337,7 +5337,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L221",
       "id": "gemini_ffmpeg_synthesis_videocontextextractor_extract",
-      "community": 3,
+      "community": 4,
       "norm_label": ".extract()"
     },
     {
@@ -5346,7 +5346,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L313",
       "id": "gemini_ffmpeg_synthesis_videocontextextractor_extract_from_forensic",
-      "community": 3,
+      "community": 4,
       "norm_label": ".extract_from_forensic()"
     },
     {
@@ -5355,7 +5355,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L367",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator",
-      "community": 3,
+      "community": 4,
       "norm_label": "ffmpegcommandgenerator"
     },
     {
@@ -5364,7 +5364,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L372",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_init",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__init__()"
     },
     {
@@ -5373,7 +5373,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L377",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_get_encoder_flags",
-      "community": 3,
+      "community": 4,
       "norm_label": "._get_encoder_flags()"
     },
     {
@@ -5382,7 +5382,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L401",
       "id": "gemini_ffmpeg_synthesis_cmd_list_to_string",
-      "community": 3,
+      "community": 4,
       "norm_label": "cmd_list_to_string()"
     },
     {
@@ -5391,7 +5391,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L404",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_has_audio_stream",
-      "community": 3,
+      "community": 4,
       "norm_label": "._has_audio_stream()"
     },
     {
@@ -5400,7 +5400,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L419",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_trim_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_trim_command()"
     },
     {
@@ -5409,7 +5409,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L443",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_scale_aspect_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_scale_aspect_command()"
     },
     {
@@ -5418,7 +5418,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L470",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_compute_precision_speed_factor",
-      "community": 3,
+      "community": 4,
       "norm_label": ".compute_precision_speed_factor()"
     },
     {
@@ -5427,7 +5427,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L491",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_chained_atempo_filter",
-      "community": 3,
+      "community": 4,
       "norm_label": "._build_chained_atempo_filter()"
     },
     {
@@ -5436,7 +5436,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L505",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_speed_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_speed_command()"
     },
     {
@@ -5445,7 +5445,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L523",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_audio_strip_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_audio_strip_command()"
     },
     {
@@ -5454,7 +5454,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L536",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_watermark_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_watermark_command()"
     },
     {
@@ -5463,7 +5463,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L554",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_delogo_blur_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_delogo_blur_command()"
     },
     {
@@ -5472,7 +5472,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L562",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_audio_ducking_mix_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_audio_ducking_mix_command()"
     },
     {
@@ -5481,7 +5481,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L575",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_bgm_mix_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_bgm_mix_command()"
     },
     {
@@ -5490,7 +5490,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L605",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_subtitle_burnin_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_subtitle_burnin_command()"
     },
     {
@@ -5499,7 +5499,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L615",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_transition_xfade_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_transition_xfade_command()"
     },
     {
@@ -5508,7 +5508,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L647",
       "id": "gemini_ffmpeg_synthesis_ffmpegcommandgenerator_build_concat_command",
-      "community": 3,
+      "community": 4,
       "norm_label": ".build_concat_command()"
     },
     {
@@ -5517,7 +5517,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L776",
       "id": "gemini_ffmpeg_synthesis_refinementloop",
-      "community": 3,
+      "community": 4,
       "norm_label": "refinementloop"
     },
     {
@@ -5526,7 +5526,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L782",
       "id": "gemini_ffmpeg_synthesis_refinementloop_init",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__init__()"
     },
     {
@@ -5535,7 +5535,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L785",
       "id": "gemini_ffmpeg_synthesis_refinementloop_score_execution",
-      "community": 3,
+      "community": 4,
       "norm_label": ".score_execution()"
     },
     {
@@ -5544,7 +5544,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L931",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine",
-      "community": 3,
+      "community": 4,
       "norm_label": "geminiffmpegengine"
     },
     {
@@ -5553,7 +5553,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L937",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_init",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__init__()"
     },
     {
@@ -5562,7 +5562,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L943",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_fetch_rag_reference_examples",
-      "community": 3,
+      "community": 4,
       "norm_label": ".fetch_rag_reference_examples()"
     },
     {
@@ -5571,7 +5571,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L955",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_validate_schema",
-      "community": 3,
+      "community": 4,
       "norm_label": ".validate_schema()"
     },
     {
@@ -5580,7 +5580,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L965",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_sanitize_command_string",
-      "community": 3,
+      "community": 4,
       "norm_label": ".sanitize_command_string()"
     },
     {
@@ -5589,7 +5589,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L972",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_sort_operations",
-      "community": 3,
+      "community": 4,
       "norm_label": ".sort_operations()"
     },
     {
@@ -5598,7 +5598,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L975",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_generate_prompt_payload",
-      "community": 3,
+      "community": 4,
       "norm_label": ".generate_prompt_payload()"
     },
     {
@@ -5607,7 +5607,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L1070",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_normalize_gemini_json",
-      "community": 3,
+      "community": 4,
       "norm_label": "._normalize_gemini_json()"
     },
     {
@@ -5616,7 +5616,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L1115",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_synthesize_from_gemini_json",
-      "community": 3,
+      "community": 4,
       "norm_label": ".synthesize_from_gemini_json()"
     },
     {
@@ -5625,7 +5625,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L1334",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_run_full_pipeline",
-      "community": 3,
+      "community": 4,
       "norm_label": ".run_full_pipeline()"
     },
     {
@@ -5634,7 +5634,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L1546",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_enforce_duration_lock",
-      "community": 3,
+      "community": 4,
       "norm_label": "._enforce_duration_lock()"
     },
     {
@@ -5643,7 +5643,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L1598",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_step_timeout",
-      "community": 3,
+      "community": 4,
       "norm_label": "._step_timeout()"
     },
     {
@@ -5652,7 +5652,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Gemini_Modules\\gemini_ffmpeg_synthesis.py",
       "source_location": "L1615",
       "id": "gemini_ffmpeg_synthesis_geminiffmpegengine_execute_pipeline",
-      "community": 3,
+      "community": 4,
       "norm_label": ".execute_pipeline()"
     },
     {
@@ -6489,7 +6489,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\phase1_imports.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_import_modules_phase1_imports_py",
-      "community": 25,
+      "community": 24,
       "norm_label": "phase1_imports.py"
     },
     {
@@ -6497,7 +6497,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\phase1_imports.py",
       "source_location": "L1",
-      "community": 25,
+      "community": 24,
       "norm_label": "import_modules / phase1_imports.py =================================== centraliz",
       "id": "phase1_imports_rationale_1"
     },
@@ -6507,7 +6507,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\phase2_imports.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_import_modules_phase2_imports_py",
-      "community": 26,
+      "community": 25,
       "norm_label": "phase2_imports.py"
     },
     {
@@ -6515,7 +6515,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\phase2_imports.py",
       "source_location": "L1",
-      "community": 26,
+      "community": 25,
       "norm_label": "import_modules / phase2_imports.py ================================== central hu",
       "id": "phase2_imports_rationale_1"
     },
@@ -6525,7 +6525,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\phase3_imports.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_import_modules_phase3_imports_py",
-      "community": 27,
+      "community": 26,
       "norm_label": "phase3_imports.py"
     },
     {
@@ -6533,7 +6533,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\phase3_imports.py",
       "source_location": "L1",
-      "community": 27,
+      "community": 26,
       "norm_label": "import hub for phase 3 package ================================ exposes all phas",
       "id": "phase3_imports_rationale_1"
     },
@@ -6543,7 +6543,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\tracker_notifier.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_import_modules_tracker_notifier_py",
-      "community": 23,
+      "community": 22,
       "norm_label": "tracker_notifier.py"
     },
     {
@@ -6552,7 +6552,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\tracker_notifier.py",
       "source_location": "L19",
       "id": "tracker_notifier_notify_tracker",
-      "community": 23,
+      "community": 22,
       "norm_label": "notify_tracker()"
     },
     {
@@ -6560,7 +6560,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\tracker_notifier.py",
       "source_location": "L1",
-      "community": 23,
+      "community": 22,
       "norm_label": "import_modules / tracker_notifier.py ==================================== lightw",
       "id": "tracker_notifier_rationale_1"
     },
@@ -6569,7 +6569,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Import_Modules\\tracker_notifier.py",
       "source_location": "L20",
-      "community": 23,
+      "community": 22,
       "norm_label": "sends stage event to local tracker server. safe & non-blocking if server is offl",
       "id": "tracker_notifier_rationale_20"
     },
@@ -6993,7 +6993,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\04_bgm_selector.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_phase_2_04_bgm_selector_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "04_bgm_selector.py"
     },
     {
@@ -7002,7 +7002,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\04_bgm_selector.py",
       "source_location": "L24",
       "id": "04_bgm_selector_select_clip_bgm",
-      "community": 2,
+      "community": 1,
       "norm_label": "select_clip_bgm()"
     },
     {
@@ -7011,7 +7011,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\04_bgm_selector.py",
       "source_location": "L101",
       "id": "04_bgm_selector_try_load_cached_bgm",
-      "community": 2,
+      "community": 1,
       "norm_label": "_try_load_cached_bgm()"
     },
     {
@@ -7019,7 +7019,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\04_bgm_selector.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 1,
       "norm_label": "phase_2 / 04_bgm_selector.py ============================ step 4: gemini call 2",
       "id": "04_bgm_selector_rationale_1"
     },
@@ -7028,7 +7028,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\04_bgm_selector.py",
       "source_location": "L30",
-      "community": 2,
+      "community": 1,
       "norm_label": "executes gemini call 2 bgm selector.      stage 2 cache lock:         if intent_",
       "id": "04_bgm_selector_rationale_30"
     },
@@ -7037,7 +7037,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\04_bgm_selector.py",
       "source_location": "L106",
-      "community": 2,
+      "community": 1,
       "norm_label": "attempts to load a previously selected bgm track from clipintelligencestore.",
       "id": "04_bgm_selector_rationale_106"
     },
@@ -7083,7 +7083,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_phase_2_06_ffmpeg_synthesis_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "06_ffmpeg_synthesis.py"
     },
     {
@@ -7092,7 +7092,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L29",
       "id": "06_ffmpeg_synthesis_is_api_outage_or_key_error",
-      "community": 3,
+      "community": 4,
       "norm_label": "_is_api_outage_or_key_error()"
     },
     {
@@ -7101,7 +7101,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L47",
       "id": "06_ffmpeg_synthesis_run_music_driven_fallback",
-      "community": 3,
+      "community": 4,
       "norm_label": "_run_music_driven_fallback()"
     },
     {
@@ -7110,7 +7110,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L99",
       "id": "06_ffmpeg_synthesis_synthesize_editing_plan",
-      "community": 3,
+      "community": 4,
       "norm_label": "synthesize_editing_plan()"
     },
     {
@@ -7118,7 +7118,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 4,
       "norm_label": "phase_2 / 06_ffmpeg_synthesis.py ================================ step 6: gemini",
       "id": "06_ffmpeg_synthesis_rationale_1"
     },
@@ -7127,7 +7127,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L30",
-      "community": 3,
+      "community": 4,
       "norm_label": "returns true only if error is caused by:       - 503 service unavailable / overl",
       "id": "06_ffmpeg_synthesis_rationale_30"
     },
@@ -7136,7 +7136,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L55",
-      "community": 3,
+      "community": 4,
       "norm_label": "offline dsp fallback using musicdriveneditor & ffmpeg when gemini call 3 api is",
       "id": "06_ffmpeg_synthesis_rationale_55"
     },
@@ -7145,7 +7145,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L109",
-      "community": 3,
+      "community": 4,
       "norm_label": "executes gemini call 3 to synthesize ffmpeg filtergraph plan.     falls back to",
       "id": "06_ffmpeg_synthesis_rationale_109"
     },
@@ -7236,7 +7236,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_3\\01_queue_ingest.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_phase_3_01_queue_ingest_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "01_queue_ingest.py"
     },
     {
@@ -7245,7 +7245,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Phase_3\\01_queue_ingest.py",
       "source_location": "L15",
       "id": "01_queue_ingest_ingest_to_publish_queue",
-      "community": 1,
+      "community": 2,
       "norm_label": "ingest_to_publish_queue()"
     },
     {
@@ -7253,7 +7253,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_3\\01_queue_ingest.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 2,
       "norm_label": "phase 3 \u2014 step 01: queue ingest manager ========================================",
       "id": "01_queue_ingest_rationale_1"
     },
@@ -7262,7 +7262,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_3\\01_queue_ingest.py",
       "source_location": "L21",
-      "community": 1,
+      "community": 2,
       "norm_label": "ingest a rendered video file into publish_queue.json.      args:         video_p",
       "id": "01_queue_ingest_rationale_21"
     },
@@ -7587,7 +7587,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\content_publisher.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_publishing_modules_content_publisher_py",
-      "community": 1,
+      "community": 10,
       "norm_label": "content_publisher.py"
     },
     {
@@ -7595,7 +7595,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\content_publisher.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 10,
       "norm_label": "compatibility shim for the sample update tree.  this file provides the local pub",
       "id": "content_publisher_rationale_1"
     },
@@ -7668,7 +7668,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\media_publisher_main.py",
       "source_location": "L308",
       "id": "media_publisher_main_run_phase4_publishing",
-      "community": 1,
+      "community": 2,
       "norm_label": "run_phase4_publishing()"
     },
     {
@@ -7739,7 +7739,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\media_publisher_main.py",
       "source_location": "L315",
-      "community": 1,
+      "community": 2,
       "norm_label": "master orchestration entry point for phase 4 multi-platform publishing.     exec",
       "id": "media_publisher_main_rationale_315"
     },
@@ -7910,7 +7910,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L89",
-      "community": 33,
+      "community": 32,
       "norm_label": "resolves meta credentials using a 3-tier priority chain:           1. credentia",
       "id": "meta_uploader_rationale_89"
     },
@@ -7919,7 +7919,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L174",
-      "community": 34,
+      "community": 33,
       "norm_label": "orchestrates uploads to enabled meta platforms.          the ``niche`` paramet",
       "id": "meta_uploader_rationale_174"
     },
@@ -7928,7 +7928,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L343",
-      "community": 35,
+      "community": 34,
       "norm_label": "uploads the local image to a temporary public host so the instagram         gra",
       "id": "meta_uploader_rationale_343"
     },
@@ -7937,7 +7937,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L423",
-      "community": 36,
+      "community": 35,
       "norm_label": "smart person-aware instagram ratio formatter (4:5 = 1080x1350).          strat",
       "id": "meta_uploader_rationale_423"
     },
@@ -7946,7 +7946,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L614",
-      "community": 37,
+      "community": 36,
       "norm_label": "uploads a standard image post to instagram feed using the graph api.         re",
       "id": "meta_uploader_rationale_614"
     },
@@ -7955,7 +7955,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L786",
-      "community": 38,
+      "community": 37,
       "norm_label": "cleans captions of utf-16 surrogates that cause unicodeencodeerror in httpx/utf-",
       "id": "meta_uploader_rationale_786"
     },
@@ -7964,7 +7964,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L800",
-      "community": 39,
+      "community": 38,
       "norm_label": "generic retry wrapper for http requests using httpx.         default timeout in",
       "id": "meta_uploader_rationale_800"
     },
@@ -7973,7 +7973,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\meta_uploader.py",
       "source_location": "L873",
-      "community": 40,
+      "community": 39,
       "norm_label": "polls instagram container status until finished or error.         timeout defau",
       "id": "meta_uploader_rationale_873"
     },
@@ -8001,7 +8001,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_publishing_modules_queue_publisher_py",
-      "community": 1,
+      "community": 10,
       "norm_label": "queue_publisher.py"
     },
     {
@@ -8010,7 +8010,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L12",
       "id": "queue_publisher_publishqueue",
-      "community": 1,
+      "community": 2,
       "norm_label": "publishqueue"
     },
     {
@@ -8019,7 +8019,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L18",
       "id": "queue_publisher_add",
-      "community": 1,
+      "community": 2,
       "norm_label": "add()"
     },
     {
@@ -8037,7 +8037,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L33",
       "id": "queue_publisher_clear",
-      "community": 1,
+      "community": 3,
       "norm_label": "clear()"
     },
     {
@@ -8046,7 +8046,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L37",
       "id": "queue_publisher_start_publish_scheduler",
-      "community": 1,
+      "community": 11,
       "norm_label": "start_publish_scheduler()"
     },
     {
@@ -8054,7 +8054,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 10,
       "norm_label": "compatibility shim for the sample update tree.  this file provides a lightweight",
       "id": "queue_publisher_rationale_1"
     },
@@ -8063,7 +8063,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L13",
-      "community": 1,
+      "community": 2,
       "norm_label": "in-memory publish queue that mirrors the minimal api used by amtce.",
       "id": "queue_publisher_rationale_13"
     },
@@ -8072,7 +8072,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\queue_publisher.py",
       "source_location": "L38",
-      "community": 1,
+      "community": 11,
       "norm_label": "no-op scheduler placeholder for compatibility with legacy imports.",
       "id": "queue_publisher_rationale_38"
     },
@@ -8082,7 +8082,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_publishing_modules_telegram_session_manager_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "telegram_session_manager.py"
     },
     {
@@ -8091,7 +8091,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L21",
       "id": "telegram_session_manager_telegramsessionmanager",
-      "community": 1,
+      "community": 2,
       "norm_label": "telegramsessionmanager"
     },
     {
@@ -8100,7 +8100,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L26",
       "id": "telegram_session_manager_telegramsessionmanager_init",
-      "community": 1,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -8109,7 +8109,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L31",
       "id": "telegram_session_manager_telegramsessionmanager_load_sessions",
-      "community": 1,
+      "community": 2,
       "norm_label": "._load_sessions()"
     },
     {
@@ -8118,7 +8118,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L40",
       "id": "telegram_session_manager_telegramsessionmanager_save_sessions",
-      "community": 1,
+      "community": 2,
       "norm_label": "._save_sessions()"
     },
     {
@@ -8127,7 +8127,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L47",
       "id": "telegram_session_manager_telegramsessionmanager_create_session",
-      "community": 1,
+      "community": 2,
       "norm_label": ".create_session()"
     },
     {
@@ -8136,7 +8136,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L90",
       "id": "telegram_session_manager_telegramsessionmanager_update_message_id",
-      "community": 1,
+      "community": 2,
       "norm_label": ".update_message_id()"
     },
     {
@@ -8145,7 +8145,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L97",
       "id": "telegram_session_manager_telegramsessionmanager_set_awaiting_title",
-      "community": 1,
+      "community": 2,
       "norm_label": ".set_awaiting_title()"
     },
     {
@@ -8154,7 +8154,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L106",
       "id": "telegram_session_manager_telegramsessionmanager_set_approved_title",
-      "community": 1,
+      "community": 2,
       "norm_label": ".set_approved_title()"
     },
     {
@@ -8163,7 +8163,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L117",
       "id": "telegram_session_manager_telegramsessionmanager_set_rejected",
-      "community": 1,
+      "community": 2,
       "norm_label": ".set_rejected()"
     },
     {
@@ -8172,7 +8172,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L127",
       "id": "telegram_session_manager_telegramsessionmanager_record_rendered_attempt",
-      "community": 1,
+      "community": 2,
       "norm_label": ".record_rendered_attempt()"
     },
     {
@@ -8181,7 +8181,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L146",
       "id": "telegram_session_manager_telegramsessionmanager_register_retry",
-      "community": 1,
+      "community": 2,
       "norm_label": ".register_retry()"
     },
     {
@@ -8190,7 +8190,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L168",
       "id": "telegram_session_manager_telegramsessionmanager_get_pending_title_session",
-      "community": 1,
+      "community": 2,
       "norm_label": ".get_pending_title_session()"
     },
     {
@@ -8199,7 +8199,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L179",
       "id": "telegram_session_manager_telegramsessionmanager_get_session",
-      "community": 1,
+      "community": 2,
       "norm_label": ".get_session()"
     },
     {
@@ -8207,7 +8207,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 2,
       "norm_label": "telegram_session_manager.py \u2014 persistent telegram review session manager =======",
       "id": "telegram_session_manager_rationale_1"
     },
@@ -8216,7 +8216,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L22",
-      "community": 1,
+      "community": 2,
       "norm_label": "manages persistent telegram approval sessions and title capture states.",
       "id": "telegram_session_manager_rationale_22"
     },
@@ -8225,7 +8225,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L55",
-      "community": 1,
+      "community": 2,
       "norm_label": "creates a new review session for a rendered video reel.         robustly resolve",
       "id": "telegram_session_manager_rationale_55"
     },
@@ -8234,7 +8234,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L91",
-      "community": 1,
+      "community": 2,
       "norm_label": "links telegram message id to session.",
       "id": "telegram_session_manager_rationale_91"
     },
@@ -8243,7 +8243,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L98",
-      "community": 1,
+      "community": 2,
       "norm_label": "marks session as awaiting custom title from user.",
       "id": "telegram_session_manager_rationale_98"
     },
@@ -8252,7 +8252,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L107",
-      "community": 1,
+      "community": 2,
       "norm_label": "sets custom title, marks session approved, and returns session data.",
       "id": "telegram_session_manager_rationale_107"
     },
@@ -8261,7 +8261,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L118",
-      "community": 1,
+      "community": 2,
       "norm_label": "marks session rejected and returns session data.",
       "id": "telegram_session_manager_rationale_118"
     },
@@ -8270,7 +8270,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L128",
-      "community": 1,
+      "community": 2,
       "norm_label": "records rendered attempt path into active session attempt history.",
       "id": "telegram_session_manager_rationale_128"
     },
@@ -8279,7 +8279,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L147",
-      "community": 1,
+      "community": 2,
       "norm_label": "registers a retry attempt for the active session. returns (should_retry, new_cou",
       "id": "telegram_session_manager_rationale_147"
     },
@@ -8288,7 +8288,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_session_manager.py",
       "source_location": "L169",
-      "community": 1,
+      "community": 2,
       "norm_label": "returns the most recent session waiting for a custom title.",
       "id": "telegram_session_manager_rationale_169"
     },
@@ -8298,7 +8298,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_publishing_modules_telegram_vault_indexer_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "telegram_vault_indexer.py"
     },
     {
@@ -8307,7 +8307,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L38",
       "id": "telegram_vault_indexer_empty_vault_index",
-      "community": 1,
+      "community": 2,
       "norm_label": "_empty_vault_index()"
     },
     {
@@ -8316,7 +8316,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L54",
       "id": "telegram_vault_indexer_telegramvaultindexer",
-      "community": 1,
+      "community": 2,
       "norm_label": "telegramvaultindexer"
     },
     {
@@ -8325,7 +8325,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L60",
       "id": "telegram_vault_indexer_telegramvaultindexer_init",
-      "community": 1,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -8334,7 +8334,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L65",
       "id": "telegram_vault_indexer_telegramvaultindexer_load_local_index",
-      "community": 1,
+      "community": 2,
       "norm_label": "._load_local_index()"
     },
     {
@@ -8343,7 +8343,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L76",
       "id": "telegram_vault_indexer_telegramvaultindexer_save_local_index",
-      "community": 1,
+      "community": 2,
       "norm_label": "._save_local_index()"
     },
     {
@@ -8379,7 +8379,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L167",
       "id": "telegram_vault_indexer_telegramvaultindexer_sync_vault_index_from_telegram",
-      "community": 2,
+      "community": 1,
       "norm_label": ".sync_vault_index_from_telegram()"
     },
     {
@@ -8388,7 +8388,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L201",
       "id": "telegram_vault_indexer_telegramvaultindexer_hydrate_local_caches",
-      "community": 2,
+      "community": 1,
       "norm_label": "._hydrate_local_caches()"
     },
     {
@@ -8397,7 +8397,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L226",
       "id": "telegram_vault_indexer_telegramvaultindexer_record_downloaded_source",
-      "community": 1,
+      "community": 2,
       "norm_label": ".record_downloaded_source()"
     },
     {
@@ -8406,7 +8406,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L291",
       "id": "telegram_vault_indexer_telegramvaultindexer_record_processed_reel",
-      "community": 1,
+      "community": 2,
       "norm_label": ".record_processed_reel()"
     },
     {
@@ -8415,7 +8415,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L346",
       "id": "telegram_vault_indexer_telegramvaultindexer_update_pipeline_trajectory",
-      "community": 1,
+      "community": 2,
       "norm_label": ".update_pipeline_trajectory()"
     },
     {
@@ -8424,7 +8424,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L400",
       "id": "telegram_vault_indexer_telegramvaultindexer_record_plan_attempt",
-      "community": 1,
+      "community": 2,
       "norm_label": ".record_plan_attempt()"
     },
     {
@@ -8433,7 +8433,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L439",
       "id": "telegram_vault_indexer_telegramvaultindexer_upload_and_pin_index",
-      "community": 1,
+      "community": 2,
       "norm_label": "._upload_and_pin_index()"
     },
     {
@@ -8441,7 +8441,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 2,
       "norm_label": "publishing_modules / telegram_vault_indexer.py =================================",
       "id": "telegram_vault_indexer_rationale_1"
     },
@@ -8450,7 +8450,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L55",
-      "community": 1,
+      "community": 2,
       "norm_label": "manages reading, writing, uploading, and pinning the master_vault_index.json",
       "id": "telegram_vault_indexer_rationale_55"
     },
@@ -8486,7 +8486,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L168",
-      "community": 2,
+      "community": 1,
       "norm_label": "startup sync: checks telegram_storage_group_id for pinned master_vault_index.jso",
       "id": "telegram_vault_indexer_rationale_168"
     },
@@ -8495,7 +8495,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L202",
-      "community": 2,
+      "community": 1,
       "norm_label": "hydrates local disk stores (pool_metadata.json, .clip_intelligence.json)",
       "id": "telegram_vault_indexer_rationale_202"
     },
@@ -8504,7 +8504,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L235",
-      "community": 1,
+      "community": 2,
       "norm_label": "column 2 record: uploads raw source video and extracted audio to telegram_storag",
       "id": "telegram_vault_indexer_rationale_235"
     },
@@ -8513,36 +8513,36 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L302",
-      "id": "telegram_vault_indexer_rationale_302",
-      "community": 1,
-      "norm_label": "column 1 record: saves rendered master reel intelligence and file_id into"
+      "community": 2,
+      "norm_label": "column 1 record: saves rendered master reel intelligence and file_id into",
+      "id": "telegram_vault_indexer_rationale_302"
     },
     {
       "label": "AI Trajectory Store: Records structured, un-mixed pipeline stage logs into",
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L353",
-      "id": "telegram_vault_indexer_rationale_353",
-      "community": 1,
-      "norm_label": "ai trajectory store: records structured, un-mixed pipeline stage logs into"
+      "community": 2,
+      "norm_label": "ai trajectory store: records structured, un-mixed pipeline stage logs into",
+      "id": "telegram_vault_indexer_rationale_353"
     },
     {
       "label": "RAG Creator Behavior Store: Appends an editing plan attempt (and user approval/f",
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L409",
-      "id": "telegram_vault_indexer_rationale_409",
-      "community": 1,
-      "norm_label": "rag creator behavior store: appends an editing plan attempt (and user approval/f"
+      "community": 2,
+      "norm_label": "rag creator behavior store: appends an editing plan attempt (and user approval/f",
+      "id": "telegram_vault_indexer_rationale_409"
     },
     {
       "label": "Uploads updated master_vault_index.json to TELEGRAM_STORAGE_GROUP_ID and pins it",
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L440",
-      "id": "telegram_vault_indexer_rationale_440",
-      "community": 1,
-      "norm_label": "uploads updated master_vault_index.json to telegram_storage_group_id and pins it"
+      "community": 2,
+      "norm_label": "uploads updated master_vault_index.json to telegram_storage_group_id and pins it",
+      "id": "telegram_vault_indexer_rationale_440"
     },
     {
       "label": "tiktok_uploader.py",
@@ -8910,7 +8910,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_publishing_modules_init_py",
-      "community": 1,
+      "community": 10,
       "norm_label": "__init__.py"
     },
     {
@@ -8919,7 +8919,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_rendering_modules_music_driven_editor_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "music_driven_editor.py"
     },
     {
@@ -8928,7 +8928,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L68",
       "id": "music_driven_editor_safe_float",
-      "community": 3,
+      "community": 4,
       "norm_label": "_safe_float()"
     },
     {
@@ -8937,7 +8937,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L75",
       "id": "music_driven_editor_overlap_fraction",
-      "community": 3,
+      "community": 4,
       "norm_label": "_overlap_fraction()"
     },
     {
@@ -8946,7 +8946,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L82",
       "id": "music_driven_editor_get_vibe",
-      "community": 3,
+      "community": 4,
       "norm_label": "_get_vibe()"
     },
     {
@@ -8955,7 +8955,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L95",
       "id": "music_driven_editor_musicdriveneditor",
-      "community": 3,
+      "community": 4,
       "norm_label": "musicdriveneditor"
     },
     {
@@ -8964,7 +8964,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L96",
       "id": "music_driven_editor_musicdriveneditor_init",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__init__()"
     },
     {
@@ -8973,7 +8973,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L106",
       "id": "music_driven_editor_musicdriveneditor_stable_clip_id",
-      "community": 3,
+      "community": 4,
       "norm_label": "._stable_clip_id()"
     },
     {
@@ -8982,7 +8982,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L129",
       "id": "music_driven_editor_musicdriveneditor_is_duplicate",
-      "community": 3,
+      "community": 4,
       "norm_label": "._is_duplicate()"
     },
     {
@@ -8991,7 +8991,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L145",
       "id": "music_driven_editor_musicdriveneditor_pick_scene_for_beat",
-      "community": 3,
+      "community": 4,
       "norm_label": "._pick_scene_for_beat()"
     },
     {
@@ -9000,7 +9000,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L188",
       "id": "music_driven_editor_remove_by_identity",
-      "community": 3,
+      "community": 4,
       "norm_label": "_remove_by_identity()"
     },
     {
@@ -9009,7 +9009,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L202",
       "id": "music_driven_editor_musicdriveneditor_score_scenes",
-      "community": 3,
+      "community": 4,
       "norm_label": ".score_scenes()"
     },
     {
@@ -9018,7 +9018,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L253",
       "id": "music_driven_editor_musicdriveneditor_map_scenes_to_beats",
-      "community": 3,
+      "community": 4,
       "norm_label": ".map_scenes_to_beats()"
     },
     {
@@ -9027,7 +9027,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L391",
       "id": "music_driven_editor_musicdriveneditor_insert_transitions",
-      "community": 3,
+      "community": 4,
       "norm_label": ".insert_transitions()"
     },
     {
@@ -9036,7 +9036,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L395",
       "id": "music_driven_editor_musicdriveneditor_get_video_info",
-      "community": 3,
+      "community": 4,
       "norm_label": "._get_video_info()"
     },
     {
@@ -9044,7 +9044,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 4,
       "norm_label": "music driven editor \u2014 psycho-acoustic visual sync engine =======================",
       "id": "music_driven_editor_rationale_1"
     },
@@ -9053,7 +9053,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L76",
-      "community": 3,
+      "community": 4,
       "norm_label": "fractional overlap of [b_start,b_end] within [a_start,a_end].",
       "id": "music_driven_editor_rationale_76"
     },
@@ -9062,7 +9062,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L83",
-      "community": 3,
+      "community": 4,
       "norm_label": "classify music vibe from bpm and normalised energy [0-1].",
       "id": "music_driven_editor_rationale_83"
     },
@@ -9071,7 +9071,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L107",
-      "community": 3,
+      "community": 4,
       "norm_label": "fix b: resolve a clip id for duplicate-tracking. prefer an explicit         'cli",
       "id": "music_driven_editor_rationale_107"
     },
@@ -9080,7 +9080,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L130",
-      "community": 3,
+      "community": 4,
       "norm_label": "returns true if this candidate's [start,end] overlaps significantly         with",
       "id": "music_driven_editor_rationale_130"
     },
@@ -9089,7 +9089,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L152",
-      "community": 3,
+      "community": 4,
       "norm_label": "pick the best scene for a given beat strength.         priority rules (psych-aco",
       "id": "music_driven_editor_rationale_152"
     },
@@ -9098,7 +9098,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L189",
-      "community": 41,
+      "community": 40,
       "norm_label": "fix c: remove `item` from `container` by object identity, not value         equa",
       "id": "music_driven_editor_rationale_189"
     },
@@ -9107,7 +9107,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L203",
-      "community": 3,
+      "community": 4,
       "norm_label": "score scenes with psycho-acoustic weights:           final_score = 0.35*motion +",
       "id": "music_driven_editor_rationale_203"
     },
@@ -9116,7 +9116,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L260",
-      "community": 3,
+      "community": 4,
       "norm_label": "psycho-acoustic beat\u2192scene mapping.          algorithm:           1. classify mu",
       "id": "music_driven_editor_rationale_260"
     },
@@ -9125,7 +9125,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\music_driven_editor.py",
       "source_location": "L392",
-      "community": 3,
+      "community": 4,
       "norm_label": "legacy stub \u2014 transition logic handled by stie in rhythmtimelinebuilder.",
       "id": "music_driven_editor_rationale_392"
     },
@@ -9180,7 +9180,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\rhythm_timeline_builder.py",
       "source_location": "L89",
       "id": "rhythm_timeline_builder_rhythmtimelinebuilder_analyze_beats",
-      "community": 3,
+      "community": 4,
       "norm_label": ".analyze_beats()"
     },
     {
@@ -9260,7 +9260,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\rhythm_timeline_builder.py",
       "source_location": "L90",
-      "community": 3,
+      "community": 4,
       "norm_label": "wrapper for audio_modules.beat_engine.analyze_beats",
       "id": "rhythm_timeline_builder_rationale_90"
     },
@@ -9342,7 +9342,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Rendering_Modules\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_rendering_modules_init_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "__init__.py"
     },
     {
@@ -9441,7 +9441,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\scripts\\backfill_pool_metadata.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_scripts_backfill_pool_metadata_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "backfill_pool_metadata.py"
     },
     {
@@ -9450,7 +9450,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\scripts\\backfill_pool_metadata.py",
       "source_location": "L19",
       "id": "backfill_pool_metadata_main",
-      "community": 2,
+      "community": 1,
       "norm_label": "main()"
     },
     {
@@ -9458,7 +9458,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\scripts\\backfill_pool_metadata.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 1,
       "norm_label": "backfill_pool_metadata.py one-time script to merge all existing original_audio/b",
       "id": "backfill_pool_metadata_rationale_1"
     },
@@ -9468,7 +9468,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_tests_test_gemini_ffmpeg_synthesis_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "test_gemini_ffmpeg_synthesis.py"
     },
     {
@@ -9477,7 +9477,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L16",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis",
-      "community": 3,
+      "community": 4,
       "norm_label": "testgeminiffmpegsynthesis"
     },
     {
@@ -9486,7 +9486,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L18",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_setup",
-      "community": 3,
+      "community": 4,
       "norm_label": ".setup()"
     },
     {
@@ -9495,7 +9495,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L22",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_watermark_overlay_dispatch",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_watermark_overlay_dispatch()"
     },
     {
@@ -9504,7 +9504,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L51",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_global_encoding_customization",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_global_encoding_customization()"
     },
     {
@@ -9513,7 +9513,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L71",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_score_execution_breakdown",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_score_execution_breakdown()"
     },
     {
@@ -9522,7 +9522,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L94",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_offline_fallback_watermark_injection",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_offline_fallback_watermark_injection()"
     },
     {
@@ -9531,7 +9531,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L113",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_precision_speed_snapping",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_precision_speed_snapping()"
     },
     {
@@ -9540,7 +9540,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L124",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_run_full_pipeline_end_to_end_dry_run",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_run_full_pipeline_end_to_end_dry_run()"
     },
     {
@@ -9549,7 +9549,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L142",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_top_level_concat_op_dispatch",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_top_level_concat_op_dispatch()"
     },
     {
@@ -9558,7 +9558,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L158",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_delogo_band_parameter_preservation",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_delogo_band_parameter_preservation()"
     },
     {
@@ -9567,7 +9567,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L174",
       "id": "test_gemini_ffmpeg_synthesis_test_execute_pipeline_preserves_band_parameter_mocked",
-      "community": 3,
+      "community": 4,
       "norm_label": "test_execute_pipeline_preserves_band_parameter_mocked()"
     },
     {
@@ -9576,7 +9576,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L189",
       "id": "test_gemini_ffmpeg_synthesis_testgeminiffmpegsynthesis_test_run_id_concurrency_isolation",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_run_id_concurrency_isolation()"
     },
     {
@@ -9584,7 +9584,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L23",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify watermark_overlay op dispatch generates valid command steps.",
       "id": "test_gemini_ffmpeg_synthesis_rationale_23"
     },
@@ -9593,7 +9593,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L52",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify custom global_encoding (codec, preset, crf) overrides defaults.",
       "id": "test_gemini_ffmpeg_synthesis_rationale_52"
     },
@@ -9602,7 +9602,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L72",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify score_execution returns itemized breakdown and failed_criteria.",
       "id": "test_gemini_ffmpeg_synthesis_rationale_72"
     },
@@ -9611,7 +9611,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L95",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify offline fallback auto-injects delogo_blur when forensic_context contains",
       "id": "test_gemini_ffmpeg_synthesis_rationale_95"
     },
@@ -9620,7 +9620,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L114",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify compute_precision_speed_factor snaps to nearest audio beat timestamp.",
       "id": "test_gemini_ffmpeg_synthesis_rationale_114"
     },
@@ -9629,7 +9629,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L125",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify run_full_pipeline completes end-to-end in dry_run mode without nameerror",
       "id": "test_gemini_ffmpeg_synthesis_rationale_125"
     },
@@ -9638,7 +9638,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L143",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify top-level concat op in gemini plan dispatches build_concat_command.",
       "id": "test_gemini_ffmpeg_synthesis_rationale_143"
     },
@@ -9647,7 +9647,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L159",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify build_delogo_blur_command includes :band= inside filter string and is pre",
       "id": "test_gemini_ffmpeg_synthesis_rationale_159"
     },
@@ -9656,7 +9656,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L175",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify execute_pipeline in non-dry_run mode passes :band=4 in subprocess.run cle",
       "id": "test_gemini_ffmpeg_synthesis_rationale_175"
     },
@@ -9665,7 +9665,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\tests\\test_gemini_ffmpeg_synthesis.py",
       "source_location": "L190",
-      "community": 3,
+      "community": 4,
       "norm_label": "verify consecutive synthesis runs generate distinct run_id temp file paths.",
       "id": "test_gemini_ffmpeg_synthesis_rationale_190"
     },
@@ -9783,7 +9783,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_watermark_and_inpainting_hybrid_watermark_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "hybrid_watermark.py"
     },
     {
@@ -9792,7 +9792,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L36",
       "id": "hybrid_watermark_faceprotector",
-      "community": 4,
+      "community": 3,
       "norm_label": "faceprotector"
     },
     {
@@ -9801,7 +9801,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L38",
       "id": "hybrid_watermark_is_safe_region",
-      "community": 4,
+      "community": 3,
       "norm_label": "is_safe_region()"
     },
     {
@@ -9810,7 +9810,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L40",
       "id": "hybrid_watermark_detect_faces",
-      "community": 4,
+      "community": 3,
       "norm_label": "detect_faces()"
     },
     {
@@ -9819,7 +9819,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L47",
       "id": "hybrid_watermark_niche_sidecar_path",
-      "community": 4,
+      "community": 3,
       "norm_label": "_niche_sidecar_path()"
     },
     {
@@ -9828,7 +9828,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L53",
       "id": "hybrid_watermark_save_detected_niche",
-      "community": 4,
+      "community": 3,
       "norm_label": "save_detected_niche()"
     },
     {
@@ -9837,7 +9837,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L66",
       "id": "hybrid_watermark_load_detected_niche",
-      "community": 4,
+      "community": 3,
       "norm_label": "load_detected_niche()"
     },
     {
@@ -9846,7 +9846,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L86",
       "id": "hybrid_watermark_hybridwatermarkdetector",
-      "community": 4,
+      "community": 3,
       "norm_label": "hybridwatermarkdetector"
     },
     {
@@ -9855,7 +9855,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L87",
       "id": "hybrid_watermark_hybridwatermarkdetector_init",
-      "community": 4,
+      "community": 3,
       "norm_label": ".__init__()"
     },
     {
@@ -9864,7 +9864,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L91",
       "id": "hybrid_watermark_hybridwatermarkdetector_error_json",
-      "community": 4,
+      "community": 3,
       "norm_label": "._error_json()"
     },
     {
@@ -9873,7 +9873,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L99",
       "id": "hybrid_watermark_hybridwatermarkdetector_confirm_learning",
-      "community": 4,
+      "community": 3,
       "norm_label": ".confirm_learning()"
     },
     {
@@ -9882,7 +9882,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L112",
       "id": "hybrid_watermark_hybridwatermarkdetector_reset_quotas",
-      "community": 4,
+      "community": 3,
       "norm_label": ".reset_quotas()"
     },
     {
@@ -9891,7 +9891,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L121",
       "id": "hybrid_watermark_hybridwatermarkdetector_process_video",
-      "community": 4,
+      "community": 3,
       "norm_label": ".process_video()"
     },
     {
@@ -9900,7 +9900,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L625",
       "id": "hybrid_watermark_hybridwatermarkdetector_generate_static_mask",
-      "community": 4,
+      "community": 3,
       "norm_label": ".generate_static_mask()"
     },
     {
@@ -9909,7 +9909,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L724",
       "id": "hybrid_watermark_hybridwatermarkdetector_generate_tracked_mask",
-      "community": 4,
+      "community": 3,
       "norm_label": ".generate_tracked_mask()"
     },
     {
@@ -9917,7 +9917,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "hybrid watermark manager (gemini authority) -----------------------------------",
       "id": "hybrid_watermark_rationale_1"
     },
@@ -9926,7 +9926,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L48",
-      "community": 4,
+      "community": 3,
       "norm_label": "returns the path for the niche sidecar file next to the video.",
       "id": "hybrid_watermark_rationale_48"
     },
@@ -9935,7 +9935,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L54",
-      "community": 4,
+      "community": 3,
       "norm_label": "persist the detected niche to a sidecar json file beside the video.",
       "id": "hybrid_watermark_rationale_54"
     },
@@ -9944,7 +9944,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L67",
-      "community": 4,
+      "community": 3,
       "norm_label": "read the detected niche from the sidecar file.     returns niche string, or 'ge",
       "id": "hybrid_watermark_rationale_67"
     },
@@ -9953,7 +9953,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L100",
-      "community": 4,
+      "community": 3,
       "norm_label": "logs user feedback (reinforcement learning stub).         in \"strict mode\", thi",
       "id": "hybrid_watermark_rationale_100"
     },
@@ -9962,7 +9962,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L113",
-      "community": 4,
+      "community": 3,
       "norm_label": "resets per-video quotas (gemini).",
       "id": "hybrid_watermark_rationale_113"
     },
@@ -9971,7 +9971,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L122",
-      "community": 4,
+      "community": 3,
       "norm_label": "main entry point. gemini-only authority mode.          v2 change: detect_water",
       "id": "hybrid_watermark_rationale_122"
     },
@@ -9980,7 +9980,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L626",
-      "community": 4,
+      "community": 3,
       "norm_label": "generates a static mask video using alpha-safe authority logic.",
       "id": "hybrid_watermark_rationale_626"
     },
@@ -9989,7 +9989,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L725",
-      "community": 4,
+      "community": 3,
       "norm_label": "smart tracking mask generator (cpu-safe).         uses template matching with l",
       "id": "hybrid_watermark_rationale_725"
     },
@@ -9998,7 +9998,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L388",
-      "community": 4,
+      "community": 3,
       "norm_label": "# note: distance-based merge removed \u2014 it was grouping watermarks from",
       "id": "hybrid_watermark_rationale_388"
     },
@@ -10007,7 +10007,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L460",
-      "community": 4,
+      "community": 3,
       "norm_label": "# note: gap-proximity hull merge removed.",
       "id": "hybrid_watermark_rationale_460"
     },
@@ -10017,7 +10017,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_watermark_and_inpainting_import_gate_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "import_gate.py"
     },
     {
@@ -10026,7 +10026,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L11",
       "id": "import_gate_importgate",
-      "community": 4,
+      "community": 3,
       "norm_label": "importgate"
     },
     {
@@ -10044,7 +10044,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L43",
       "id": "import_gate_reset",
-      "community": 4,
+      "community": 3,
       "norm_label": "reset()"
     },
     {
@@ -10052,7 +10052,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "import_gate.py \u2014 lazy import gate for watermark modules ========================",
       "id": "import_gate_rationale_1"
     },
@@ -10061,7 +10061,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L12",
-      "community": 4,
+      "community": 3,
       "norm_label": "lazy import gate for watermark module dependencies.",
       "id": "import_gate_rationale_12"
     },
@@ -10070,7 +10070,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L18",
-      "community": 42,
+      "community": 41,
       "norm_label": "get a module by name, loading it lazily if not already cached.",
       "id": "import_gate_rationale_18"
     },
@@ -10079,7 +10079,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L44",
-      "community": 43,
+      "community": 42,
       "norm_label": "clear the import cache.",
       "id": "import_gate_rationale_44"
     },
@@ -10151,7 +10151,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\lama_engine.py",
       "source_location": "L28",
-      "community": 44,
+      "community": 43,
       "norm_label": "singleton pattern so we only load the 500mb model into memory once.",
       "id": "lama_engine_rationale_28"
     },
@@ -10197,7 +10197,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_watermark_and_inpainting_opencv_watermark_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "opencv_watermark.py"
     },
     {
@@ -10206,7 +10206,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L61",
       "id": "opencv_watermark_faceprotector",
-      "community": 4,
+      "community": 3,
       "norm_label": "faceprotector"
     },
     {
@@ -10215,7 +10215,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L68",
       "id": "opencv_watermark_load_cascade",
-      "community": 4,
+      "community": 3,
       "norm_label": "load_cascade()"
     },
     {
@@ -10224,7 +10224,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L73",
       "id": "opencv_watermark_detect_faces",
-      "community": 4,
+      "community": 3,
       "norm_label": "detect_faces()"
     },
     {
@@ -10233,7 +10233,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L87",
       "id": "opencv_watermark_is_safe_region",
-      "community": 4,
+      "community": 3,
       "norm_label": "is_safe_region()"
     },
     {
@@ -10242,7 +10242,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L151",
       "id": "opencv_watermark_clip_masks_for_safety",
-      "community": 4,
+      "community": 3,
       "norm_label": "clip_masks_for_safety()"
     },
     {
@@ -10251,7 +10251,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L208",
       "id": "opencv_watermark_smartrefiner",
-      "community": 4,
+      "community": 3,
       "norm_label": "smartrefiner"
     },
     {
@@ -10260,7 +10260,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L213",
       "id": "opencv_watermark_refine_box",
-      "community": 4,
+      "community": 3,
       "norm_label": "refine_box()"
     },
     {
@@ -10269,7 +10269,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L291",
       "id": "opencv_watermark_temporalsmartrefiner",
-      "community": 4,
+      "community": 3,
       "norm_label": "temporalsmartrefiner"
     },
     {
@@ -10278,7 +10278,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L296",
       "id": "opencv_watermark_detect_structure",
-      "community": 4,
+      "community": 3,
       "norm_label": "_detect_structure()"
     },
     {
@@ -10287,7 +10287,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L321",
       "id": "opencv_watermark_refine_box_temporal",
-      "community": 4,
+      "community": 3,
       "norm_label": "refine_box_temporal()"
     },
     {
@@ -10296,7 +10296,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L422",
       "id": "opencv_watermark_resolve_cpu_safe_mask_priority",
-      "community": 4,
+      "community": 3,
       "norm_label": "_resolve_cpu_safe_mask_priority()"
     },
     {
@@ -10305,7 +10305,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L473",
       "id": "opencv_watermark_inpaint_video",
-      "community": 4,
+      "community": 3,
       "norm_label": "inpaint_video()"
     },
     {
@@ -10314,7 +10314,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L588",
       "id": "opencv_watermark_check_watermark_residue",
-      "community": 4,
+      "community": 3,
       "norm_label": "check_watermark_residue()"
     },
     {
@@ -10323,7 +10323,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L717",
       "id": "opencv_watermark_verify_visual_guarantee",
-      "community": 4,
+      "community": 3,
       "norm_label": "verify_visual_guarantee()"
     },
     {
@@ -10332,7 +10332,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L770",
       "id": "opencv_watermark_run_inpaint_pass",
-      "community": 4,
+      "community": 3,
       "norm_label": "_run_inpaint_pass()"
     },
     {
@@ -10341,7 +10341,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L1022",
       "id": "opencv_watermark_autorepairorchestrator",
-      "community": 4,
+      "community": 3,
       "norm_label": "autorepairorchestrator"
     },
     {
@@ -10350,7 +10350,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L1024",
       "id": "opencv_watermark_run_repair_loop",
-      "community": 4,
+      "community": 3,
       "norm_label": "run_repair_loop()"
     },
     {
@@ -10359,7 +10359,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L1035",
       "id": "opencv_watermark_maskverifier",
-      "community": 4,
+      "community": 3,
       "norm_label": "maskverifier"
     },
     {
@@ -10368,7 +10368,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L1037",
       "id": "opencv_watermark_check_and_fix_coverage",
-      "community": 4,
+      "community": 3,
       "norm_label": "check_and_fix_coverage()"
     },
     {
@@ -10376,7 +10376,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "opencv watermark utilities (ml-free) ------------------------------------ this",
       "id": "opencv_watermark_rationale_1"
     },
@@ -10385,7 +10385,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L62",
-      "community": 4,
+      "community": 3,
       "norm_label": "safety layer to prevent inpainting of faces.     now uses dnn identity detector",
       "id": "opencv_watermark_rationale_62"
     },
@@ -10394,7 +10394,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L74",
-      "community": 4,
+      "community": 3,
       "norm_label": "delegates to humanguard (dnn) for superior accuracy.         returns list of (x",
       "id": "opencv_watermark_rationale_74"
     },
@@ -10403,7 +10403,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L88",
-      "community": 4,
+      "community": 3,
       "norm_label": "runs safety checks. returns (issafe, reason).         now implements human-leve",
       "id": "opencv_watermark_rationale_88"
     },
@@ -10412,7 +10412,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L152",
-      "community": 4,
+      "community": 3,
       "norm_label": "subtracts 85% core face zones from watermark masks.         returns: list of mo",
       "id": "opencv_watermark_rationale_152"
     },
@@ -10421,7 +10421,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L209",
-      "community": 4,
+      "community": 3,
       "norm_label": "refines rough detected boxes (from gemini) to 'shrink-wrap' the actual watermark",
       "id": "opencv_watermark_rationale_209"
     },
@@ -10430,7 +10430,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L292",
-      "community": 4,
+      "community": 3,
       "norm_label": "production-grade watermark refinement (consensus)",
       "id": "opencv_watermark_rationale_292"
     },
@@ -10439,7 +10439,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L423",
-      "community": 4,
+      "community": 3,
       "norm_label": "cpu_safe_dynamic_feather rule:     - merge overlapping masks (iou > 0.15)",
       "id": "opencv_watermark_rationale_423"
     },
@@ -10448,7 +10448,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L474",
-      "community": 4,
+      "community": 3,
       "norm_label": "orchestrates the inpainting process using telea.     updated to support motion_",
       "id": "opencv_watermark_rationale_474"
     },
@@ -10457,7 +10457,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L638",
-      "community": 4,
+      "community": 3,
       "norm_label": "compares original and inpainted videos to detect visible artifacts.     [user r",
       "id": "opencv_watermark_rationale_638"
     },
@@ -10466,7 +10466,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L767",
-      "community": 4,
+      "community": 3,
       "norm_label": "visual guarantee: limit-breaking boolean.",
       "id": "opencv_watermark_rationale_767"
     },
@@ -10566,7 +10566,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_watermark_and_inpainting_watermark_auto_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "watermark_auto.py"
     },
     {
@@ -10575,7 +10575,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L40",
       "id": "watermark_auto_run_adaptive_watermark_orchestration",
-      "community": 4,
+      "community": 3,
       "norm_label": "run_adaptive_watermark_orchestration()"
     },
     {
@@ -10584,7 +10584,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L200",
       "id": "watermark_auto_process_video_with_watermark",
-      "community": 4,
+      "community": 3,
       "norm_label": "process_video_with_watermark()"
     },
     {
@@ -10593,7 +10593,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L253",
       "id": "watermark_auto_apply_text_watermark",
-      "community": 4,
+      "community": 3,
       "norm_label": "apply_text_watermark()"
     },
     {
@@ -10602,7 +10602,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L255",
       "id": "watermark_auto_process",
-      "community": 4,
+      "community": 3,
       "norm_label": "process()"
     },
     {
@@ -10610,7 +10610,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "automated watermark orchestrator -------------------------------- centralizes",
       "id": "watermark_auto_rationale_1"
     },
@@ -10619,7 +10619,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L49",
-      "community": 4,
+      "community": 3,
       "norm_label": "control system for watermark removal.     iteratively tunes mask padding and in",
       "id": "watermark_auto_rationale_49"
     },
@@ -10628,7 +10628,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L260",
-      "community": 4,
+      "community": 3,
       "norm_label": "legacy detection-only entry point for orchestrator.",
       "id": "watermark_auto_rationale_260"
     },
@@ -10638,7 +10638,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_watermark_and_inpainting_watermark_enhancers_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "watermark_enhancers.py"
     },
     {
@@ -10647,7 +10647,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L22",
       "id": "watermark_enhancers_alphaneutralizer",
-      "community": 4,
+      "community": 3,
       "norm_label": "alphaneutralizer"
     },
     {
@@ -10656,7 +10656,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L28",
       "id": "watermark_enhancers_neutralize",
-      "community": 4,
+      "community": 3,
       "norm_label": "neutralize()"
     },
     {
@@ -10665,7 +10665,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L69",
       "id": "watermark_enhancers_contrasthealer",
-      "community": 4,
+      "community": 3,
       "norm_label": "contrasthealer"
     },
     {
@@ -10674,7 +10674,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L75",
       "id": "watermark_enhancers_heal",
-      "community": 4,
+      "community": 3,
       "norm_label": "heal()"
     },
     {
@@ -10683,7 +10683,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L144",
       "id": "watermark_enhancers_edgeintegrator",
-      "community": 4,
+      "community": 3,
       "norm_label": "edgeintegrator"
     },
     {
@@ -10692,7 +10692,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L150",
       "id": "watermark_enhancers_integrate",
-      "community": 4,
+      "community": 3,
       "norm_label": "integrate()"
     },
     {
@@ -10701,7 +10701,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L238",
       "id": "watermark_enhancers_bilateraltexturematcher",
-      "community": 4,
+      "community": 3,
       "norm_label": "bilateraltexturematcher"
     },
     {
@@ -10710,7 +10710,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L244",
       "id": "watermark_enhancers_match",
-      "community": 4,
+      "community": 3,
       "norm_label": "match()"
     },
     {
@@ -10719,7 +10719,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L292",
       "id": "watermark_enhancers_microtextureblender",
-      "community": 4,
+      "community": 3,
       "norm_label": "microtextureblender"
     },
     {
@@ -10728,7 +10728,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L298",
       "id": "watermark_enhancers_apply_texture_blend",
-      "community": 4,
+      "community": 3,
       "norm_label": "apply_texture_blend()"
     },
     {
@@ -10737,7 +10737,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L304",
       "id": "watermark_enhancers_process_video",
-      "community": 4,
+      "community": 3,
       "norm_label": "_process_video()"
     },
     {
@@ -10745,7 +10745,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "watermark enhancers ------------------- shared logic for high-quality watermar",
       "id": "watermark_enhancers_rationale_1"
     },
@@ -10754,7 +10754,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L23",
-      "community": 4,
+      "community": 3,
       "norm_label": "pre-processing: neutralizes semi-transparent watermarks to aid inpainting.",
       "id": "watermark_enhancers_rationale_23"
     },
@@ -10763,7 +10763,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L70",
-      "community": 4,
+      "community": 3,
       "norm_label": "post-processing: restores natural texture and removes shadow remnants.     opti",
       "id": "watermark_enhancers_rationale_70"
     },
@@ -10772,7 +10772,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L145",
-      "community": 4,
+      "community": 3,
       "norm_label": "sub-pixel alpha feather + gradient bleed integration.     optimized for roi pro",
       "id": "watermark_enhancers_rationale_145"
     },
@@ -10781,7 +10781,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L239",
-      "community": 4,
+      "community": 3,
       "norm_label": "post-inpaint quality (rule 5): bilateral texture matching.     matches local no",
       "id": "watermark_enhancers_rationale_239"
     },
@@ -10790,7 +10790,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L293",
-      "community": 4,
+      "community": 3,
       "norm_label": "post-inpaint finisher: adds micro-texture back to smooth inpainted regions.",
       "id": "watermark_enhancers_rationale_293"
     },
@@ -10800,7 +10800,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\watermark_main.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_watermark_and_inpainting_watermark_main_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "watermark_main.py"
     },
     {
@@ -10809,7 +10809,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_main.py",
       "source_location": "L49",
       "id": "watermark_main_run_watermark_removal",
-      "community": 4,
+      "community": 3,
       "norm_label": "run_watermark_removal()"
     },
     {
@@ -10818,7 +10818,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_main.py",
       "source_location": "L108",
       "id": "watermark_main_launch_gradio",
-      "community": 4,
+      "community": 3,
       "norm_label": "launch_gradio()"
     },
     {
@@ -10827,7 +10827,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_main.py",
       "source_location": "L242",
       "id": "watermark_main_main",
-      "community": 4,
+      "community": 3,
       "norm_label": "main()"
     },
     {
@@ -10835,7 +10835,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_main.py",
       "source_location": "L50",
-      "community": 4,
+      "community": 3,
       "norm_label": "full watermark detection + removal pipeline.     returns (output_path, status_l",
       "id": "watermark_main_rationale_50"
     },
@@ -10845,7 +10845,7 @@
       "source_file": "D:\\AMTCE\\simpler update\\Watermark_and_Inpainting\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_simpler_update_watermark_and_inpainting_init_py",
-      "community": 45,
+      "community": 44,
       "norm_label": "__init__.py"
     },
     {
@@ -10881,7 +10881,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\hybrid_watermark.py",
       "source_location": "L1",
       "id": "d_amtce_watermark_and_inpainting_hybrid_watermark_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "hybrid_watermark.py"
     },
     {
@@ -10890,7 +10890,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\import_gate.py",
       "source_location": "L1",
       "id": "d_amtce_watermark_and_inpainting_import_gate_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "import_gate.py"
     },
     {
@@ -10917,7 +10917,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L1",
       "id": "d_amtce_watermark_and_inpainting_opencv_watermark_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "opencv_watermark.py"
     },
     {
@@ -10925,7 +10925,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L589",
-      "community": 4,
+      "community": 3,
       "norm_label": "compares original and inpainted videos to detect visible artifacts.     [user r",
       "id": "opencv_watermark_rationale_589"
     },
@@ -10934,7 +10934,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\opencv_watermark.py",
       "source_location": "L718",
-      "community": 4,
+      "community": 3,
       "norm_label": "visual guarantee: limit-breaking boolean.",
       "id": "opencv_watermark_rationale_718"
     },
@@ -10971,7 +10971,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L1",
       "id": "d_amtce_watermark_and_inpainting_watermark_auto_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "watermark_auto.py"
     },
     {
@@ -10979,7 +10979,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_auto.py",
       "source_location": "L256",
-      "community": 4,
+      "community": 3,
       "norm_label": "legacy detection-only entry point for orchestrator.",
       "id": "watermark_auto_rationale_256"
     },
@@ -10989,7 +10989,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_enhancers.py",
       "source_location": "L1",
       "id": "d_amtce_watermark_and_inpainting_watermark_enhancers_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "watermark_enhancers.py"
     },
     {
@@ -10998,7 +10998,7 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\watermark_main.py",
       "source_location": "L1",
       "id": "d_amtce_watermark_and_inpainting_watermark_main_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "watermark_main.py"
     },
     {
@@ -11007,15 +11007,24 @@
       "source_file": "D:\\AMTCE\\Watermark_and_Inpainting\\__init__.py",
       "source_location": "L1",
       "id": "d_amtce_watermark_and_inpainting_init_py",
-      "community": 46,
+      "community": 45,
       "norm_label": "__init__.py"
+    },
+    {
+      "label": "Phase 2 helper: loads pre-computed audio_analysis.json from clip_dir.     Return",
+      "file_type": "rationale",
+      "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
+      "source_location": "L291",
+      "community": 1,
+      "norm_label": "phase 2 helper: loads pre-computed audio_analysis.json from clip_dir.     return",
+      "id": "audio_extractor_rationale_291"
     },
     {
       "label": "Column 1 Record: Saves rendered master reel intelligence and file_id into",
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L314",
-      "community": 2,
+      "community": 1,
       "norm_label": "column 1 record: saves rendered master reel intelligence and file_id into",
       "id": "telegram_vault_indexer_rationale_314"
     },
@@ -11024,7 +11033,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L365",
-      "community": 2,
+      "community": 1,
       "norm_label": "ai trajectory store: records structured, un-mixed pipeline stage logs into",
       "id": "telegram_vault_indexer_rationale_365"
     },
@@ -11033,7 +11042,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L421",
-      "community": 2,
+      "community": 1,
       "norm_label": "rag creator behavior store: appends an editing plan attempt (and user approval/f",
       "id": "telegram_vault_indexer_rationale_421"
     },
@@ -11042,7 +11051,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L452",
-      "community": 2,
+      "community": 1,
       "norm_label": "uploads updated master_vault_index.json to telegram_storage_group_id and pins it",
       "id": "telegram_vault_indexer_rationale_452"
     },
@@ -11051,7 +11060,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1036",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses scraping_auto_input_times from .env (e.g., '07:00,12:00,19:00').     defa",
       "id": "main_rationale_1036"
     },
@@ -11060,7 +11069,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1046",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses publish_static_times from .env (e.g., '07:30,12:30,19:30').     defaults",
       "id": "main_rationale_1046"
     },
@@ -11069,7 +11078,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1056",
-      "community": 1,
+      "community": 2,
       "norm_label": "calculates the next target time slot and seconds remaining until it fires.",
       "id": "main_rationale_1056"
     },
@@ -11078,7 +11087,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1084",
-      "community": 1,
+      "community": 2,
       "norm_label": "blocking cli loop for static time scheduler.     rotates max 2 source accounts a",
       "id": "main_rationale_1084"
     },
@@ -11087,7 +11096,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1108",
-      "community": 1,
+      "community": 2,
       "norm_label": "async background task running alongside telegram bot polling.     rotates max 2",
       "id": "main_rationale_1108"
     },
@@ -11096,7 +11105,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1152",
-      "community": 1,
+      "community": 2,
       "norm_label": "launches continuous telegram bot polling listener.     waits for user input on t",
       "id": "main_rationale_1152"
     },
@@ -11105,7 +11114,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L296",
-      "community": 2,
+      "community": 1,
       "norm_label": "column 1 record: saves rendered master reel intelligence and file_id into",
       "id": "telegram_vault_indexer_rationale_296"
     },
@@ -11114,7 +11123,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L347",
-      "community": 2,
+      "community": 1,
       "norm_label": "ai trajectory store: records structured, un-mixed pipeline stage logs into",
       "id": "telegram_vault_indexer_rationale_347"
     },
@@ -11123,7 +11132,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L403",
-      "community": 2,
+      "community": 1,
       "norm_label": "rag creator behavior store: appends an editing plan attempt (and user approval/f",
       "id": "telegram_vault_indexer_rationale_403"
     },
@@ -11132,7 +11141,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L434",
-      "community": 2,
+      "community": 1,
       "norm_label": "uploads updated master_vault_index.json to telegram_storage_group_id and pins it",
       "id": "telegram_vault_indexer_rationale_434"
     },
@@ -11141,7 +11150,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L994",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses scraping_auto_input_times from .env (e.g., '07:00,12:00,19:00').     defa",
       "id": "main_rationale_994"
     },
@@ -11150,7 +11159,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1004",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses publish_static_times from .env (e.g., '07:30,12:30,19:30').     defaults",
       "id": "main_rationale_1004"
     },
@@ -11159,7 +11168,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1014",
-      "community": 1,
+      "community": 2,
       "norm_label": "calculates the next target time slot and seconds remaining until it fires.",
       "id": "main_rationale_1014"
     },
@@ -11168,7 +11177,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1042",
-      "community": 1,
+      "community": 2,
       "norm_label": "blocking cli loop for static time scheduler.     rotates max 2 source accounts a",
       "id": "main_rationale_1042"
     },
@@ -11177,7 +11186,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1066",
-      "community": 1,
+      "community": 2,
       "norm_label": "async background task running alongside telegram bot polling.     rotates max 2",
       "id": "main_rationale_1066"
     },
@@ -11186,7 +11195,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1110",
-      "community": 1,
+      "community": 2,
       "norm_label": "launches continuous telegram bot polling listener.     waits for user input on t",
       "id": "main_rationale_1110"
     },
@@ -11195,7 +11204,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L104",
-      "community": 2,
+      "community": 1,
       "norm_label": "phase 1 post-download hook. called immediately after video.mp4 is saved.      st",
       "id": "audio_extractor_rationale_104"
     },
@@ -11204,7 +11213,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L234",
-      "community": 2,
+      "community": 1,
       "norm_label": "ingests clean musical audio extracted from a phase 1 clip into the central     o",
       "id": "audio_extractor_rationale_234"
     },
@@ -11213,7 +11222,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L287",
-      "community": 2,
+      "community": 1,
       "norm_label": "phase 2 helper: loads pre-computed audio_analysis.json from clip_dir.     return",
       "id": "audio_extractor_rationale_287"
     },
@@ -11222,7 +11231,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L121",
-      "community": 2,
+      "community": 1,
       "norm_label": "startup sync: checks telegram_storage_group_id for pinned master_vault_index.jso",
       "id": "telegram_vault_indexer_rationale_121"
     },
@@ -11231,7 +11240,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L155",
-      "community": 47,
+      "community": 46,
       "norm_label": "hydrates local disk stores (pool_metadata.json, .clip_intelligence.json)",
       "id": "telegram_vault_indexer_rationale_155"
     },
@@ -11240,7 +11249,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L188",
-      "community": 2,
+      "community": 1,
       "norm_label": "column 2 record: uploads raw source video and extracted audio to telegram_storag",
       "id": "telegram_vault_indexer_rationale_188"
     },
@@ -11249,7 +11258,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L249",
-      "community": 2,
+      "community": 1,
       "norm_label": "column 1 record: saves rendered master reel intelligence and file_id into",
       "id": "telegram_vault_indexer_rationale_249"
     },
@@ -11258,7 +11267,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L300",
-      "community": 2,
+      "community": 1,
       "norm_label": "ai trajectory store: records structured, un-mixed pipeline stage logs into",
       "id": "telegram_vault_indexer_rationale_300"
     },
@@ -11267,7 +11276,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L356",
-      "community": 2,
+      "community": 1,
       "norm_label": "rag creator behavior store: appends an editing plan attempt (and user approval/f",
       "id": "telegram_vault_indexer_rationale_356"
     },
@@ -11276,7 +11285,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L387",
-      "community": 2,
+      "community": 1,
       "norm_label": "uploads updated master_vault_index.json to telegram_storage_group_id and pins it",
       "id": "telegram_vault_indexer_rationale_387"
     },
@@ -11285,7 +11294,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L279",
-      "community": 2,
+      "community": 1,
       "norm_label": "uploads updated master_vault_index.json to telegram_storage_group_id and pins it",
       "id": "telegram_vault_indexer_rationale_279"
     },
@@ -11294,7 +11303,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L100",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds 5-button re-edit feedback menu for aggressive gemini prompt polishing:",
       "id": "main_rationale_100"
     },
@@ -11303,7 +11312,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L122",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds rating keyboard for selecting best attempt 1 to 5 after max_retries limit",
       "id": "main_rationale_122"
     },
@@ -11312,7 +11321,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L148",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds interactive platform selector keyboard for bulk scraping:       - [ \ud83d\udcf8 ins",
       "id": "main_rationale_148"
     },
@@ -11321,7 +11330,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L173",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds a single back/cancel button keyboard.",
       "id": "main_rationale_173"
     },
@@ -11330,7 +11339,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L184",
-      "community": 1,
+      "community": 2,
       "norm_label": "builds 4-button inline keyboard for telegram master reel review:       - [\u2705 appr",
       "id": "main_rationale_184"
     },
@@ -11339,7 +11348,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L212",
-      "community": 1,
+      "community": 2,
       "norm_label": "routes telegram inline button clicks:       - platform selection: platform_insta",
       "id": "main_rationale_212"
     },
@@ -11348,7 +11357,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L490",
-      "community": 1,
+      "community": 2,
       "norm_label": "executes aggressive re-edit with human directive injected into gemini call 3.",
       "id": "main_rationale_490"
     },
@@ -11357,7 +11366,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L541",
-      "community": 1,
+      "community": 2,
       "norm_label": "handles /start command: welcomes user & shows platform selection keyboard.",
       "id": "main_rationale_541"
     },
@@ -11366,7 +11375,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L566",
-      "community": 1,
+      "community": 2,
       "norm_label": "/ytcode          -> triggers youtube auth refresh (sends google sign-in link to",
       "id": "main_rationale_566"
     },
@@ -11375,7 +11384,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L604",
-      "community": 1,
+      "community": 2,
       "norm_label": "processes pasted localhost oauth redirect url or raw code.",
       "id": "main_rationale_604"
     },
@@ -11384,7 +11393,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L634",
-      "community": 1,
+      "community": 2,
       "norm_label": "handles user messages sent to telegram bot:       1. active session title captur",
       "id": "main_rationale_634"
     },
@@ -11393,7 +11402,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L836",
-      "community": 1,
+      "community": 2,
       "norm_label": "executes end-to-end master pipeline across all 4 phases.     supports url inputs",
       "id": "main_rationale_836"
     },
@@ -11402,7 +11411,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L978",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses scraping_auto_input_times from .env (e.g., '07:00,12:00,19:00').     defa",
       "id": "main_rationale_978"
     },
@@ -11411,7 +11420,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L988",
-      "community": 1,
+      "community": 2,
       "norm_label": "parses publish_static_times from .env (e.g., '07:30,12:30,19:30').     defaults",
       "id": "main_rationale_988"
     },
@@ -11420,7 +11429,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L998",
-      "community": 1,
+      "community": 2,
       "norm_label": "calculates the next target time slot and seconds remaining until it fires.",
       "id": "main_rationale_998"
     },
@@ -11429,7 +11438,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1026",
-      "community": 1,
+      "community": 2,
       "norm_label": "blocking cli loop for static time scheduler.     rotates max 2 source accounts a",
       "id": "main_rationale_1026"
     },
@@ -11438,7 +11447,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1050",
-      "community": 1,
+      "community": 2,
       "norm_label": "async background task running alongside telegram bot polling.     rotates max 2",
       "id": "main_rationale_1050"
     },
@@ -11447,7 +11456,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\main.py",
       "source_location": "L1094",
-      "community": 1,
+      "community": 2,
       "norm_label": "launches continuous telegram bot polling listener.     waits for user input on t",
       "id": "main_rationale_1094"
     },
@@ -11456,7 +11465,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L125",
-      "community": 48,
+      "community": 47,
       "norm_label": "[fix] move any loose .mp3/.wav files sitting in original_audio/ root into",
       "id": "audio_pool_manager_rationale_125"
     },
@@ -11465,7 +11474,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L206",
-      "community": 49,
+      "community": 48,
       "norm_label": "scan active/ folder and ensure all files are registered in pool_metadata.json.",
       "id": "audio_pool_manager_rationale_206"
     },
@@ -11474,7 +11483,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L245",
-      "community": 50,
+      "community": 49,
       "norm_label": "daemon thread: analyze one bgm track with gemini and write the result         b",
       "id": "audio_pool_manager_rationale_245"
     },
@@ -11483,7 +11492,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L400",
-      "community": 51,
+      "community": 50,
       "norm_label": "lazy load beat data from cache or disk.",
       "id": "audio_pool_manager_rationale_400"
     },
@@ -11492,7 +11501,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L442",
-      "community": 52,
+      "community": 51,
       "norm_label": "moves newly extracted audio into pool and caches deep beat metadata.",
       "id": "audio_pool_manager_rationale_442"
     },
@@ -11501,7 +11510,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L529",
-      "community": 53,
+      "community": 52,
       "norm_label": "rotate files from cooldown back to active. if force=true, recycle all files imme",
       "id": "audio_pool_manager_rationale_529"
     },
@@ -11510,7 +11519,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L695",
-      "community": 54,
+      "community": 53,
       "norm_label": "mark a bgm track as used without moving to cooldown (rotation disabled per direc",
       "id": "audio_pool_manager_rationale_695"
     },
@@ -11519,7 +11528,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L707",
-      "community": 55,
+      "community": 54,
       "norm_label": "rotates clips from cooldown back to active based on hybrid logic.         clean",
       "id": "audio_pool_manager_rationale_707"
     },
@@ -11528,7 +11537,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L792",
-      "community": 56,
+      "community": 55,
       "norm_label": "return the pool_metadata[\"files\"] dict \u2014 the unified audio track index.",
       "id": "audio_pool_manager_rationale_792"
     },
@@ -11537,7 +11546,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_pool_manager.py",
       "source_location": "L800",
-      "community": 57,
+      "community": 56,
       "norm_label": "merge rich lyric intelligence fields from a _lyric.json result into         poo",
       "id": "audio_pool_manager_rationale_800"
     },
@@ -11699,7 +11708,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\04_bgm_selector.py",
       "source_location": "L29",
-      "community": 2,
+      "community": 1,
       "norm_label": "executes gemini call 2 bgm selector.     returns dict containing selected_audio_",
       "id": "04_bgm_selector_rationale_29"
     },
@@ -11708,7 +11717,7 @@
       "file_type": "rationale",
       "source_file": "D:\\AMTCE\\simpler update\\Phase_2\\06_ffmpeg_synthesis.py",
       "source_location": "L108",
-      "community": 3,
+      "community": 4,
       "norm_label": "executes gemini call 3 to synthesize ffmpeg filtergraph plan.     falls back to",
       "id": "06_ffmpeg_synthesis_rationale_108"
     },
@@ -16824,7 +16833,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
-      "source_location": "L290",
+      "source_location": "L285",
       "weight": 1.0,
       "_src": "d_amtce_simpler_update_audio_modules_audio_extractor_py",
       "_tgt": "audio_extractor_load_audio_analysis",
@@ -17112,12 +17121,12 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
-      "source_location": "L291",
+      "source_location": "L286",
       "weight": 1.0,
-      "_src": "audio_extractor_rationale_291",
+      "_src": "audio_extractor_rationale_286",
       "_tgt": "audio_extractor_load_audio_analysis",
       "source": "audio_extractor_load_audio_analysis",
-      "target": "audio_extractor_rationale_291",
+      "target": "audio_extractor_rationale_286",
       "confidence_score": 1.0
     },
     {
@@ -17210,11 +17219,11 @@
       "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
       "source_location": "L218",
       "weight": 0.8,
-      "_src": "audio_extractor_rationale_291",
+      "_src": "audio_extractor_rationale_286",
       "_tgt": "audio_pool_manager_audiopoolmanager",
-      "confidence_score": 0.5,
-      "source": "audio_extractor_rationale_291",
-      "target": "audio_pool_manager_audiopoolmanager"
+      "source": "audio_extractor_rationale_286",
+      "target": "audio_pool_manager_audiopoolmanager",
+      "confidence_score": 0.5
     },
     {
       "relation": "contains",
@@ -18866,11 +18875,11 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L210",
       "weight": 0.8,
-      "_src": "telegram_vault_indexer_rationale_302",
-      "_tgt": "audio_pool_manager_audiopoolmanager",
+      "_src": "audio_pool_manager_audiopoolmanager",
+      "_tgt": "telegram_vault_indexer_rationale_302",
+      "confidence_score": 0.5,
       "source": "audio_pool_manager_audiopoolmanager",
-      "target": "telegram_vault_indexer_rationale_302",
-      "confidence_score": 0.5
+      "target": "telegram_vault_indexer_rationale_302"
     },
     {
       "relation": "uses",
@@ -18878,11 +18887,11 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L210",
       "weight": 0.8,
-      "_src": "telegram_vault_indexer_rationale_353",
-      "_tgt": "audio_pool_manager_audiopoolmanager",
+      "_src": "audio_pool_manager_audiopoolmanager",
+      "_tgt": "telegram_vault_indexer_rationale_353",
+      "confidence_score": 0.5,
       "source": "audio_pool_manager_audiopoolmanager",
-      "target": "telegram_vault_indexer_rationale_353",
-      "confidence_score": 0.5
+      "target": "telegram_vault_indexer_rationale_353"
     },
     {
       "relation": "uses",
@@ -18890,11 +18899,11 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L210",
       "weight": 0.8,
-      "_src": "telegram_vault_indexer_rationale_409",
-      "_tgt": "audio_pool_manager_audiopoolmanager",
+      "_src": "audio_pool_manager_audiopoolmanager",
+      "_tgt": "telegram_vault_indexer_rationale_409",
+      "confidence_score": 0.5,
       "source": "audio_pool_manager_audiopoolmanager",
-      "target": "telegram_vault_indexer_rationale_409",
-      "confidence_score": 0.5
+      "target": "telegram_vault_indexer_rationale_409"
     },
     {
       "relation": "uses",
@@ -18902,11 +18911,11 @@
       "source_file": "D:\\AMTCE\\simpler update\\Publishing_Modules\\telegram_vault_indexer.py",
       "source_location": "L210",
       "weight": 0.8,
-      "_src": "telegram_vault_indexer_rationale_440",
-      "_tgt": "audio_pool_manager_audiopoolmanager",
+      "_src": "audio_pool_manager_audiopoolmanager",
+      "_tgt": "telegram_vault_indexer_rationale_440",
+      "confidence_score": 0.5,
       "source": "audio_pool_manager_audiopoolmanager",
-      "target": "telegram_vault_indexer_rationale_440",
-      "confidence_score": 0.5
+      "target": "telegram_vault_indexer_rationale_440"
     },
     {
       "relation": "uses",
@@ -18979,6 +18988,18 @@
       "_tgt": "backfill_pool_metadata_main",
       "source": "audio_pool_manager_audiopoolmanager",
       "target": "backfill_pool_metadata_main"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "D:\\AMTCE\\simpler update\\Audio_Modules\\audio_extractor.py",
+      "source_location": "L218",
+      "weight": 0.8,
+      "_src": "audio_extractor_rationale_291",
+      "_tgt": "audio_pool_manager_audiopoolmanager",
+      "confidence_score": 0.5,
+      "source": "audio_pool_manager_audiopoolmanager",
+      "target": "audio_extractor_rationale_291"
     },
     {
       "relation": "uses",

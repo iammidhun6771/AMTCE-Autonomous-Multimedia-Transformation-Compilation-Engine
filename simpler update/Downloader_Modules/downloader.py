@@ -726,7 +726,7 @@ def download_video(
     if not success and platform == "instagram" and _is_real_ig_url and os.getenv("APIFY_API_TOKEN"):
         logger.warning("💰 [TIER 9] All yt-dlp strategies exhausted → Apify fallback")
         try:
-            from Download_Modules.apify_downloader import apify_get_video_url
+            from Downloader_Modules.apify_downloader import apify_get_video_url
             cdn_url = apify_get_video_url(url)
             if cdn_url:
                 logger.info("Apify returned CDN URL -- downloading directly (no yt-dlp re-entry)")

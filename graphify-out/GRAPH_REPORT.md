@@ -1,12 +1,12 @@
 # Graph Report - D:\AMTCE  (2026-08-06)
 
 ## Corpus Check
-- 125 files · ~417,652 words
+- 125 files · ~417,926 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1319 nodes · 2825 edges · 58 communities detected
-- Extraction: 59% EXTRACTED · 41% INFERRED · 0% AMBIGUOUS · INFERRED: 1165 edges (avg confidence: 0.64)
+- 1320 nodes · 2826 edges · 57 communities detected
+- Extraction: 59% EXTRACTED · 41% INFERRED · 0% AMBIGUOUS · INFERRED: 1166 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -67,12 +67,11 @@
 - [[_COMMUNITY_Community 54|Community 54]]
 - [[_COMMUNITY_Community 55|Community 55]]
 - [[_COMMUNITY_Community 56|Community 56]]
-- [[_COMMUNITY_Community 57|Community 57]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `get()` - 218 edges
 2. `BeatEngine` - 121 edges
-3. `AudioPoolManager` - 108 edges
+3. `AudioPoolManager` - 109 edges
 4. `ClipIntelligenceStore` - 102 edges
 5. `MasterAIEditor` - 61 edges
 6. `PublishQueue` - 55 edges
@@ -101,23 +100,23 @@ Nodes (132): Phase_2 / 02_forensic_perception.py ===============================
 
 ### Community 1 - "Community 1"
 Cohesion: 0.03
-Nodes (109): ingest_to_publish_queue(), Phase 3 — Step 01: Queue Ingest Manager ========================================, Ingest a rendered video file into publish_queue.json.      Args:         video_p, Compatibility shim for the sample update tree.  This file provides the local pub, _async_static_scheduler_task(), build_back_button_keyboard(), build_best_attempt_comparison_keyboard(), build_platform_selection_keyboard() (+101 more)
+Nodes (92): Phase_2 / 04_bgm_selector.py ============================ Step 4: Gemini Call 2, Attempts to load a previously selected BGM track from ClipIntelligenceStore., Executes Gemini Call 2 BGM Selector.     Returns dict containing selected_audio_, Executes Gemini Call 2 BGM Selector.      Stage 2 Cache Lock:         If intent_, select_clip_bgm(), _try_load_cached_bgm(), extract_audio(), _has_audio_stream() (+84 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.03
-Nodes (91): Phase_2 / 04_bgm_selector.py ============================ Step 4: Gemini Call 2, Attempts to load a previously selected BGM track from ClipIntelligenceStore., Executes Gemini Call 2 BGM Selector.     Returns dict containing selected_audio_, Executes Gemini Call 2 BGM Selector.      Stage 2 Cache Lock:         If intent_, select_clip_bgm(), _try_load_cached_bgm(), extract_audio(), _has_audio_stream() (+83 more)
+Nodes (104): ingest_to_publish_queue(), Phase 3 — Step 01: Queue Ingest Manager ========================================, Ingest a rendered video file into publish_queue.json.      Args:         video_p, _async_static_scheduler_task(), build_back_button_keyboard(), build_best_attempt_comparison_keyboard(), build_platform_selection_keyboard(), build_reedit_options_keyboard() (+96 more)
 
 ### Community 3 - "Community 3"
+Cohesion: 0.05
+Nodes (88): detect_faces(), FaceProtector, HybridWatermarkDetector, is_safe_region(), load_detected_niche(), _niche_sidecar_path(), Hybrid Watermark Manager (Gemini Authority) -----------------------------------, Logs user feedback (Reinforcement Learning Stub).         In "Strict Mode", thi (+80 more)
+
+### Community 4 - "Community 4"
 Cohesion: 0.04
 Nodes (43): _is_api_outage_or_key_error(), Phase_2 / 06_ffmpeg_synthesis.py ================================ Step 6: Gemini, Executes Gemini Call 3 to synthesize FFmpeg filtergraph plan.     Falls back to, Executes Gemini Call 3 to synthesize FFmpeg filtergraph plan.     Falls back to, Returns True ONLY IF error is caused by:       - 503 Service Unavailable / Overl, Offline DSP fallback using MusicDrivenEditor & FFmpeg when Gemini Call 3 API is, _run_music_driven_fallback(), synthesize_editing_plan() (+35 more)
 
-### Community 4 - "Community 4"
-Cohesion: 0.06
-Nodes (83): detect_faces(), FaceProtector, HybridWatermarkDetector, is_safe_region(), load_detected_niche(), _niche_sidecar_path(), Hybrid Watermark Manager (Gemini Authority) -----------------------------------, Logs user feedback (Reinforcement Learning Stub).         In "Strict Mode", thi (+75 more)
-
 ### Community 5 - "Community 5"
 Cohesion: 0.04
-Nodes (80): publish_to_tiktok(), Phase 3 — Step 05: TikTok Publisher ===================================== Handle, Publish video to TikTok platform.      Args:         video_path: Path to rendere, detect_gender_from_name(), _extract_person_name(), get_source_accounts(), _load_identities(), _paparazzi_creds_exist() (+72 more)
+Nodes (87): publish_to_tiktok(), Phase 3 — Step 05: TikTok Publisher ===================================== Handle, Publish video to TikTok platform.      Args:         video_path: Path to rendere, generate_dry_run_preview(), get_escalated_retry_mode(), Core_Modules / approval_flow.py ================================ Escalating retr, Determine if a retry is allowed and return the escalated retry mode.      Args:, Isolate pre-publish watermark check to let human catch uncleaned overlays. (+79 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.04
@@ -136,12 +135,12 @@ Cohesion: 0.06
 Nodes (36): Phase_2 / 01_folder_scanner.py ============================== Step 1: Scans `dow, Scans for clip targets. Returns list of target clip dicts:     [{"dir": clip_fol, scan_clip_targets(), extract_targeted_frames(), Phase_2 / 03_vector_frame_extractor.py ====================================== St, Extracts targeted frames using Gemini visual_vectors.     Returns list of absolu, Phase_2 / 07_master_render.py ============================= Step 7: Master FFmpe, Verifies output master reel in Processed Shorts/. (+28 more)
 
 ### Community 10 - "Community 10"
-Cohesion: 0.08
-Nodes (38): apify_get_video_url(), apify_get_video_url_any(), apify_scrape_creator_accounts(), _check_quota(), _consume_quota(), _find_video_urls(), gemini_reel_prescreen(), _get_client() (+30 more)
+Cohesion: 0.09
+Nodes (33): apify_get_video_url(), apify_get_video_url_any(), apify_scrape_creator_accounts(), _check_quota(), _consume_quota(), _find_video_urls(), gemini_reel_prescreen(), _get_client() (+25 more)
 
 ### Community 11 - "Community 11"
 Cohesion: 0.07
-Nodes (34): _batch_label(), _detect_gender(), _download_reel(), _extract_person_name(), _fetch_reels_apify(), get_source_accounts(), _inject_niche(), _men_channel() (+26 more)
+Nodes (36): _batch_label(), _detect_gender(), _download_reel(), _extract_person_name(), _fetch_reels_apify(), get_source_accounts(), _inject_niche(), _men_channel() (+28 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.15
@@ -185,27 +184,27 @@ Nodes (4): get_instance(), LamaEngine, Deep Hybrid Inpainting Engine (LaMa Wrapp
 
 ### Community 22 - "Community 22"
 Cohesion: 0.5
-Nodes (4): main(), phase2_1_main.py — Phase 2.1 Watermark Cleanup Gate ===========================, Run the watermark cleanup stage and return the final cleaned video path., run_phase2_1_watermark_gate()
-
-### Community 23 - "Community 23"
-Cohesion: 0.5
 Nodes (3): notify_tracker(), Import_Modules / tracker_notifier.py ==================================== Lightw, Sends stage event to local tracker server. Safe & non-blocking if server is offl
 
-### Community 24 - "Community 24"
+### Community 23 - "Community 23"
 Cohesion: 1.0
 Nodes (1): run_transcriber.py — AMTCE Root Transcriber Entrypoint =========================
 
-### Community 25 - "Community 25"
+### Community 24 - "Community 24"
 Cohesion: 1.0
 Nodes (1): Import_Modules / phase1_imports.py =================================== Centraliz
 
-### Community 26 - "Community 26"
+### Community 25 - "Community 25"
 Cohesion: 1.0
 Nodes (1): Import_Modules / phase2_imports.py ================================== Central Hu
 
-### Community 27 - "Community 27"
+### Community 26 - "Community 26"
 Cohesion: 1.0
 Nodes (1): Import Hub for Phase 3 Package ================================ Exposes all Phas
+
+### Community 27 - "Community 27"
+Cohesion: 1.0
+Nodes (0): 
 
 ### Community 28 - "Community 28"
 Cohesion: 1.0
@@ -225,55 +224,55 @@ Nodes (0):
 
 ### Community 32 - "Community 32"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Resolves Meta credentials using a 3-tier priority chain:           1. Credentia
 
 ### Community 33 - "Community 33"
 Cohesion: 1.0
-Nodes (1): Resolves Meta credentials using a 3-tier priority chain:           1. Credentia
+Nodes (1): Orchestrates uploads to enabled Meta platforms.          The ``niche`` paramet
 
 ### Community 34 - "Community 34"
 Cohesion: 1.0
-Nodes (1): Orchestrates uploads to enabled Meta platforms.          The ``niche`` paramet
+Nodes (1): Uploads the local image to a temporary public host so the Instagram         Gra
 
 ### Community 35 - "Community 35"
 Cohesion: 1.0
-Nodes (1): Uploads the local image to a temporary public host so the Instagram         Gra
+Nodes (1): Smart person-aware Instagram ratio formatter (4:5 = 1080x1350).          Strat
 
 ### Community 36 - "Community 36"
 Cohesion: 1.0
-Nodes (1): Smart person-aware Instagram ratio formatter (4:5 = 1080x1350).          Strat
+Nodes (1): Uploads a standard Image Post to Instagram feed using the Graph API.         Re
 
 ### Community 37 - "Community 37"
 Cohesion: 1.0
-Nodes (1): Uploads a standard Image Post to Instagram feed using the Graph API.         Re
+Nodes (1): Cleans captions of UTF-16 surrogates that cause UnicodeEncodeError in httpx/UTF-
 
 ### Community 38 - "Community 38"
 Cohesion: 1.0
-Nodes (1): Cleans captions of UTF-16 surrogates that cause UnicodeEncodeError in httpx/UTF-
+Nodes (1): Generic retry wrapper for HTTP requests using httpx.         Default timeout in
 
 ### Community 39 - "Community 39"
 Cohesion: 1.0
-Nodes (1): Generic retry wrapper for HTTP requests using httpx.         Default timeout in
+Nodes (1): Polls Instagram container status until FINISHED or ERROR.         Timeout defau
 
 ### Community 40 - "Community 40"
 Cohesion: 1.0
-Nodes (1): Polls Instagram container status until FINISHED or ERROR.         Timeout defau
+Nodes (1): Fix C: remove `item` from `container` by object identity, not value         equa
 
 ### Community 41 - "Community 41"
 Cohesion: 1.0
-Nodes (1): Fix C: remove `item` from `container` by object identity, not value         equa
+Nodes (1): Get a module by name, loading it lazily if not already cached.
 
 ### Community 42 - "Community 42"
 Cohesion: 1.0
-Nodes (1): Get a module by name, loading it lazily if not already cached.
+Nodes (1): Clear the import cache.
 
 ### Community 43 - "Community 43"
 Cohesion: 1.0
-Nodes (1): Clear the import cache.
+Nodes (1): Singleton pattern so we only load the 500MB model into memory once.
 
 ### Community 44 - "Community 44"
 Cohesion: 1.0
-Nodes (1): Singleton pattern so we only load the 500MB model into memory once.
+Nodes (0): 
 
 ### Community 45 - "Community 45"
 Cohesion: 1.0
@@ -281,64 +280,62 @@ Nodes (0):
 
 ### Community 46 - "Community 46"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Hydrates local disk stores (pool_metadata.json, .clip_intelligence.json)
 
 ### Community 47 - "Community 47"
 Cohesion: 1.0
-Nodes (1): Hydrates local disk stores (pool_metadata.json, .clip_intelligence.json)
+Nodes (1): [FIX] Move any loose .mp3/.wav files sitting in Original_audio/ root into
 
 ### Community 48 - "Community 48"
 Cohesion: 1.0
-Nodes (1): [FIX] Move any loose .mp3/.wav files sitting in Original_audio/ root into
+Nodes (1): Scan active/ folder and ensure all files are registered in pool_metadata.json.
 
 ### Community 49 - "Community 49"
 Cohesion: 1.0
-Nodes (1): Scan active/ folder and ensure all files are registered in pool_metadata.json.
+Nodes (1): Daemon thread: analyze one BGM track with Gemini and write the result         b
 
 ### Community 50 - "Community 50"
 Cohesion: 1.0
-Nodes (1): Daemon thread: analyze one BGM track with Gemini and write the result         b
+Nodes (1): Lazy load beat data from cache or disk.
 
 ### Community 51 - "Community 51"
 Cohesion: 1.0
-Nodes (1): Lazy load beat data from cache or disk.
+Nodes (1): Moves newly extracted audio into pool and caches deep beat metadata.
 
 ### Community 52 - "Community 52"
 Cohesion: 1.0
-Nodes (1): Moves newly extracted audio into pool and caches deep beat metadata.
+Nodes (1): Rotate files from cooldown back to active. If force=True, recycle all files imme
 
 ### Community 53 - "Community 53"
 Cohesion: 1.0
-Nodes (1): Rotate files from cooldown back to active. If force=True, recycle all files imme
+Nodes (1): Mark a BGM track as used without moving to cooldown (rotation disabled per direc
 
 ### Community 54 - "Community 54"
 Cohesion: 1.0
-Nodes (1): Mark a BGM track as used without moving to cooldown (rotation disabled per direc
+Nodes (1): Rotates clips from cooldown back to active based on hybrid logic.         Clean
 
 ### Community 55 - "Community 55"
 Cohesion: 1.0
-Nodes (1): Rotates clips from cooldown back to active based on hybrid logic.         Clean
-
-### Community 56 - "Community 56"
-Cohesion: 1.0
 Nodes (1): Return the pool_metadata["files"] dict — the unified audio track index.
 
-### Community 57 - "Community 57"
+### Community 56 - "Community 56"
 Cohesion: 1.0
 Nodes (1): Merge rich lyric intelligence fields from a _lyric.json result INTO         poo
 
 ## Knowledge Gaps
-- **343 isolated node(s):** `phase2_1_main.py — Phase 2.1 Watermark Cleanup Gate ===========================`, `Run the watermark cleanup stage and return the final cleaned video path.`, `Delegates Phase 2 Master AI Editing Pipeline to Phase_2.phase2_orchestrator.`, `Resolve ffmpeg binary path. Checks PATH first, then common install locations.`, `Encode a raw video to a 480p H.264 proxy for Gemini vision analysis.      Args:` (+338 more)
+- **344 isolated node(s):** `phase2_1_main.py — Phase 2.1 Watermark Cleanup Gate ===========================`, `Run the watermark cleanup stage and return the final cleaned video path.`, `Delegates Phase 2 Master AI Editing Pipeline to Phase_2.phase2_orchestrator.`, `Resolve ffmpeg binary path. Checks PATH first, then common install locations.`, `Encode a raw video to a 480p H.264 proxy for Gemini vision analysis.      Args:` (+339 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 24`** (2 nodes): `run_transcriber.py`, `run_transcriber.py — AMTCE Root Transcriber Entrypoint =========================`
+- **Thin community `Community 23`** (2 nodes): `run_transcriber.py`, `run_transcriber.py — AMTCE Root Transcriber Entrypoint =========================`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 25`** (2 nodes): `phase1_imports.py`, `Import_Modules / phase1_imports.py =================================== Centraliz`
+- **Thin community `Community 24`** (2 nodes): `phase1_imports.py`, `Import_Modules / phase1_imports.py =================================== Centraliz`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 26`** (2 nodes): `phase2_imports.py`, `Import_Modules / phase2_imports.py ================================== Central Hu`
+- **Thin community `Community 25`** (2 nodes): `phase2_imports.py`, `Import_Modules / phase2_imports.py ================================== Central Hu`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 27`** (2 nodes): `phase3_imports.py`, `Import Hub for Phase 3 Package ================================ Exposes all Phas`
+- **Thin community `Community 26`** (2 nodes): `phase3_imports.py`, `Import Hub for Phase 3 Package ================================ Exposes all Phas`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 28`** (1 nodes): `check_yaml.py`
+- **Thin community `Community 27`** (1 nodes): `check_yaml.py`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 28`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 29`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -346,73 +343,71 @@ Nodes (1): Merge rich lyric intelligence fields from a _lyric.json result INTO  
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 31`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 32`** (1 nodes): `__init__.py`
+- **Thin community `Community 32`** (1 nodes): `Resolves Meta credentials using a 3-tier priority chain:           1. Credentia`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 33`** (1 nodes): `Resolves Meta credentials using a 3-tier priority chain:           1. Credentia`
+- **Thin community `Community 33`** (1 nodes): `Orchestrates uploads to enabled Meta platforms.          The ``niche`` paramet`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 34`** (1 nodes): `Orchestrates uploads to enabled Meta platforms.          The ``niche`` paramet`
+- **Thin community `Community 34`** (1 nodes): `Uploads the local image to a temporary public host so the Instagram         Gra`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 35`** (1 nodes): `Uploads the local image to a temporary public host so the Instagram         Gra`
+- **Thin community `Community 35`** (1 nodes): `Smart person-aware Instagram ratio formatter (4:5 = 1080x1350).          Strat`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 36`** (1 nodes): `Smart person-aware Instagram ratio formatter (4:5 = 1080x1350).          Strat`
+- **Thin community `Community 36`** (1 nodes): `Uploads a standard Image Post to Instagram feed using the Graph API.         Re`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 37`** (1 nodes): `Uploads a standard Image Post to Instagram feed using the Graph API.         Re`
+- **Thin community `Community 37`** (1 nodes): `Cleans captions of UTF-16 surrogates that cause UnicodeEncodeError in httpx/UTF-`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 38`** (1 nodes): `Cleans captions of UTF-16 surrogates that cause UnicodeEncodeError in httpx/UTF-`
+- **Thin community `Community 38`** (1 nodes): `Generic retry wrapper for HTTP requests using httpx.         Default timeout in`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 39`** (1 nodes): `Generic retry wrapper for HTTP requests using httpx.         Default timeout in`
+- **Thin community `Community 39`** (1 nodes): `Polls Instagram container status until FINISHED or ERROR.         Timeout defau`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 40`** (1 nodes): `Polls Instagram container status until FINISHED or ERROR.         Timeout defau`
+- **Thin community `Community 40`** (1 nodes): `Fix C: remove `item` from `container` by object identity, not value         equa`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 41`** (1 nodes): `Fix C: remove `item` from `container` by object identity, not value         equa`
+- **Thin community `Community 41`** (1 nodes): `Get a module by name, loading it lazily if not already cached.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 42`** (1 nodes): `Get a module by name, loading it lazily if not already cached.`
+- **Thin community `Community 42`** (1 nodes): `Clear the import cache.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 43`** (1 nodes): `Clear the import cache.`
+- **Thin community `Community 43`** (1 nodes): `Singleton pattern so we only load the 500MB model into memory once.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 44`** (1 nodes): `Singleton pattern so we only load the 500MB model into memory once.`
+- **Thin community `Community 44`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 45`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 46`** (1 nodes): `__init__.py`
+- **Thin community `Community 46`** (1 nodes): `Hydrates local disk stores (pool_metadata.json, .clip_intelligence.json)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 47`** (1 nodes): `Hydrates local disk stores (pool_metadata.json, .clip_intelligence.json)`
+- **Thin community `Community 47`** (1 nodes): `[FIX] Move any loose .mp3/.wav files sitting in Original_audio/ root into`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 48`** (1 nodes): `[FIX] Move any loose .mp3/.wav files sitting in Original_audio/ root into`
+- **Thin community `Community 48`** (1 nodes): `Scan active/ folder and ensure all files are registered in pool_metadata.json.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 49`** (1 nodes): `Scan active/ folder and ensure all files are registered in pool_metadata.json.`
+- **Thin community `Community 49`** (1 nodes): `Daemon thread: analyze one BGM track with Gemini and write the result         b`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 50`** (1 nodes): `Daemon thread: analyze one BGM track with Gemini and write the result         b`
+- **Thin community `Community 50`** (1 nodes): `Lazy load beat data from cache or disk.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 51`** (1 nodes): `Lazy load beat data from cache or disk.`
+- **Thin community `Community 51`** (1 nodes): `Moves newly extracted audio into pool and caches deep beat metadata.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 52`** (1 nodes): `Moves newly extracted audio into pool and caches deep beat metadata.`
+- **Thin community `Community 52`** (1 nodes): `Rotate files from cooldown back to active. If force=True, recycle all files imme`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 53`** (1 nodes): `Rotate files from cooldown back to active. If force=True, recycle all files imme`
+- **Thin community `Community 53`** (1 nodes): `Mark a BGM track as used without moving to cooldown (rotation disabled per direc`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 54`** (1 nodes): `Mark a BGM track as used without moving to cooldown (rotation disabled per direc`
+- **Thin community `Community 54`** (1 nodes): `Rotates clips from cooldown back to active based on hybrid logic.         Clean`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 55`** (1 nodes): `Rotates clips from cooldown back to active based on hybrid logic.         Clean`
+- **Thin community `Community 55`** (1 nodes): `Return the pool_metadata["files"] dict — the unified audio track index.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 56`** (1 nodes): `Return the pool_metadata["files"] dict — the unified audio track index.`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 57`** (1 nodes): `Merge rich lyric intelligence fields from a _lyric.json result INTO         poo`
+- **Thin community `Community 56`** (1 nodes): `Merge rich lyric intelligence fields from a _lyric.json result INTO         poo`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `get()` connect `Community 5` to `Community 0`, `Community 1`, `Community 2`, `Community 3`, `Community 4`, `Community 6`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 13`, `Community 14`, `Community 15`, `Community 16`, `Community 17`, `Community 18`, `Community 19`?**
-  _High betweenness centrality (0.592) - this node is a cross-community bridge._
-- **Why does `ClipIntelligenceStore` connect `Community 0` to `Community 1`, `Community 2`, `Community 3`, `Community 7`?**
-  _High betweenness centrality (0.074) - this node is a cross-community bridge._
-- **Why does `MasterAIEditor` connect `Community 1` to `Community 0`, `Community 2`, `Community 3`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+  _High betweenness centrality (0.629) - this node is a cross-community bridge._
+- **Why does `AudioPoolManager` connect `Community 1` to `Community 0`, `Community 2`, `Community 5`?**
+  _High betweenness centrality (0.085) - this node is a cross-community bridge._
+- **Why does `MasterAIEditor` connect `Community 2` to `Community 0`, `Community 1`, `Community 4`?**
+  _High betweenness centrality (0.065) - this node is a cross-community bridge._
 - **Are the 216 inferred relationships involving `get()` (e.g. with `.process()` and `main()`) actually correct?**
   _`get()` has 216 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 111 inferred relationships involving `BeatEngine` (e.g. with `MasterAIEditor` and `master_ai_editor.py — End-to-End AI Video Editor Engine ========================`) actually correct?**
   _`BeatEngine` has 111 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 87 inferred relationships involving `AudioPoolManager` (e.g. with `MasterAIEditor` and `master_ai_editor.py — End-to-End AI Video Editor Engine ========================`) actually correct?**
-  _`AudioPoolManager` has 87 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 88 inferred relationships involving `AudioPoolManager` (e.g. with `MasterAIEditor` and `master_ai_editor.py — End-to-End AI Video Editor Engine ========================`) actually correct?**
+  _`AudioPoolManager` has 88 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 83 inferred relationships involving `ClipIntelligenceStore` (e.g. with `Core_Modules / purger.py ======================= Complete Clip & Asset Purger. W` and `Completely purges a clip and all related assets:       - Master rendered video (`) actually correct?**
   _`ClipIntelligenceStore` has 83 INFERRED edges - model-reasoned connections that need verification._

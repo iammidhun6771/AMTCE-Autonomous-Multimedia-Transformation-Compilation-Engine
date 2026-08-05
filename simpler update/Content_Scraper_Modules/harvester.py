@@ -254,7 +254,7 @@ def _download_reel(url: str, dest_dir: str) -> Optional[str]:
     Delegates to the existing Download_Modules machinery.
     """
     try:
-        from Download_Modules.download_handler import download_video
+        from Downloader_Modules.download_handler import download_video
         return download_video(url, dest_dir)
     except Exception as exc:
         logger.warning("harvester: download failed for %s: %s", url, exc)
