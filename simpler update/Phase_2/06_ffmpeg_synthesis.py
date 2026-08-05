@@ -104,6 +104,7 @@ def synthesize_editing_plan(
     micro_shots: Optional[List[Dict[str, Any]]] = None,
     target_duration: float = 15.0,
     user_edit_directive: Optional[str] = None,
+    intent_vector: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
     Executes Gemini Call 3 to synthesize FFmpeg filtergraph plan.
@@ -138,19 +139,38 @@ def synthesize_editing_plan(
     )
 
     if user_edit_directive:
-        req_upper = user_edit_directive.upper()
-        is_surgical = any(kw in req_upper for kw in ["DON'T CHANGE", "DONT CHANGE", "KEEP", "ONLY", "EXCEPT", "NO CHANGE", "PRESERVE", "SAVE", "WATERMARK", "INPAINT", "DELOGO"])
+        _iv = intent_vector or {}
+        preserve_music  = _iv.get("preserve_music",  False)
+        preserve_cuts   = _iv.get("preserve_cuts",   False)
+        intent_class    = _iv.get("intent_class",    "unclear")
+        action_desc     = _iv.get("action_description", user_edit_directive)
+        confidence      = float(_iv.get("confidence", 0.0))
+
+        # ── SEMANTIC INTENT ROUTING (replaces hardcoded keyword match) ──────
+        # Surgical = any preserve flag set OR intent is clearly targeted fix
+        is_surgical = (
+            preserve_music or preserve_cuts
+            or intent_class in ("surgical_watermark_fix", "preserve_all", "color_grade")
+        )
+
         if is_surgical:
+            preserve_parts = []
+            if preserve_music: preserve_parts.append("BGM track")
+            if preserve_cuts:  preserve_parts.append("cut timing")
+            preserve_str = " & ".join(preserve_parts) if preserve_parts else "existing edits"
             user_req += (
                 f"\n\n🔒 SURGICAL HUMAN RE-EDIT DIRECTIVE (PRESERVE EXISTING EDITS):\n"
-                f"\"{user_edit_directive}\"\n"
-                f"STRICT INSTRUCTION: The user wants to KEEP existing music, cuts, and timing. DO NOT change BGM or re-cut shots. ONLY apply the requested targeted fix (watermark/delogo/inpaint)."
+                f"Intent: {action_desc} (confidence: {confidence:.0%})\n"
+                f"Original words: \"{user_edit_directive}\"\n"
+                f"STRICT INSTRUCTION: LOCK {preserve_str}. DO NOT change the selected BGM or re-cut shots. "
+                f"ONLY apply the targeted fix: {intent_class.replace('_', ' ')}."
             )
         else:
             user_req += (
                 f"\n\n⚡ HUMAN RE-EDIT DIRECTIVE:\n"
-                f"\"{user_edit_directive}\"\n"
-                f"Apply world-class editor corrections matching the user's directive."
+                f"Intent: {action_desc} (confidence: {confidence:.0%})\n"
+                f"Original words: \"{user_edit_directive}\"\n"
+                f"Apply world-class editor corrections fully matching the user's directive."
             )
 
     extra_inputs = {}

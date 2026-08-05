@@ -171,11 +171,15 @@ def run_adaptive_watermark_orchestration(
         # 2. Inpaint
         out_candidate = os.path.join(job_dir, f"candidate_a{attempt}.mp4")
         
+        # Extract semantic_vectors from first watermark box (all boxes share same surface context)
+        _sem_vecs = watermarks[0].get("semantic_vectors") or watermarks[0].get("vectors") or {}
+
         success = inpaint_video(
             input_video, masks, out_candidate, 
             original_height=original_height, 
             radius_override=radius, 
-            motion_hint_override=wm_motion_hint
+            motion_hint_override=wm_motion_hint,
+            semantic_vectors=_sem_vecs,
         )
         
         if not success:
