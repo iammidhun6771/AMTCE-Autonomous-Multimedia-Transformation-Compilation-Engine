@@ -493,8 +493,8 @@
       "version": 2
     },
     "Malavika_3.mp3": {
-      "usage_count": 3,
-      "last_used": 1785451215.049738,
+      "usage_count": 4,
+      "last_used": 1786075673.592048,
       "bpm": 100.0,
       "energy": 0.5,
       "created_at": 1780391156.9470403,
@@ -1905,8 +1905,8 @@
       "lyric_intel_merged": true
     },
     "Wr.mp3": {
-      "usage_count": 4,
-      "last_used": 1785962928.9127734,
+      "usage_count": 5,
+      "last_used": 1786075673.5731082,
       "bpm": 52.9,
       "energy": 0.6961538461538462,
       "created_at": 1783918534.436223,
@@ -7661,6 +7661,260 @@
           "video_duration": 10.03,
           "audio_duration_before": 10.03,
           "source_duration": 13.35
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_Dbo76SlTVQz": {
+      "clip_id": "manual_Dbo76SlTVQz",
+      "clip_folder": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_Dbo76SlTVQz",
+      "schema_version": 3,
+      "created_at": 1786075655.3295596,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1786075655.3297672,
+        "intent": "unknown",
+        "tone": "aspirational",
+        "editing_style": "cinematic",
+        "engagement_hook": "",
+        "detected_entities": [],
+        "possible_narratives": [],
+        "recommended_narrative": "",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": true
+        },
+        "safety": {
+          "classification": "risky",
+          "monetization_safe": false
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.4,
+              "energy": 0.452
+            },
+            {
+              "time": 0.9500000000000001,
+              "energy": 0.942
+            },
+            {
+              "time": 1.35,
+              "energy": 0.68
+            },
+            {
+              "time": 1.8,
+              "energy": 0.717
+            },
+            {
+              "time": 2.6,
+              "energy": 0.632
+            },
+            {
+              "time": 3.1,
+              "energy": 0.875
+            },
+            {
+              "time": 3.9000000000000004,
+              "energy": 0.804
+            },
+            {
+              "time": 5.25,
+              "energy": 1.0
+            },
+            {
+              "time": 6.1000000000000005,
+              "energy": 0.94
+            },
+            {
+              "time": 6.95,
+              "energy": 0.693
+            },
+            {
+              "time": 7.45,
+              "energy": 0.941
+            },
+            {
+              "time": 8.0,
+              "energy": 0.723
+            },
+            {
+              "time": 8.450000000000001,
+              "energy": 0.696
+            },
+            {
+              "time": 9.200000000000001,
+              "energy": 0.682
+            },
+            {
+              "time": 9.600000000000001,
+              "energy": 0.926
+            },
+            {
+              "time": 10.4,
+              "energy": 0.834
+            },
+            {
+              "time": 11.75,
+              "energy": 0.928
+            },
+            {
+              "time": 12.15,
+              "energy": 0.725
+            },
+            {
+              "time": 12.600000000000001,
+              "energy": 0.819
+            },
+            {
+              "time": 13.9,
+              "energy": 0.942
+            },
+            {
+              "time": 14.75,
+              "energy": 0.954
+            },
+            {
+              "time": 15.8,
+              "energy": 0.632
+            },
+            {
+              "time": 16.900000000000002,
+              "energy": 0.801
+            }
+          ],
+          "drop_timestamps": [
+            0.9500000000000001,
+            5.25,
+            13.9
+          ],
+          "avg_energy": 0.797,
+          "vibe": "cinematic",
+          "beat_count": 23,
+          "drop_count": 3,
+          "wav_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_Dbo76SlTVQz/video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1786075655.3297706,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "hype",
+          "vibe": "cinematic"
+        },
+        "selected_bgm_track": "Wr.mp3",
+        "bgm_selection_reasoning": "Confirmed the #1 math pick as its medium energy and instrumental profile appropriately support the aspirational tone of the b-roll footage.",
+        "bgm_alignment_score": 0.88,
+        "_bgm_selected_at": 1786075673.5558817
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1786075655.3297825,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1786075733.9992871,
+        "editing_intent": "Convert source clip to 9:16 vertical viral short using beat-snapped multi-trim rhythm cuts and mix with BGM track Malavika_3.mp3.",
+        "creative_rationale": "Applied the required RTB beat-snapped shot plan to create a rhythmic, fast-paced edit matching the 100 BPM love theme. Trimmed 7 distinct 2.2-second windows, concatenated them into a cohesive sequence, framed for 9:16 vertical delivery, and mixed the requested BGM track with appropriate ducking.",
+        "strategy_name": "Convert source clip to 9:16 vertical viral short using beat-snapped multi-trim rhythm cuts and mix with BGM track Malavika_3.mp3.",
+        "total_steps": 12,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.2
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 2.2,
+            "end_time": 4.4
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 4.4,
+            "end_time": 6.6
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 6.6,
+            "end_time": 8.8
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 8.8,
+            "end_time": 11.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 11.0,
+            "end_time": 13.2
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 13.2,
+            "end_time": 15.4
+          },
+          {
+            "operation_type": "concat"
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "bgm_mix",
+            "bgm_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/Original_audio/active/Malavika_3.mp3",
+            "volume": 0.85,
+            "ducking_db": -6.0
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1786075733.9992898,
+        "master_reel_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/Processed Shorts/manual_Dbo76SlTVQz_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 15.4,
+          "audio_duration_before": 15.4,
+          "source_duration": 17.39
         },
         "mode": "EXECUTED"
       }
