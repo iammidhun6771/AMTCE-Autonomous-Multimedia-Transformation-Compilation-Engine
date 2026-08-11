@@ -1272,8 +1272,8 @@
       "lyric_intel_merged": true
     },
     "Warina_hussain.mp3": {
-      "usage_count": 3,
-      "last_used": 1785614739.5132253,
+      "usage_count": 4,
+      "last_used": 1786459065.519486,
       "bpm": 0.0,
       "energy": 0.5,
       "created_at": 1780391156.9522057,
@@ -2471,8 +2471,8 @@
       "version": 2
     },
     "tmpa8lsj1wf.wav": {
-      "usage_count": 2,
-      "last_used": 1785959730.1995125,
+      "usage_count": 3,
+      "last_used": 1786459065.496607,
       "bpm": 81.0,
       "energy": 0.879,
       "created_at": 1785172892.8148682,
@@ -5111,6 +5111,241 @@
           "w": 308,
           "h": 35
         }
+      }
+    },
+    "manual_Db2TQN8D3JV": {
+      "clip_id": "manual_Db2TQN8D3JV",
+      "clip_folder": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_Db2TQN8D3JV",
+      "schema_version": 3,
+      "created_at": 1786458967.4093707,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1786458967.409494,
+        "intent": "fashion_lifestyle",
+        "tone": "aspirational",
+        "editing_style": "cinematic",
+        "engagement_hook": "Hook viewers immediately with the dramatic turn reveal of the red dress on the carpet.",
+        "detected_entities": [
+          "person:female",
+          "clothing:gown",
+          "environment:red_carpet"
+        ],
+        "possible_narratives": [
+          "fashion_moment",
+          "celebrity_highlight"
+        ],
+        "recommended_narrative": "fashion_moment",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": true,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": false
+        },
+        "safety": {
+          "classification": "safe",
+          "monetization_safe": true
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.6000000000000001,
+              "energy": 0.38
+            },
+            {
+              "time": 1.05,
+              "energy": 0.373
+            },
+            {
+              "time": 1.4500000000000002,
+              "energy": 0.856
+            },
+            {
+              "time": 2.25,
+              "energy": 0.421
+            },
+            {
+              "time": 2.75,
+              "energy": 0.468
+            },
+            {
+              "time": 3.1500000000000004,
+              "energy": 0.527
+            },
+            {
+              "time": 3.75,
+              "energy": 0.913
+            },
+            {
+              "time": 4.3500000000000005,
+              "energy": 0.943
+            },
+            {
+              "time": 4.95,
+              "energy": 0.982
+            },
+            {
+              "time": 5.550000000000001,
+              "energy": 0.974
+            },
+            {
+              "time": 6.15,
+              "energy": 1.0
+            },
+            {
+              "time": 6.7,
+              "energy": 0.973
+            },
+            {
+              "time": 7.300000000000001,
+              "energy": 0.975
+            },
+            {
+              "time": 7.9,
+              "energy": 0.968
+            },
+            {
+              "time": 8.5,
+              "energy": 0.949
+            },
+            {
+              "time": 9.1,
+              "energy": 0.907
+            },
+            {
+              "time": 9.700000000000001,
+              "energy": 0.988
+            },
+            {
+              "time": 10.3,
+              "energy": 0.987
+            }
+          ],
+          "drop_timestamps": [],
+          "avg_energy": 0.81,
+          "vibe": "groove",
+          "beat_count": 18,
+          "drop_count": 0,
+          "wav_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_Db2TQN8D3JV/video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1786458967.4095004,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "aspirational",
+          "vibe": "cinematic"
+        },
+        "selected_bgm_track": "tmpa8lsj1wf.wav",
+        "bgm_selection_reasoning": "The hype emotion and instrumental nature of the track provide an aspirational, energetic backdrop that perfectly enhances a fashion lifestyle b-roll moment.",
+        "bgm_alignment_score": 0.95,
+        "_bgm_selected_at": 1786459065.4742281
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1786458967.409509,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1786459144.2448041,
+        "editing_intent": "Create a high-energy, beat-synced 9:16 fashion showcase reel using multi-trim rhythm editing based on authoritative shot windows.",
+        "creative_rationale": "Applied the RTB beat-snapped shot plan to establish dynamic jump-cut pacing synchronized with Warina_hussain.mp3 at 120 BPM. Used sequential trims followed by concatenation, a blur-pad scale to 9:16 vertical aspect ratio, delogo blur to clean up unwanted watermarks, and integrated the hype BGM track with proper ducking.",
+        "strategy_name": "Create a high-energy, beat-synced 9:16 fashion showcase reel using multi-trim rhythm editing based on authoritative shot windows.",
+        "total_steps": 11,
+        "operations": [
+          {
+            "operation_type": "delogo_blur",
+            "x": 222,
+            "y": 1403,
+            "w": 55,
+            "h": 32
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 4.0,
+            "end_time": 6.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 8.0,
+            "end_time": 10.892
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 6.0,
+            "end_time": 8.0
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 2.0,
+            "end_time": 4.09
+          },
+          {
+            "operation_type": "concat",
+            "input_count": 5
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "audio_ducking_mix",
+            "bgm_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/Original_audio/active/Warina_hussain.mp3",
+            "ducking_db": -6.0,
+            "music_volume": 0.85
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1786459144.244807,
+        "master_reel_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/Processed Shorts/manual_Db2TQN8D3JV_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 9.17,
+          "audio_duration_before": 9.17,
+          "source_duration": 10.89
+        },
+        "mode": "EXECUTED"
       }
     },
     "manual_DbGZpz6hi4h": {
