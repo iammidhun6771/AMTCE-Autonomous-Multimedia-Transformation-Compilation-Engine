@@ -43,8 +43,8 @@
       "lyric_intel_merged": true
     },
     "Aisha.mp3": {
-      "usage_count": 4,
-      "last_used": 1785962928.9517999,
+      "usage_count": 5,
+      "last_used": 1786608853.9379663,
       "bpm": 120.0,
       "energy": 0.5,
       "created_at": 1780391156.9428434,
@@ -1980,8 +1980,8 @@
       "lyric_intel_merged": true
     },
     "Wr.mp3": {
-      "usage_count": 5,
-      "last_used": 1786075673.5731082,
+      "usage_count": 6,
+      "last_used": 1786608853.9234433,
       "bpm": 52.9,
       "energy": 0.6961538461538462,
       "created_at": 1783918534.436223,
@@ -3723,6 +3723,170 @@
           "video_duration": 11.0,
           "audio_duration_before": 10.98,
           "source_duration": 12.24
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DaD1zxsBr7V": {
+      "clip_id": "manual_DaD1zxsBr7V",
+      "clip_folder": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_DaD1zxsBr7V",
+      "schema_version": 3,
+      "created_at": 1786608619.7108352,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1786608619.710984,
+        "intent": "unknown",
+        "tone": "aspirational",
+        "editing_style": "cinematic",
+        "engagement_hook": "",
+        "detected_entities": [],
+        "possible_narratives": [],
+        "recommended_narrative": "",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": true
+        },
+        "safety": {
+          "classification": "risky",
+          "monetization_safe": false
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 1.7000000000000002,
+              "energy": 0.451
+            },
+            {
+              "time": 2.15,
+              "energy": 0.456
+            },
+            {
+              "time": 4.15,
+              "energy": 0.334
+            },
+            {
+              "time": 4.6000000000000005,
+              "energy": 0.553
+            },
+            {
+              "time": 5.300000000000001,
+              "energy": 0.54
+            },
+            {
+              "time": 6.25,
+              "energy": 0.824
+            }
+          ],
+          "drop_timestamps": [
+            1.7000000000000002
+          ],
+          "avg_energy": 0.526,
+          "vibe": "cinematic",
+          "beat_count": 6,
+          "drop_count": 1,
+          "wav_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_DaD1zxsBr7V/video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1786608619.7109866,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "hype",
+          "vibe": "cinematic"
+        },
+        "selected_bgm_track": "Wr.mp3",
+        "bgm_selection_reasoning": "Smart Mathematical & Semantic Audio Match (score=0.17).",
+        "bgm_alignment_score": 0.17,
+        "_bgm_selected_at": 1786608853.907935
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1786608619.7109945,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1786608906.6696486,
+        "editing_intent": "Create a high-energy vertical 9:16 reel with beat-synced multi-trim jumps synchronized to 120 BPM hype track Aisha.mp3.",
+        "creative_rationale": "Following the Multi-Trim Rhythm Rule, we apply multiple beat-snapped trim operations based on the RTB Shot Plan to create an energetic jump-cut flow, followed by a concat operation, aspect ratio scaling, and final background music mixing with proper duration lock.",
+        "strategy_name": "Create a high-energy vertical 9:16 reel with beat-synced multi-trim jumps synchronized to 120 BPM hype track Aisha.mp3.",
+        "total_steps": 8,
+        "operations": [
+          {
+            "operation_type": "trim",
+            "start_time": 0.0,
+            "end_time": 2.2
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 2.2,
+            "end_time": 4.4
+          },
+          {
+            "operation_type": "trim",
+            "start_time": 4.4,
+            "end_time": 6.6
+          },
+          {
+            "operation_type": "concat",
+            "input_count": 3
+          },
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "bgm_mix",
+            "bgm_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/Original_audio/active/Aisha.mp3",
+            "volume": 0.85
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1786608906.669652,
+        "master_reel_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/Processed Shorts/manual_DaD1zxsBr7V_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 6.6,
+          "audio_duration_before": 6.59,
+          "source_duration": 7.18
         },
         "mode": "EXECUTED"
       }
