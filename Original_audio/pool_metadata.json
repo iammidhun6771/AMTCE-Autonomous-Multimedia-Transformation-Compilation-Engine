@@ -1866,8 +1866,8 @@
       "lyric_intel_merged": true
     },
     "Anjali.mp3": {
-      "usage_count": 3,
-      "last_used": 1785661136.2689388,
+      "usage_count": 4,
+      "last_used": 1793531701.1461205,
       "bpm": 120.0,
       "energy": 0.5,
       "created_at": 1783801704.7846613,
@@ -2363,8 +2363,8 @@
       "lyric_intel_merged": true
     },
     "tmpe0y_fc6c.wav": {
-      "usage_count": 3,
-      "last_used": 1785963223.8701866,
+      "usage_count": 4,
+      "last_used": 1793531701.1308293,
       "bpm": 81.0,
       "energy": 0.879,
       "created_at": 1785170843.3743203,
@@ -10258,6 +10258,155 @@
           "video_duration": 10.08,
           "audio_duration_before": 10.05,
           "source_duration": 20.64
+        },
+        "mode": "EXECUTED"
+      }
+    },
+    "manual_DfGwNogMFve": {
+      "clip_id": "manual_DfGwNogMFve",
+      "clip_folder": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_DfGwNogMFve",
+      "schema_version": 3,
+      "created_at": 1793531551.2347298,
+      "phase1": {},
+      "visual_context": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1793531551.234832,
+        "intent": "unknown",
+        "tone": "aspirational",
+        "editing_style": "cinematic",
+        "engagement_hook": "",
+        "detected_entities": [],
+        "possible_narratives": [],
+        "recommended_narrative": "",
+        "feature_flags": {
+          "enable_price_tags": false,
+          "enable_fashion_caption": false,
+          "enable_cinematic_zoom": true,
+          "enable_speed_ramps": false,
+          "enable_fast_pacing": false,
+          "enable_voiceover": true
+        },
+        "safety": {
+          "classification": "risky",
+          "monetization_safe": false
+        },
+        "creative_possibilities": [],
+        "speech_intelligence": {
+          "speech_mode": "music_broll",
+          "is_talking_visually": false,
+          "has_spoken_vocal": true,
+          "is_speech_vocal": false,
+          "recommended_audio_action": "audio_replace_full_bgm"
+        }
+      },
+      "audio_data": {
+        "_description": "Unified audio block. math fills first (Phase 1 DSP), context fills second (Gemini Call 1).",
+        "math": {
+          "_source": "phase1_dsp",
+          "_filled_at": "step1_before_gemini",
+          "tempo_bpm": 0.0,
+          "beat_timestamps": [
+            {
+              "time": 0.75,
+              "energy": 0.935
+            },
+            {
+              "time": 3.5500000000000003,
+              "energy": 0.821
+            },
+            {
+              "time": 5.3500000000000005,
+              "energy": 0.391
+            },
+            {
+              "time": 6.0,
+              "energy": 0.398
+            },
+            {
+              "time": 6.65,
+              "energy": 0.428
+            },
+            {
+              "time": 7.8500000000000005,
+              "energy": 0.97
+            },
+            {
+              "time": 12.75,
+              "energy": 0.914
+            }
+          ],
+          "drop_timestamps": [
+            7.8500000000000005
+          ],
+          "avg_energy": 0.694,
+          "vibe": "ambient",
+          "beat_count": 7,
+          "drop_count": 1,
+          "wav_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/downloads/manual_DfGwNogMFve/video_extracted.wav"
+        },
+        "context": {
+          "_source": "gemini_call_1_forensic",
+          "_filled_at": 1793531551.2348342,
+          "has_vocals": true,
+          "speech_mode": "music_broll",
+          "recommended_audio_action": "audio_replace_full_bgm",
+          "dominant_emotion": "hype",
+          "vibe": "cinematic"
+        },
+        "selected_bgm_track": "tmpe0y_fc6c.wav",
+        "bgm_selection_reasoning": "Smart Mathematical & Semantic Audio Match (score=0.17).",
+        "bgm_alignment_score": 0.17,
+        "_bgm_selected_at": 1793531701.1141326
+      },
+      "visual_vectors": {
+        "_source": "gemini_call_1_forensic",
+        "_filled_at": 1793531551.2348676,
+        "targeted_timestamps_sec": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "scene_cut_timestamps": [
+          3.0,
+          4.0,
+          5.0
+        ],
+        "hook_zone_end_sec": 5.0,
+        "climax_zone_start_sec": 5.0
+      },
+      "editing_plan": {
+        "_source": "gemini_call_3_ffmpeg_synthesis",
+        "_filled_at": 1793531810.6523306,
+        "editing_intent": "Fallback Plan for 'Master rhythm edit for video intent 'unknown', visual tone 'aspirational', BGM 'Anjali.mp3' at 120 BPM (hype). Target duration: 15.0s.\n\n### RTB BEAT-SNAPPED SHOT PLAN (AUTHORITATIVE CUT WINDOWS — USE THESE EXPLICITLY):\nBGM Track: Anjali.mp3 | BPM: 120.0 | Emotion: hype\nINSTRUCTION: Generate a 'trim' operation for EACH shot window below, then a 'concat' operation to join them in sequence:\n  - Shot 1: start_time=0.000s, end_time=2.200s (duration=2.200s) | section=verse | score=0.8\n  - Shot 2: start_time=2.200s, end_time=4.400s (duration=2.200s) | section=verse | score=0.8\n  - Shot 3: start_time=4.400s, end_time=6.600s (duration=2.200s) | section=verse | score=0.8\n  - Shot 4: start_time=6.600s, end_time=8.800s (duration=2.200s) | section=verse | score=0.8\n  - Shot 5: start_time=8.800s, end_time=11.000s (duration=2.200s) | section=verse | score=0.8\n  - Shot 6: start_time=11.000s, end_time=13.200s (duration=2.200s) | section=verse | score=0.8\n'",
+        "creative_rationale": "Default baseline transformation payload.",
+        "strategy_name": "Fallback Plan for 'Master rhythm edit for video intent 'unknown', visual tone 'aspirational', BGM 'Anjali.mp3' at 120 BPM (hype). Target duration: 15.0s.\n\n### RTB BEAT-SNAPPED SHOT PLAN (AUTHORITATIVE CUT WINDOWS — USE THESE EXPLICITLY):\nBGM Track: Anjali.mp3 | BPM: 120.0 | Emotion: hype\nINSTRUCTION: Generate a 'trim' operation for EACH shot window below, then a 'concat' operation to join them in sequence:\n  - Shot 1: start_time=0.000s, end_time=2.200s (duration=2.200s) | section=verse | score=0.8\n  - Shot 2: start_time=2.200s, end_time=4.400s (duration=2.200s) | section=verse | score=0.8\n  - Shot 3: start_time=4.400s, end_time=6.600s (duration=2.200s) | section=verse | score=0.8\n  - Shot 4: start_time=6.600s, end_time=8.800s (duration=2.200s) | section=verse | score=0.8\n  - Shot 5: start_time=8.800s, end_time=11.000s (duration=2.200s) | section=verse | score=0.8\n  - Shot 6: start_time=11.000s, end_time=13.200s (duration=2.200s) | section=verse | score=0.8\n'",
+        "total_steps": 10,
+        "operations": [
+          {
+            "operation_type": "scale_aspect",
+            "target_width": 1080,
+            "target_height": 1920,
+            "mode": "blur_pad"
+          },
+          {
+            "operation_type": "bgm_mix",
+            "music_volume": 0.5,
+            "video_volume": 0.3
+          }
+        ]
+      },
+      "output": {
+        "_filled_at": 1793531810.652336,
+        "master_reel_path": "/home/runner/work/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/AMTCE-Autonomous-Multimedia-Transformation-Compilation-Engine/Processed Shorts/manual_DfGwNogMFve_master.mp4",
+        "render_success": true,
+        "duration_lock": {
+          "repaired": false,
+          "video_duration": 11.36,
+          "audio_duration_before": 11.36,
+          "source_duration": 13.68
         },
         "mode": "EXECUTED"
       }
